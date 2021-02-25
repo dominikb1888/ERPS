@@ -1,0 +1,43 @@
+-------------------- Auto-Git Log --------------------
+		Mon Feb 22 2021 17:12:23 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Introduction.Rmd
+* Introduction.html
+* assets/custom.css
+
+
+Created files:
+* .autogit/logs/log-22-1-2021-16-42-31.txt
+* Introduction_files/countdown/countdown.css
+* Introduction_files/countdown/countdown.js
+* Introduction_files/countdown/smb_stage_clear.mp3
+* Introduction_files/crosstalk/css/crosstalk.css
+* Introduction_files/crosstalk/js/crosstalk.js
+* Introduction_files/crosstalk/js/crosstalk.js.map
+* Introduction_files/crosstalk/js/crosstalk.min.js
+* Introduction_files/crosstalk/js/crosstalk.min.js.map
+* Introduction_files/header-attrs/header-attrs.js
+* Introduction_files/htmlwidgets/htmlwidgets.js
+* Introduction_files/jquery/jquery-AUTHORS.txt
+* Introduction_files/jquery/jquery.js
+* Introduction_files/jquery/jquery.min.js
+* Introduction_files/jquery/jquery.min.map
+* Introduction_files/panelset/panelset.css
+* Introduction_files/panelset/panelset.js
+* Introduction_files/plotly-binding/plotly.js
+* Introduction_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css
+* Introduction_files/plotly-main/plotly-latest.min.js
+* Introduction_files/remark-css/default.css
+* Introduction_files/tachyons/tachyons.min.css
+* Introduction_files/tile-view/tile-view.css
+* Introduction_files/tile-view/tile-view.js
+* Introduction_files/typedarray/typedarray.min.js
+* Introduction_files/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css
+
+
+Deleted files:
+
+
+Renamed files:

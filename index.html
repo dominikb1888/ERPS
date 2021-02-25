@@ -1,0 +1,2526 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>ERP Systems</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dominik Böhler" />
+    <script src="0_Index_files/header-attrs/header-attrs.js"></script>
+    <link href="0_Index_files/remark-css/default.css" rel="stylesheet" />
+    <link href="0_Index_files/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="0_Index_files/tile-view/tile-view.js"></script>
+    <link href="0_Index_files/panelset/panelset.css" rel="stylesheet" />
+    <script src="0_Index_files/panelset/panelset.js"></script>
+    <link href="0_Index_files/tachyons/tachyons.min.css" rel="stylesheet" />
+    <link href="0_Index_files/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <script src="0_Index_files/htmlwidgets/htmlwidgets.js"></script>
+    <script src="0_Index_files/jquery/jquery.min.js"></script>
+    <script src="0_Index_files/proj4js/proj4.js"></script>
+    <link href="0_Index_files/highcharts/css/motion.css" rel="stylesheet" />
+    <script src="0_Index_files/highcharts/highcharts.js"></script>
+    <script src="0_Index_files/highcharts/highcharts-3d.js"></script>
+    <script src="0_Index_files/highcharts/highcharts-more.js"></script>
+    <script src="0_Index_files/highcharts/modules/stock.js"></script>
+    <script src="0_Index_files/highcharts/modules/map.js"></script>
+    <script src="0_Index_files/highcharts/modules/annotations.js"></script>
+    <script src="0_Index_files/highcharts/modules/data.js"></script>
+    <script src="0_Index_files/highcharts/modules/drilldown.js"></script>
+    <script src="0_Index_files/highcharts/modules/item-series.js"></script>
+    <script src="0_Index_files/highcharts/modules/offline-exporting.js"></script>
+    <script src="0_Index_files/highcharts/modules/overlapping-datalabels.js"></script>
+    <script src="0_Index_files/highcharts/modules/exporting.js"></script>
+    <script src="0_Index_files/highcharts/modules/export-data.js"></script>
+    <script src="0_Index_files/highcharts/modules/funnel.js"></script>
+    <script src="0_Index_files/highcharts/modules/heatmap.js"></script>
+    <script src="0_Index_files/highcharts/modules/treemap.js"></script>
+    <script src="0_Index_files/highcharts/modules/sankey.js"></script>
+    <script src="0_Index_files/highcharts/modules/dependency-wheel.js"></script>
+    <script src="0_Index_files/highcharts/modules/organization.js"></script>
+    <script src="0_Index_files/highcharts/modules/solid-gauge.js"></script>
+    <script src="0_Index_files/highcharts/modules/streamgraph.js"></script>
+    <script src="0_Index_files/highcharts/modules/sunburst.js"></script>
+    <script src="0_Index_files/highcharts/modules/vector.js"></script>
+    <script src="0_Index_files/highcharts/modules/wordcloud.js"></script>
+    <script src="0_Index_files/highcharts/modules/xrange.js"></script>
+    <script src="0_Index_files/highcharts/modules/tilemap.js"></script>
+    <script src="0_Index_files/highcharts/modules/venn.js"></script>
+    <script src="0_Index_files/highcharts/modules/gantt.js"></script>
+    <script src="0_Index_files/highcharts/modules/timeline.js"></script>
+    <script src="0_Index_files/highcharts/modules/parallel-coordinates.js"></script>
+    <script src="0_Index_files/highcharts/modules/bullet.js"></script>
+    <script src="0_Index_files/highcharts/modules/coloraxis.js"></script>
+    <script src="0_Index_files/highcharts/modules/dumbbell.js"></script>
+    <script src="0_Index_files/highcharts/modules/lollipop.js"></script>
+    <script src="0_Index_files/highcharts/modules/series-label.js"></script>
+    <script src="0_Index_files/highcharts/plugins/motion.js"></script>
+    <script src="0_Index_files/highcharts/custom/reset.js"></script>
+    <script src="0_Index_files/highcharts/modules/boost.js"></script>
+    <script src="0_Index_files/highchart-binding/highchart.js"></script>
+    <script src="0_Index_files/plotly-binding/plotly.js"></script>
+    <script src="0_Index_files/typedarray/typedarray.min.js"></script>
+    <link href="0_Index_files/crosstalk/css/crosstalk.css" rel="stylesheet" />
+    <script src="0_Index_files/crosstalk/js/crosstalk.min.js"></script>
+    <link href="0_Index_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet" />
+    <script src="0_Index_files/plotly-main/plotly-latest.min.js"></script>
+    <link href="0_Index_files/countdown/countdown.css" rel="stylesheet" />
+    <script src="0_Index_files/countdown/countdown.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } },
+      });
+    </script>
+    <style>
+    .mjx-mrow a {
+      color: black;
+      pointer-events: none;
+      cursor: default;
+    }
+    </style>
+    <link rel="stylesheet" href="assets/sydney-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="assets/sydney.css" type="text/css" />
+    <link rel="stylesheet" href="assets/custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: segue, left, bottom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ERP Systems
+
+### Summer 2021
+
+#### Prof. Dr. Dominik Böhler 
+Deggendorf Institute of Technology
+
+
+---
+class: sessions
+
+
+1. Introduction  .excercise[ Future Jobs ].date[ 15.03.2021 ] 
+2. E-Business and Collaboration  .excercise[ Excel Basics ].date[ 22.03.2021 ] 
+3. IS and Strategy  .excercise[ Collaboration ].date[ 29.03.2021 ] 
+4. Ethics  .excercise[ Excel &amp; Forms ].date[ 12.04.2021 ] 
+5. IT Infrastructure  .excercise[ Databases ].date[ 19.04.2021 ] 
+6. Business Intelligence  .excercise[ Cloud ].date[ 26.04.2021 ] 
+7. Networking  .excercise[ ERP System ].date[ 03.05.2021 ] 
+8. Security  .excercise[ Python Basics ].date[ 10.05.2021 ] 
+9. Enterprise Applications  .excercise[ Python Data Vis ].date[ 17.05.2021 ] 
+10. E-Commerce  .excercise[ Slack Process Autom ].date[ 31.05.2021 ] 
+11. Decision-support Systems  .excercise[ Automation Project ].date[ 07.06.2021 ] 
+12. Managing IS-Projects  .excercise[ Automation Project ].date[ 14.06.2021 ] 
+13. Designing IS Projects  .excercise[ Automation Project ].date[ 21.06.2021 ] 
+14. Project Presentations  .excercise[ NA ].date[ 28.06.2021 ] 
+
+&lt;!-- end of list --&gt;
+
+
+---
+class: module-structure
+
+## Structure of Sessions
+
+| Agenda Item | .time[Minutes] |
+|:---                                   | ---:|
+|     .lecture[Lecture]                 |  60 |
+|  .discussion[Class Discussion]        |  30 |
+|       .break[Break]                   |  15 |
+|   .excercise[Excercise]               |  60 |
+|.presentation[Selected Presentations]  |  10 |
+|  .reflection[Wrap-up]                 |   5 |
+
+---
+
+
+
+
+
+
+---
+class: segue, left, bottom
+
+
+# Introduction
+### ERP Systems
+
+#### Dominik Böhler, Deggendorf Institute of Technology
+
+
+---
+class: agenda
+
+Agenda
+------
+
+- [From ERP Systems to Management Information Systems](#from-erp-systems-to-management-information-systems)
+- [The Digital Revolution](#the-digital-revolution)
+- [How Information Systems are Transforming Business and Organizations](#how-information-systems-are-transforming-business-and-organizations)
+- [What Is an Information System?](#what-is-an-information-system?)
+- [A Problem-solving Mindset](#a-problem-solving-mindset)
+- [CLASS DISCUSSION – Will AI Kill Jobs in Healthcare?](#class-discussion-–-will-ai-kill-jobs-in-healthcare?)
+
+
+---
+
+Learning Components
+-------------------
+
+#### ERP Systems, Summer 2021
+
+
+.pull-left[
+
+### &lt;svg viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z"&gt;&lt;/path&gt;&lt;/svg&gt; PREPARATION
+
+Skim-read, get the essentials, prepare discussion. 
+
+&lt;img src="img/laudon_emis14_ppt_ch01_MS-ct0.jpg" width="150" style="float:left; margin: 0 1em 2em 0;" /&gt;
+
+Laudon &amp; Laudon (2020), ** Essentials of Management Information Systems**
+
+Fourteenth Edition,
+Global Edition.
+
+.content-box-gray[
+
+**This week: Chapter 1 | [Pages: 33-63](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6191969&amp;ppg=33)**
+  ]
+]
+
+.pull-right[
+
+### &lt;svg viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M208 352c-2.39 0-4.78.35-7.06 1.09C187.98 357.3 174.35 360 160 360c-14.35 0-27.98-2.7-40.95-6.91-2.28-.74-4.66-1.09-7.05-1.09C49.94 352-.33 402.48 0 464.62.14 490.88 21.73 512 48 512h224c26.27 0 47.86-21.12 48-47.38.33-62.14-49.94-112.62-112-112.62zm-48-32c53.02 0 96-42.98 96-96s-42.98-96-96-96-96 42.98-96 96 42.98 96 96 96zM592 0H208c-26.47 0-48 22.25-48 49.59V96c23.42 0 45.1 6.78 64 17.8V64h352v288h-64v-64H384v64h-76.24c19.1 16.69 33.12 38.73 39.69 64H592c26.47 0 48-22.25 48-49.59V49.59C640 22.25 618.47 0 592 0z"&gt;&lt;/path&gt;&lt;/svg&gt; LECTURE
+
+- Get perspectives and understanding
+- Discuss with peers
+- (maybe) Entertainment
+
+### &lt;svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z"&gt;&lt;/path&gt;&lt;/svg&gt; EXCERCISE
+
+- Apply knowledge in practical excercises
+- Build your digital skillset in a project
+- Prepare directly for the exam
+  
+]
+
+---
+
+Learning Objectives
+-------------------
+
+__1.1__ Why are information systems so essential for running and managing a business today?
+
+__1.2__ What exactly is an information system? How does it work? What are its people, organizational, and technology components?
+
+__1.3__ How will a four-step method for business problem solving help you solve information system-related problems?
+
+__1.4__ What information systems skills and knowledge are essential for healthcare careers?
+
+__1.5__ How will IS help my career?
+
+
+---
+
+Non-Objectives
+--------------
+
+__1.1.__ You will NOT learn how to use an information system or ERP System
+
+__1.2.__ We only touch upon theory from time to time. This is a practical course :-)
+
+__1.3.__ You will NOT learn how to customize off-the-shelf ERP Systems
+
+---
+
+Video Case Studies
+==================
+
+&lt;!-- TODO  Enter Healthcare Video Cases Study
+      - IBM Watson
+      - Current Situation in GER
+      - IDEA: Vision vs. Reality in GER
+--&gt;
+
+
+---
+class: segue-red
+
+# From ERP Systems to Management Information Systems
+
+
+---
+background-image:url(https://media1.giphy.com/media/XgE4LlECZjw6k/giphy.gif)
+
+## One Ring to Rule them All - The (old) Idea of One Integrated Monolithical System
+
+ 
+
+---
+
+## Let's unwrap the term ERP together
+
+
+.fl.w-third[
+  Enterprises
+  ]
+
+.fl.w-third[
+  Resources
+  ]
+  
+.fl.w-third[
+  Planning
+  ]
+    
+    
+    
+---
+
+## Enterprises - What is you perspective on Organization?
+
+- What is organized? Organized == Ordered?
+- How can you enforce coordinated action?
+- Information only? 
+- Leadership + Real-time Information (True Agility)
+
+
+
+
+---
+
+## Resources - What is and what will be valuable
+
+.content-box-blue[
+
+#### In the digital Age some of the basic presumptions of the industrial economy are being challenged
+
+]
+
+.columns-2[
+  .content-box-army[
+    Old Economy:
+    
+    - Physical Goods
+    - Protection of IP
+    - Local Recombination of Physical Goods
+    - Economies of Scale
+    - Linearity]
+
+  .content-box-yellow[
+    New Economy:
+  
+    - Virtual Goods
+    - Sharing of Ideas
+    - Global Real-time Collaboration
+    - Network Effects
+    - Complexity]
+]
+
+
+
+---
+
+## Planning 
+#### How are we supposed to know what we did until we did it?
+
+- Switch from a producer to a consumer-centric industrial production
+- From:  Mass Custumization, 3D-Printing, Industry 4.0
+- To: Hyperpersonlization and Servitization
+
+
+
+
+---
+
+## Wrap-up
+
+- ERP-Systems put strict models on current sitations 
+- Reasonable in particular "Standard Processes"
+- However, less and less "Standard Processes" more Agility
+- Less Orders, More Discourse
+
+&lt;!-- 
+TODO Images 
+--&gt;
+
+
+
+---
+class: segue, center, middle
+
+## SO, LET'S TALK ABOUT **INFORMATION SYSTEMS**
+
+
+
+
+---
+class: segue, center, middle
+
+## ... AND SOME ERP **(but later...) **
+
+
+
+
+---
+class: segue-red
+
+# The Digital Revolution
+
+---
+
+## The advent and connection of digital technologies fueled digital transformation
+
+*__Industrial Age__: Technology has fundamentally changed business.
+*__Information Age:__ Production, distribution, control of information primary economic drivers.
+*__Digital Transformation:__ New forms of work and value creation emerge.
+
+.content-box-gray[**WHAT'S NEXT?!**]
+
+---
+
+## Understanding the Forces Pushing the Evolution of New Digital Devices
+
+####Bell’s Law
+
+<div id="htmlwidget-005ed5d8164464631ede" style="width:100%;height:500px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-005ed5d8164464631ede">{"x":{"hc_opts":{"chart":{"reflow":true,"inverted":true,"zoomType":"xy"},"title":[],"yAxis":{"title":{"text":null},"type":"datetime"},"credits":{"enabled":false},"exporting":{"enabled":false},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"series":[{"data":[{"event":"Main Frame","start":"1944-12-31T23:00:00Z","end":788914800,"group":"Consumer","tooltip":"<b>Main Frame<\/b><br>from <b>1945-01-01<\/b> to <b>1995-01-01<\/b>","label":"Main Frame","col":"#8DD3C7","fontcol":"black","subplot":1,"y":4,"low":-788922000000,"high":788914800000,"x":1,"color":"#8DD3C7"},{"event":"PC","start":"1974-12-31T23:00:00Z","end":1609455600,"group":"Consumer","tooltip":"<b>PC<\/b><br>from <b>1975-01-01<\/b> to <b>2021-01-01<\/b>","label":"PC","col":"#FFFFB3","fontcol":"black","subplot":1,"y":3,"low":157762800000,"high":1609455600000,"x":2,"color":"#FFFFB3"},{"event":"Cloud Computing","start":"1995-01-19T23:00:00Z","end":1609455600,"group":"Consumer","tooltip":"<b>Cloud Computing<\/b><br>from <b>1995-01-20<\/b> to <b>2021-01-01<\/b>","label":"Cloud Computing","col":"#BEBADA","fontcol":"black","subplot":1,"y":4,"low":790556400000,"high":1609455600000,"x":1,"color":"#BEBADA"},{"event":"Smartphones","start":"2007-12-31T23:00:00Z","end":1609455600,"group":"Consumer","tooltip":"<b>Smartphones<\/b><br>from <b>2008-01-01<\/b> to <b>2021-01-01<\/b>","label":"Smartphones","col":"#FB8072","fontcol":"black","subplot":1,"y":2,"low":1199142000000,"high":1609455600000,"x":3,"color":"#FB8072"},{"event":"Quantum Computer","start":"2016-12-31T23:00:00Z","end":1609455600,"group":"Consumer","tooltip":"<b>Quantum Computer<\/b><br>from <b>2017-01-01<\/b> to <b>2021-01-01<\/b>","label":"Quantum Computer","col":"#80B1D3","fontcol":"black","subplot":1,"y":1,"low":1483225200000,"high":1609455600000,"x":4,"color":"#80B1D3"}],"type":"columnrange","dataLabels":{"enabled":true,"inside":true,"formatter":"function () {return (this.y === this.point.low ? this.point.event : \"\")}"}}],"xAxis":{"categories":["","","","Consumer",""]},"tooltip":{"crosshairs":true,"formatter":"function () {return this.point.tooltip}"},"legend":{"enabled":false}},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":["hc_opts.series.0.dataLabels.formatter","hc_opts.tooltip.formatter"],"jsHooks":[]}</script>
+
+
+???
+
+- New class of computers establishes a new industry each decade.
+- New platforms, programming environments, industries, networks, and information systems.
+- Understand how next digital evolution will affect businesses.
+- What an industry does and how does it will change.
+
+
+---
+## Gartner Hypecycle
+
+![](img/hypecycle.png)
+
+???
+
+[Understanding the Hype Cycle](https://www.gartner.com/en/documents/3887767/understanding-gartner-s-hype-cycles)
+[Hype Cycle History](https://flowingdata.com/2020/10/14/visual-tour-through-the-technology-hype-cycle/)
+[DataSet 1995-2020](https://drive.google.com/file/d/1y_fzgknqRdPa0KfXiGq44blGqDN3NYv3/view?usp=sharing)
+
+---
+
+## Moore's Law - Computer Price/Performance Ratio Historical Trend
+
+
+<div id="htmlwidget-19e99cf5ae2f87bcdabb" style="width:1000px;height:504px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-19e99cf5ae2f87bcdabb">{"x":{"data":[{"x":[365,730,1461,3287,4383,5479,6940,8401,9131,10227,10592,10957,11323,11688,12053,12418,12784,13149,13514,14245,15706,16071,16436,17167,17167,17167,16436,16071,15706,14245,13514,13149,12784,12418,12053,11688,11323,10957,10592,10227,9131,8401,6940,5479,4383,3287,1461,730,365,365],"y":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19200000000,10000000000,5700000000,5000000000,2308241527,805842188,582941535,305052789,273841963,151247255,55730604,42550655,37180267,21673922,15261378,9646616,3105900,1207901,273842,135773,29164,6098,3555,2308,0],"text":["Year: 1971-01-01<br />Transistors.per.microprocessor:        2308","Year: 1972-01-01<br />Transistors.per.microprocessor:        3555","Year: 1974-01-01<br />Transistors.per.microprocessor:        6098","Year: 1979-01-01<br />Transistors.per.microprocessor:       29164","Year: 1982-01-01<br />Transistors.per.microprocessor:      135773","Year: 1985-01-01<br />Transistors.per.microprocessor:      273842","Year: 1989-01-01<br />Transistors.per.microprocessor:     1207901","Year: 1993-01-01<br />Transistors.per.microprocessor:     3105900","Year: 1995-01-01<br />Transistors.per.microprocessor:     9646616","Year: 1998-01-01<br />Transistors.per.microprocessor:    15261378","Year: 1999-01-01<br />Transistors.per.microprocessor:    21673922","Year: 2000-01-01<br />Transistors.per.microprocessor:    37180267","Year: 2001-01-01<br />Transistors.per.microprocessor:    42550655","Year: 2002-01-01<br />Transistors.per.microprocessor:    55730604","Year: 2003-01-01<br />Transistors.per.microprocessor:   151247255","Year: 2004-01-01<br />Transistors.per.microprocessor:   273841963","Year: 2005-01-01<br />Transistors.per.microprocessor:   305052789","Year: 2006-01-01<br />Transistors.per.microprocessor:   582941535","Year: 2007-01-01<br />Transistors.per.microprocessor:   805842188","Year: 2009-01-01<br />Transistors.per.microprocessor:  2308241527","Year: 2013-01-01<br />Transistors.per.microprocessor:  5000000000","Year: 2014-01-01<br />Transistors.per.microprocessor:  5700000000","Year: 2015-01-01<br />Transistors.per.microprocessor: 10000000000","Year: 2017-01-01<br />Transistors.per.microprocessor: 19200000000","Year: 2017-01-01<br />Transistors.per.microprocessor: 19200000000","Year: 2017-01-01<br />Transistors.per.microprocessor: 19200000000","Year: 2015-01-01<br />Transistors.per.microprocessor: 10000000000","Year: 2014-01-01<br />Transistors.per.microprocessor:  5700000000","Year: 2013-01-01<br />Transistors.per.microprocessor:  5000000000","Year: 2009-01-01<br />Transistors.per.microprocessor:  2308241527","Year: 2007-01-01<br />Transistors.per.microprocessor:   805842188","Year: 2006-01-01<br />Transistors.per.microprocessor:   582941535","Year: 2005-01-01<br />Transistors.per.microprocessor:   305052789","Year: 2004-01-01<br />Transistors.per.microprocessor:   273841963","Year: 2003-01-01<br />Transistors.per.microprocessor:   151247255","Year: 2002-01-01<br />Transistors.per.microprocessor:    55730604","Year: 2001-01-01<br />Transistors.per.microprocessor:    42550655","Year: 2000-01-01<br />Transistors.per.microprocessor:    37180267","Year: 1999-01-01<br />Transistors.per.microprocessor:    21673922","Year: 1998-01-01<br />Transistors.per.microprocessor:    15261378","Year: 1995-01-01<br />Transistors.per.microprocessor:     9646616","Year: 1993-01-01<br />Transistors.per.microprocessor:     3105900","Year: 1989-01-01<br />Transistors.per.microprocessor:     1207901","Year: 1985-01-01<br />Transistors.per.microprocessor:      273842","Year: 1982-01-01<br />Transistors.per.microprocessor:      135773","Year: 1979-01-01<br />Transistors.per.microprocessor:       29164","Year: 1974-01-01<br />Transistors.per.microprocessor:        6098","Year: 1972-01-01<br />Transistors.per.microprocessor:        3555","Year: 1971-01-01<br />Transistors.per.microprocessor:        2308","Year: 1971-01-01<br />Transistors.per.microprocessor:        2308"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"transparent","dash":"solid"},"fill":"toself","fillcolor":"rgba(105,179,162,0.5)","hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[365,730,1461,3287,4383,5479,6940,8401,9131,10227,10592,10957,11323,11688,12053,12418,12784,13149,13514,14245,15706,16071,16436,17167],"y":[2308,3555,6098,29164,135773,273842,1207901,3105900,9646616,15261378,21673922,37180267,42550655,55730604,151247255,273841963,305052789,582941535,805842188,2308241527,5000000000,5700000000,10000000000,19200000000],"text":["Year: 1971-01-01<br />Transistors.per.microprocessor:        2308","Year: 1972-01-01<br />Transistors.per.microprocessor:        3555","Year: 1974-01-01<br />Transistors.per.microprocessor:        6098","Year: 1979-01-01<br />Transistors.per.microprocessor:       29164","Year: 1982-01-01<br />Transistors.per.microprocessor:      135773","Year: 1985-01-01<br />Transistors.per.microprocessor:      273842","Year: 1989-01-01<br />Transistors.per.microprocessor:     1207901","Year: 1993-01-01<br />Transistors.per.microprocessor:     3105900","Year: 1995-01-01<br />Transistors.per.microprocessor:     9646616","Year: 1998-01-01<br />Transistors.per.microprocessor:    15261378","Year: 1999-01-01<br />Transistors.per.microprocessor:    21673922","Year: 2000-01-01<br />Transistors.per.microprocessor:    37180267","Year: 2001-01-01<br />Transistors.per.microprocessor:    42550655","Year: 2002-01-01<br />Transistors.per.microprocessor:    55730604","Year: 2003-01-01<br />Transistors.per.microprocessor:   151247255","Year: 2004-01-01<br />Transistors.per.microprocessor:   273841963","Year: 2005-01-01<br />Transistors.per.microprocessor:   305052789","Year: 2006-01-01<br />Transistors.per.microprocessor:   582941535","Year: 2007-01-01<br />Transistors.per.microprocessor:   805842188","Year: 2009-01-01<br />Transistors.per.microprocessor:  2308241527","Year: 2013-01-01<br />Transistors.per.microprocessor:  5000000000","Year: 2014-01-01<br />Transistors.per.microprocessor:  5700000000","Year: 2015-01-01<br />Transistors.per.microprocessor: 10000000000","Year: 2017-01-01<br />Transistors.per.microprocessor: 19200000000"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(105,179,162,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":30.4959049068638,"r":7.30593607305936,"b":44.4502428064072,"l":66.4840182648402},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-475.1,18007.1],"tickmode":"array","ticktext":["1970","1980","1990","2000","2010"],"tickvals":[0,3652,7305,10957,14610],"categoryorder":"array","categoryarray":["1970","1980","1990","2000","2010"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-960000000,20160000000],"tickmode":"array","ticktext":["0.0e+00","5.0e+09","1.0e+10","1.5e+10","2.0e+10"],"tickvals":[0,5000000000,10000000000,15000000000,20000000000],"categoryorder":"array","categoryarray":["0.0e+00","5.0e+09","1.0e+10","1.5e+10","2.0e+10"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"Transistors.per.microprocessor","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","width":1000,"barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"3db27a1043ed":{"x":{},"y":{},"type":"scatter"},"3db241dbbb36":{"x":{},"y":{}}},"cur_data":"3db27a1043ed","visdat":{"3db27a1043ed":["function (y) ","x"],"3db241dbbb36":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+
+???
+
+Source: [Karl Rupp - GitHub Repo](https://github.com/karlrupp/microprocessor-trend-data)
+
+
+---
+class: video
+
+&lt;iframe width="100%" height="100%" src="https://www.youtube.com/embed/7uvUiq_jTLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+
+## Metcalfe’s Law
+
+1-1 Why is Introduction to MIS the most important class in the business school?
+
+Network value equal to square of number of users connected to it.
+
+ __Figure 1-2__ Increasing Value of Networks
+
+
+
+* Google, Amazon, eBay exist due to large numbers of Internet users.
+
+---
+
+## Technological Change is Accelerating
+
+Bell’s Law: Today’s highly successful business could be bankrupt quickly because technology changed and it didn’t.
+
+&gt; Example: Blockbuster
+* In 2004, Blockbuster had $5.9B in revenues
+* In 2010, Blockbuster filed for bankruptcy
+* High-speed network connections and streaming video changed the competitive landscape
+
+.content-box-gray[
+- Which other industries have been strongly affected by Digital Transformation?
+- Which Industries may suffer from the spread of Quantum Computing and AI?
+]
+
+---
+class: segue-red, middle, center
+
+# How Information Systems are Transforming Business and Organizations
+
+
+---
+class: picture-cols-3
+
+## Key Challenges in Management Information Systems
+
+&lt;!-- TODO: Find good study on this! --&gt;
+
+.fl.w-third[
+&lt;!-- TODO: Find Image for New Tech--&gt;
+   **New technologies**
+  - Artificial intelligence
+  - Cloud computing, Big Data, Internet of Things
+  - Mobile digital platform
+]
+
+.fl.w-third[
+&lt;!-- TODO: Find image for Management --&gt;
+  **Management**
+  - Return on investment (ROI)
+  - Online collaboration
+  - Social networking
+]
+
+.fl.w-third[
+&lt;!-- TODO: Find image for  Organizations --&gt;
+  **Organizations**
+  - Security and privacy
+  - Social business
+  - Telework gains
+]
+
+
+???
+
+In our current environment the key challenges for Management Information Systems are in coping with new technologies, (performance) Management, and organizing IT Systems. Due to the rapid and somewhat forced virtualization of all enterprises these are almost identical to General Management Challenges. The question arises if there is a substantial difference between General and IS Management at the moment and also in the future.
+
+---
+
+## Globalization Challenges and Opportunities: A Flattened World
+
+Internet and global communications have greatly reduced economic and cultural advantages of developed countries.
+
+  - Drastic reduction of costs of operating and transacting on global scale
+  - Competition for jobs, markets, resources, ideas
+  - Dependence on imports and exports
+  - Requires new understandings of skills, markets, opportunities
+
+
+---
+class: list-overview
+
+
+## Business Drivers of Information Systems
+
+Businesses invest in IT to achieve six important business objectives.
+
+- Operational excellence
+- New products, services, and business models
+- Customer and supplier intimacy
+- Improved decision making
+- Competitive advantage
+- Survival
+
+
+---
+
+## Operational Excellence
+
+* Improved efficiency results in higher profits.
+* Information systems and technologies help improve efficiency and productivity.
+* Example: Walmart
+  * Power of combining information systems and best business practices to achieve operational efficiency—and over $514 billion in sales in 2019
+  * Most efficient retail store in world as result of digital links between suppliers and stores
+
+---
+
+## New Products, Services, and Business Models
+
+&lt;!-- TODO Apple Business Model --&gt;
+
+???
+
+* Information systems and technologies enable firms to create new products, services, and business models.
+* Business model: how a company produces, delivers, and sells its products and services
+* Example: Apple
+  * Transformed old model of music distribution with iTunes
+  * Constant innovations—iPod,iPhone,iPad, etc.
+
+---
+
+## Customer and Supplier Intimacy
+
+* Customers who are served well become repeat customers who purchase more.
+  * Mandarin Oriental Hotel uses IT to foster an intimate relationship with its customers, keeping track of preferences, and so on
+* Close relationships with suppliers result in lower costs.
+  * JCPenney
+    * IT to enhance relationship with supplier in Hong Kong
+
+---
+
+## Improved Decision Making
+
+If managers rely on forecasts, best guesses, and luck, they will misallocate employees, services, and inventory.
+
+Real-time data improves ability of managers to make decisions.
+
+Verizon: web-based digital dashboard to update managers with real-time data on customer complaints, network performance, and line outages
+
+---
+
+## Competitive Advantage
+
+* Often results from achieving previous business objectives
+* Advantages over competitors:
+  * Charging less for superior products, better performance, and better response to suppliers and customers
+  * Examples: Apple, Walmart, andU P Sare industry leaders because they know how to use information systems for this purpose
+
+---
+
+## Survival
+
+* Businesses may need to invest in information systems out of necessity; it is simply the cost of doing business.
+* Keeping up with competitors
+  * Citibank’s introduction ofA T Ms
+* Federal and state regulations and reporting requirements
+  * Toxic Substances Control Act and the Sarbanes-Oxley Act
+
+---
+
+# What Is an Information System?
+
+* Information technology: the hardware and software a business uses to achieve objectives
+* Information system: interrelated components that manage information to:
+  * Support decision making and control
+  * Help with analysis, visualization, and product creation
+* Data: streams of raw facts
+* Information: data shaped into meaningful, useful form
+
+* Activities in an information system that produce information:
+  * Input
+  * Processing
+  * Output
+  * Feedback
+  
+* Sharp distinction between __computer__ or __computer program__ versus __information system__
+
+---
+
+## Figure 1.1 Data and Information
+
+![](img/laudon_emis14_ppt_ch01_MS-ct1.jpg)
+
+---
+
+## Figure 1.2 Functions of an Information System
+
+![](img/laudon_emis14_ppt_ch01_MS-ct2.jpg)
+
+---
+
+## The Role of People and Organizations
+
+* Information systems literacy
+  * Includes behavioral and technical approach
+* Computer literacy
+  * Focuses mostly on knowledge ofI T
+* Management information systems (M I S)
+  * Focuses on broader information systems literacy
+  * Issues surrounding development, use, impact of information systems used by managers and employees
+  * Focuses on firm performance, productivity, and competitive challenges
+
+---
+
+## Figure 1.3 Information Systems Are More Than Computers
+
+![](img/laudon_emis14_ppt_ch01_MS-ct3.jpg)
+
+---
+
+## Dimensions of Information Systems
+
+.fl.w-third[
+ ### Organizations
+  - Coordinate work through structured hierarchy and business processes
+  - Business processes: related tasks and behaviors for accomplishing work
+  ]
+
+.fl.w-third[
+  ### People
+   - Information systems require skilled people to build, maintain, and use them.
+   - Employee attitudes affect their ability to use systems productively.
+  ]
+  
+.fl.w-third[
+  ### Technology
+  * IT Infrastructure: Foundation or platform that information systems are built on
+    * Computer hardware
+    * Computer software
+    * Data management technology
+    * Networking and telecommunications technology
+  ]
+
+
+---
+## CRITICAL THINKING: &lt;br \&gt; In the Digital Age, do these statements hold true?
+
+### Statement on Organizational Structure
+&gt; Coordinate work through structured hierarchy and business processes
+
+### Statement on Management
+&gt; Role of managers:
+    - Perceive business challenges
+    - Set organizational strategy
+    - Allocate human and financial resources
+    - Creative work: new products, service
+    
+---
+
+## Interactive Session – Technology: US Competes Globally with Information Technology
+
+* Class discussion
+  * What are the inputs, processing, and outputs of UPS’s package tracking system?
+  * What technologies are used by UPS? How are these technologies related to UPS’s business strategy?
+  * What strategic business objectives do UPS’ sinformation systems address?
+  * What would happen if UPS’ sinformation systems were not available?
+
+---
+
+# A Problem-solving Mindset
+
+* Few business problems are simple or straightforward.
+* Most business problems involve a number of major factors that can fall into three main categories:
+  * Organization
+  * Technology
+  * People
+
+---
+
+## A Model of the Problem-Solving Approach
+
+Problem solving: four-step process
+  * Problem identification
+  * Solution design
+  * Choice
+  * Implementation
+
+---
+
+## Problem identification includes:
+  * Agreement that problem exists
+  * Definition of problem
+  * Causes of problem
+  * What can be done given resources of firm
+  
+---
+
+## Typical organizational problems
+
+  * Outdated business processes
+  * Unsupportive culture and attitudes
+  * Political in-fighting
+  * Turbulent business environment, change
+  * Complexity of task
+  * Inadequate resources
+  
+---
+
+## Typical technology problems
+
+  * Insufficient or aging hardware
+  * Outdated software
+  * Inadequate database capacity
+  * Insufficient telecommunications capacity
+  * Incompatibility of old systems with new technology
+  * Rapid technological change
+
+---
+
+## Typical people problems
+  * Lack of employee training
+  * Difficulties of evaluating performance
+  * Legal and regulatory compliance
+  * Work environment, ergonomics
+  * Poor or indecisive management
+  * Lack of employee support and participation
+
+
+---
+## Solution design
+  * Often many possible solutions
+  * Consider as many as possible to understand range of solutions
+
+---
+## Solution Evaluation and Choice – factors include:
+  * Cost
+  * Feasibility given resources and skills
+  * Length of time needed to implement solution
+
+
+---
+## Implementation
+  * Building or purchasing solution
+  * Testing solution, employee training
+  * Change management
+  * Measurement of outcomes
+  * Feedback, evaluation of solution
+* Problem solving is a continuous process, not a single event
+  * Sometimes chosen solution doesn’t work or needs adjustment
+
+---
+
+## Figure 1.4 Problem Solving Is a Continuous Four-Step Process
+
+![](img/laudon_emis14_ppt_ch01_MS-ct4.jpg)
+
+---
+
+## The Role of Critical Thinking in Problem Solving (1 of 2)
+
+* Without critical thinking, easy to jump to conclusions, misjudge a problem, and waste resources
+* Critical thinking:
+  * Sustained suspension of judgment with an awareness of multiple perspectives and alternatives
+  * Ability to collect and analyze data that might help understand the nature of the problem; a “data driven” approach
+
+* Four elements of critical thinking:
+  * Maintaining doubt and suspending judgment
+  * Being aware of different perspectives
+
+    * Including technology, organization, and people perspectives
+  * Testing alternatives and letting experience guide
+  * Being aware of organizational and personal limitations
+
+---
+
+## The Connections Among Business Objectives, Problems, and Solutions
+
+When firms cannot achieve business objectives these objectives become challenges.
+
+Information systems often present solutions, partially or fully, to these challenges.
+
+---
+
+## How Information Systems Will Affect Business Careers
+
+- Success in today’s job market requires a broad set of skills.
+- Job candidates must have problem-solving skills as well as technical skills so that they can complete specific tasks.
+- The service sector will account for 95 percent of the new jobs that are created or open up by 2022.
+
+.panelset[
+  
+  .panel[.panel-name[Accounting]
+      Accountants increasingly rely on information systems to summarize transactions, create financial records, organize data, and perform financial analysis.
+    
+    Skills:
+    - Knowledge of databases and networks
+    - Online financial transactions and reporting systems
+    - How systems are used to achieve accounting functions
+    
+    ]
+    
+  .panel[.panel-name[Finance]
+    Relationship between information systems and financial management and services is so strong that many advise finance majors to co-major in information systems.
+    
+    Skills:
+    - Use systems for financial reporting, direct investment activities, implementation of cash management strategies
+    - Plan, organize, implement information systems strategies for the firm
+    
+    ]
+  
+  .panel[.panel-name[Marketing]
+    No field has undergone more technology-driven change in the past five years than marketing and advertising.
+    
+    Skills:
+    - Work with databases for tracking and reporting on customer behavior, product performance, customer feedback, product development
+    - Enterprise systems for product management, sales force management, customer relationship management
+    
+    ]
+  
+  .panel[.panel-name[Operations]
+     Operations management in services and manufacturing: Production managers, administrative service managers, and operations analysts
+  
+    Skills:
+    - Hardware and software platforms for operations management
+    - Use database and analytical software for coordinating and optimizing resources required for producing goods and services
+
+  
+  ]
+  
+  .panel[.panel-name[Management]
+    The job of management has been transformed by information systems. Impossible to manage business today without information systems
+    
+    Skills:
+    - Use of information systems for each function of job, from desktop productivity tools to applications coordinating the entire enterprise
+  ]
+  
+  .panel[.panel-name[Information Systems]
+    Fast changing and dynamic profession because information technologies are among most important tools for achieving business firms’ key objectives. Domestic and offshore outsourcing
+  
+    Skills:
+    - Uses of new and emerging hardware and software to achieve six business objectives
+    - An ability to take a leadership role in the design and implementation of new information systems
+  ]
+  
+  .panel[.panel-name[Outsourcing]
+  Two types: outsourcing to domestic U.S. firms and outsourcing to low-wage countries such as India, China. Production programming, system maintenance, call centers
+  
+  Benefits:
+  - Lower cost of building and maintaining systems within U.S. or Europe
+  - Increased need for managerial positions
+  ]
+]
+
+
+  
+
+
+---
+
+## Common requirements for all majors
+
+  - How IT helps achieve six business objectives
+  - Central role of databases
+  - Business analytics and intelligence systems
+  - Working with specialists and systems designers
+  - Ethical, social, legal environment and issues and the Use of IT to meet legal requirements
+
+---
+
+# CLASS DISCUSSION – Will AI Kill Jobs in Healthcare?
+
+<div class="countdown" id="timer_60376730" style="right:0;bottom:0;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+
+--
+
+.question[
+    - Identify the problem described in this case study. In what sense is it an ethical dilemma?
+]
+    
+--
+
+.question[
+    - Should more tasks be given to AI? Why or why not? Explain your answer.
+]
+
+--
+
+.question[
+    - Can the problem of AI reducing employment be solved? Explain your answer.
+]
+
+
+
+---
+
+## How Will MIS Help My Career in Digital Healthcare?
+
+- Research the Impact of AI and Quantum Computing on Healthcare
+- Which Applications may become possible through Quantum Computing
+- Which Routines may change through AI?
+
+
+.excercise[ 
+  
+  EXCERCISE
+  
+  1. Get together in Groups of 2 (Random Zoom Assignment)
+  2. Discuss with your peer about a clincal field/function
+  3. Create a Hypotheses ("AI will/will not kill radiology")
+  4. Find one supporting and one contradicting piece of evidence
+  5. Bring your arguments together on 1 Slide (See here: )
+
+]
+
+<div class="countdown" id="timer_603769c9" style="right:0;bottom:0;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">60</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+
+
+
+---
+class: segue, left, bottom
+
+
+# Collaboration
+### ERP Systems
+
+#### Dominik Böhler, Deggendorf Institute of Technology
+
+
+---
+class: agenda
+
+Agenda
+------
+
+- [Organization and Business Processes](#organization-and-business-processes)
+- [Information Systems in Business](#information-systems-in-business)
+- [Collaboration &amp; Open Innovation](#collaboration-&amp;-open-innovation)
+- [CLASS DISCUSSION: The Future of Work](#class-discussion:-the-future-of-work)
+
+
+---
+
+Learning Components
+-------------------
+
+#### ERP Systems, Summer 2021
+
+
+.pull-left[
+
+### &lt;svg viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z"&gt;&lt;/path&gt;&lt;/svg&gt; PREPARATION
+
+Skim-read, get the essentials, prepare discussion. 
+
+&lt;img src="img/laudon_emis14_ppt_ch01_MS-ct0.jpg" width="150" style="float:left; margin: 0 1em 2em 0;" /&gt;
+
+Laudon &amp; Laudon (2020), ** Essentials of Management Information Systems**
+
+Fourteenth Edition,
+Global Edition.
+
+.content-box-gray[
+
+**This week: Chapter 2 | [Pages: 63-91](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6191969&amp;ppg=63)**
+  ]
+]
+
+.pull-right[
+
+### &lt;svg viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M208 352c-2.39 0-4.78.35-7.06 1.09C187.98 357.3 174.35 360 160 360c-14.35 0-27.98-2.7-40.95-6.91-2.28-.74-4.66-1.09-7.05-1.09C49.94 352-.33 402.48 0 464.62.14 490.88 21.73 512 48 512h224c26.27 0 47.86-21.12 48-47.38.33-62.14-49.94-112.62-112-112.62zm-48-32c53.02 0 96-42.98 96-96s-42.98-96-96-96-96 42.98-96 96 42.98 96 96 96zM592 0H208c-26.47 0-48 22.25-48 49.59V96c23.42 0 45.1 6.78 64 17.8V64h352v288h-64v-64H384v64h-76.24c19.1 16.69 33.12 38.73 39.69 64H592c26.47 0 48-22.25 48-49.59V49.59C640 22.25 618.47 0 592 0z"&gt;&lt;/path&gt;&lt;/svg&gt; LECTURE
+
+- Get perspectives and understanding
+- Discuss with peers
+- (maybe) Entertainment
+
+### &lt;svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z"&gt;&lt;/path&gt;&lt;/svg&gt; EXCERCISE
+
+- Apply knowledge in practical excercises
+- Build your digital skillset in a project
+- Prepare directly for the exam
+  
+]
+
+---
+
+## Learning Objectives
+
+__2\.1__ What major features of a business are important for understanding the role of information systems?
+
+__2\.2__ How do systems serve different management groups in a business\, and how do systems that link the enterprise improve organizational performance?
+
+__2\.3__ Why are systems for collaboration and social business so important\, and what technologies do they use?
+
+__2\.4__ What is the role of the information systems function in a business?
+
+__2\.5__ How will MIS help my career?
+
+---
+class: segue-red
+
+# Organization and Business Processes
+
+---
+
+## Enterprise Social Networking creates a More Innovative Connected Organization
+
+Take a look at Slacks's Customer Success Stories: https://slack.com/customer-stories
+
+- How did Slack help these companies? What Problems did they solve?
+- How benefitted these companies economically?
+
+TASK: Choose one Success Story and answer these questions with your (randomly assigned) group mate.
+
+<div class="countdown" id="timer_60376959" style="right:0;bottom:0;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+
+???
+
+* Problem
+  * Hierarchical top\-down processes and culture
+  * New competitors
+* Solutions
+  * Improve productivity
+  * Reduce costs
+  * Increase innovation
+
+Use of new information systems to improve their performance and remain competitive
+
+Demonstratesimportance of teamwork and collaboration to innovation and profit growth
+
+Illustratesimportance of organizational culture and business processes for knowledge dissemination
+
+---
+
+## Organizing a Business: Basic Business Functions (1 of 2)
+
+* Business: formal organization that makes products or provides a service in order to make a profit
+* Business Model: Logic of making a profit
+
+* Four basic business functions
+  * Manufacturing and production
+  * Sales and marketing
+  * Finance and accounting
+  * Human resources
+
+
+---
+
+## Organizing a Business: Basic Business Functions (2 of 2)
+
+* Five basic business entities
+  * Suppliers
+  * Customers
+  * Employees
+  * Invoices/payments
+  * Products and services
+
+
+---
+
+## Figure 2.1 The Four Major Functions of a Business
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct1.jpg" width=500px /&gt;
+
+
+---
+
+## Business Processes
+
+* Logically related set of tasks that define how specific business tasks are performed
+  * The tasks each employee performs\, in what order\, and on what schedule
+  * E\.g\.\, Steps in hiring an employee
+* Some processes tied to functional area
+  * Sales and marketing: identifying customers
+* Some processes are cross\-functional
+  * Fulfilling customer order
+
+---
+
+## Figure 2.2 The Order Fulfillment Process
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct2.jpg" width=500px /&gt;
+
+---
+
+## How IT Enhances Business Processes
+
+- Automation of manual processes
+- Change the flow of information
+- Replace sequential processes with simultaneous activity
+- Transform how a business works
+- Drive new business models
+
+
+---
+
+## Managing a Business and Firm Hierarchies
+
+* Firms coordinate work of employees by developing hierarchy in which authority is concentrated at top\.
+  * Senior management
+  * Middle management
+  * Operational management
+  * Knowledge workers
+  * Data workers
+  * Production or service workers
+* Each group has different needs for information\.
+
+---
+
+## Figure 2.3 Levels in a Firm
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct3.jpg" width=500px /&gt;
+
+---
+
+## The Business Environment
+
+* Businesses depend heavily on their environments for capital\, labor\, supplies\, and more\.
+* Global environment
+  * Technology and science\, economy\, politics\, international change
+* Immediate environment
+  * Customers\, suppliers\, competitors\, regulations\, stockholders
+
+---
+
+## Figure 2.4 The Business Environment
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct4.jpg" width=500px /&gt;
+
+---
+## From Environments to Ecosystems
+
+- Higher degree of Digitalization leads to a diffusion of the boundaries of the firm
+- Many Digital Players with Ecosystems ("API Economy")
+
+
+???
+
+[@HowBusinessEcosystems]
+[@EmergingArtEcosystem2020]
+[API Economy](https://wirtschaftslexikon.gabler.de/definition/api-economy-54284/version-277330)
+
+---
+class: segue-red
+
+# Information Systems in Business
+
+---
+
+## The Role of Information Systems in a Business
+
+* Firms invest in information systems in order to:
+  * Achieve operational excellence
+  * Develop new products and services
+  * Attain customer intimacy and service
+  * Improve decision making
+  * Promote competitive advantage
+  * Ensure survival
+
+---
+
+## Systems for Different Management Groups
+
+* Transaction processing systems \(T P S\)
+  * Keep track of basic activities and transactions of organization
+* Systems for business intelligence
+  * Address decision\-making needs of all levels of management
+    * Management information systems \(M I S\)
+    * Decision support systems \(D S S\)
+    * Executive support systems \(E S S\)
+
+---
+
+## Transaction Processing Systems
+
+* Serve operational managers
+* Principal purpose is to answer routine questions and to track the flow of transactions through the organization
+  * E\.g\.\, inventory questions\, granting credit to customer
+* Monitor status of internal operations and firm’s relationship with external environment
+* Major producers of information for other systems
+* Highly central to business operations and functioning
+
+---
+
+## Figure 2.5 A Payroll T P S
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct5.jpg" width=500px /&gt;
+
+---
+
+## Management Information Systems
+
+Provide middle managers with reports on firm’s performance\, to help monitor firm and predict future performance
+
+Summarize and report on basic operations using data fromT P S
+
+Provide weekly\, monthly\, annual results\, but may enable drilling down into daily or hourly data
+
+Typically not very flexible systems with little analytic capability
+
+---
+
+## Figure 2.6 How M I S Obtain Their Data from the Organization’s T P S
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct6.jpg" width=500px /&gt;
+
+---
+
+## Figure 2.7 Sample M I S Report
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct7.jpg" width=500px /&gt;
+
+---
+
+## Decision Support Systems
+
+* Serve middle managers
+* Support nonroutine decision making
+  * Example: What is impact on production schedule if December sales double?
+* Often use external information as well fromT P SandM I S
+* Model drivenD S S
+  * Voyage\-estimating systems
+* Data drivenD S S
+  * Intrawest’s marketing analysis systems
+
+---
+
+## Figure 2.8 Voyage-Estimating Decision Support System
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct8.jpg" width=500px /&gt;
+
+---
+
+## Executive Support Systems
+
+* Serve senior managers
+* Address strategic issues and long\-term trends
+  * E\.g\.\, what products should we make in five years?
+* Address nonroutine decision making
+* Provide generalized computing capacity that can be applied to changing array of problems
+* Draw summarized information fromM I S\,D S S\, and data from external events
+* Typically use portal with web interface\, or digital dashboard\, to present content
+
+---
+
+## A Digital Dashboard
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct9.jpg" width=500px /&gt;
+
+---
+
+## Systems for Linking the Enterprise
+
+* Enterprise applications
+  * Systems that span functional areas\, focus on executing business processes across the firm\, and include all levels of management
+* Four major types
+  * Enterprise systems
+  * Supply chain management systems
+  * Customer relationship management systems
+  * Knowledge management systems
+
+---
+
+## Figure 2.9 Enterprise Application Architecture
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct10.jpg" width=500px /&gt;
+
+---
+
+## Enterprise Systems
+
+Also called enterprise resource planning \(E R P\) systems
+
+Integrate data from key business processes into single system
+
+Speed communication of information throughout firm
+
+Enable greater flexibility in responding to customer requests\, greater accuracy in order fulfillment
+
+Enable managers to assemble overall view of operations
+
+---
+
+## Supply Chain Management (S C M ) Systems
+
+* Manage relationships with suppliers\, purchasing firms\, distributors\, and logistics companies
+* Manage shared information about orders\, production\, inventory levels\, and so on
+  * Goal is to move correct amount of product from source to point of consumption as quickly as possible and at lowest cost
+* Type of interorganizational system
+  * Automating flow of information across organizational boundaries
+
+---
+
+## Customer Relationship Management (C R M ) Systems
+
+* Help manage relationship with customers
+* Coordinate business processes that deal with customers in sales\, marketing\, and customer service
+* Goals:
+  * Optimize revenue
+  * Improve customer satisfaction
+  * Increase customer retention
+  * Identify and retain most profitable customers
+  * Increase sales
+
+---
+
+## Knowledge Management Systems
+
+Manage processes for capturing and applying knowledge and expertise
+
+Collect relevant knowledge and make it available wherever needed in the enterprise to improve business processes and management decisions
+
+Link firm to external sources of knowledge
+
+---
+
+## Intranets and Extranets
+
+* Technology platforms that increase integration and expedite the flow of information
+* Intranets:
+  * Internal networks based on Internet standards
+  * Often are private access area in company’s website
+* Extranets:
+  * Company websites accessible only to authorized vendors and suppliers
+  * Facilitate collaboration
+
+---
+
+## E-Business, E-Commerce, and E-Government
+
+E-business
+: Use of digital technology and Internet to drive major business processes
+
+E-commerce
+: Subset of e-business,  Buying and selling goods and services through Internet
+
+E-government
+: Using Internet technology to deliver information and services to citizens, employees, and businesses
+
+---
+
+# Collaboration &amp; Open Innovation
+
+---
+
+## What is Collaboration?
+
+* Growing importance of collaboration:
+  * Changing nature of work
+  * Growth of professional work
+  * Changing organization of the firm
+  * Changing scope of the firm
+  * Emphasis on innovation
+  * Changing culture of work and business
+  
+???
+
+[@moesleinOpenInnovation2009]
+
+---
+
+## What is Social Business?
+
+- Use of social networking platforms to engage employees\, customers\, suppliers
+- Conversations to strengthen bonds
+- Requires information transparency
+- Seen as way to drive operational efficiency\, spur innovation\, accelerate decision making
+
+---
+
+## Business Benefits of Collaboration and Social Business
+
+- Investment in collaboration technology can return large rewards\, especially in sales and marketing\, research and development\.
+- Productivity: sharing knowledge and resolving problems
+- Quality: faster resolution of quality issues
+- Innovation: more ideas for products and services
+- Customer service: complaints handled more rapidly
+- Financial performance: generated by improvements in factors above
+
+---
+
+## Figure 2.10 Requirements for Collaboration
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct11.jpg" width=500px /&gt;
+
+---
+
+## Tools and Technologies for Collaboration and Teamwork
+
+* Email and instant messaging \(I M\)
+* Wikis
+* Virtual worlds
+* Collaboration and social business environments
+  * Virtual meeting systems \(telepresence\)
+  * Cloud collaboration services
+    * Google Drive, Dropbox, OneDrive
+  * Microsoft SharePoint and IBM Notes
+  * Enterprise social networking tools
+    * Slack, MS Teams, Discord
+
+
+---
+class: segue-red
+
+# CLASS DISCUSSION: The Future of Work
+
+---
+
+## Digital Companies employ new forms of Organizing
+
+[VALVE Handbook for new Employees](https://cdn.cloudflare.steamstatic.com/apps/valve/Valve_NewEmployeeHandbook.pdf)
+
+&gt; Hierarchy is great for maintaining predictability and
+repeatability. It simplifies planning and makes it easier to
+control a large group of people from the top down, which
+is why military organizations rely on it so heavily.
+But when you’re an entertainment company that’s spent
+the last decade going out of its way to recruit the most
+intelligent, innovative, talented people on Earth, telling
+them to sit at a desk and do what they’re told obliterates
+99 percent of their value. 
+
+&gt; We want innovators, and that means maintaining an environment where they’ll flourish.
+That’s why Valve is flat. It’s our shorthand way of saying
+that we don’t have any management, and nobody “reports
+to” anybody else. We do have a founder/president, but
+even he isn’t your manager. This company is yours to
+steer—toward opportunities and away from risks. You have
+the power to green-light projects. You have the power to
+ship products. 
+
+![[VALVE Logo]](img/1280px-Valve_logo.svg.png)
+
+???
+
+[@kroghValveOrganizationOpportunities2015]
+
+---
+
+## Interactive Session – Welcome to Flatland!
+
+* Class discussion
+ - What are the benefits and challenges of Valve's approach and culture for employees?
+ - How does this culture relate to the Information Systems used in the Company?
+ - What are potential threats for such a culture? What is important to counter these threats?
+
+<div class="countdown" id="timer_6037673f" style="right:0;bottom:0;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">30</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+
+## Evaluating and Selecting Collaboration Tools
+
+- What are your firm’s collaboration challenges?
+- What kinds of solutions are available?
+- Analyze available products’ cost and benefits.
+- Evaluate security risks.
+- Consult users for implementation and training issues.
+- Select candidate tools and evaluate vendors.
+
+???
+
+[@kochEnterprisePlanungEinfuehrung2009]
+
+---
+
+## Figure 2.11 The Time/Space Collaboration and Social Tool Matrix
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct12.jpg" width=500px /&gt;
+
+---
+
+## Systems for Knowledge Management
+
+* Structured vs\. tacit knowledge
+* Systems for knowledge management
+  * Enterprise Content Management  \(ECM\) Systems
+  * Locating and sharing expertise
+  
+  
+---
+
+## Figure 2.12 Enterprise Content Management System
+
+&lt;img src="img/laudon_emis14_ppt_ch02_MS-ct13.jpg" width=500px /&gt;
+
+
+
+
+---
+class: segue, left, bottom
+
+
+# Strategy
+### ERP Systems
+
+#### Dominik Böhler, Deggendorf Institute of Technology
+
+
+---
+class: agenda
+
+Agenda
+------
+
+- [Types of Synergies](#types-of-synergies)
+- [Examples](#examples)
+
+
+---
+
+Learning Components
+-------------------
+
+#### ERP Systems, Summer 2021
+
+
+.pull-left[
+
+### &lt;svg viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z"&gt;&lt;/path&gt;&lt;/svg&gt; PREPARATION
+
+Skim-read, get the essentials, prepare discussion. 
+
+&lt;img src="img/laudon_emis14_ppt_ch01_MS-ct0.jpg" width="150" style="float:left; margin: 0 1em 2em 0;" /&gt;
+
+Laudon &amp; Laudon (2020), ** Essentials of Management Information Systems**
+
+Fourteenth Edition,
+Global Edition.
+
+.content-box-gray[
+
+**This week: Chapter 3 | [Pages: 91-NA](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6191969&amp;ppg=91)**
+  ]
+]
+
+.pull-right[
+
+### &lt;svg viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M208 352c-2.39 0-4.78.35-7.06 1.09C187.98 357.3 174.35 360 160 360c-14.35 0-27.98-2.7-40.95-6.91-2.28-.74-4.66-1.09-7.05-1.09C49.94 352-.33 402.48 0 464.62.14 490.88 21.73 512 48 512h224c26.27 0 47.86-21.12 48-47.38.33-62.14-49.94-112.62-112-112.62zm-48-32c53.02 0 96-42.98 96-96s-42.98-96-96-96-96 42.98-96 96 42.98 96 96 96zM592 0H208c-26.47 0-48 22.25-48 49.59V96c23.42 0 45.1 6.78 64 17.8V64h352v288h-64v-64H384v64h-76.24c19.1 16.69 33.12 38.73 39.69 64H592c26.47 0 48-22.25 48-49.59V49.59C640 22.25 618.47 0 592 0z"&gt;&lt;/path&gt;&lt;/svg&gt; LECTURE
+
+- Get perspectives and understanding
+- Discuss with peers
+- (maybe) Entertainment
+
+### &lt;svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z"&gt;&lt;/path&gt;&lt;/svg&gt; EXCERCISE
+
+- Apply knowledge in practical excercises
+- Build your digital skillset in a project
+- Prepare directly for the exam
+  
+]
+
+---
+
+## Learning Objectives
+
+__3.1__ How do Porter’s competitive forces model, the value chain model, synergies, core competencies, and network-based strategies help companies use information systems for competitive advantage?
+
+__3.2__ How do information systems help businesses compete globally?
+
+__3.3__ How do information systems help businesses compete using quality and design?
+
+__3.4__ What is the role of business process management (B P M) in enhancing competitiveness?
+
+__3.5__ How willM I Shelp my career?
+
+---
+
+## N26: A Bank Without Branches
+
+* Problem
+  * Improving operational efficiency
+  * Improve customer experience
+* Solutions
+  * Online customer-centric processes
+  * Improved cash-based operations
+  * Security systems
+* Illustrates use of IT to differentiate services and improve customer experience
+
+---
+
+## Porter’s Competitive Forces Model
+
+* Five competitive forces shape fate of firm
+  * Traditional competitors
+  * New market entrants
+  * Substitute products and services
+  * Customers
+  * Suppliers
+
+---
+
+## Figure 3.1 Porter’s Competitive Forces Model
+
+&lt;img src="img/laudon_emis14_ppt_ch03_MS-ct1.jpg" width=500px /&gt;
+
+---
+
+## Information System Strategies for Dealing with Competitive Forces
+
+* Basic strategy: Align IT with business objectives
+  * Identify business goals and strategies
+  * Break strategic goals into concrete activities and processes
+  * Identify metrics for measuring progress
+  * Determine how IT can help achieve business goals
+  * Measure actual performance
+
+* Low-cost leadership
+  * Use information systems to achieve the lowest operational costs and the lowest prices
+  * E.g. Walmart
+    * Inventory replenishment system sends orders to suppliers when purchase recorded at cash register
+    * Minimizes inventory at warehouses, operating costs
+    * Efficient customer response system
+
+* Product differentiation
+  * Use information systems to enable new products and services, or greatly change the customer convenience in using your existing products and services
+  * E.g., Google's continuous innovations, Apple'si Phone
+  * Use information systems to customize, personalize products to fit specifications of individual consumers
+    * E.g., Nike's NIKEi Dprogram for customized sneakers
+
+* Focus on market niche
+  * Use information systems to enable specific market focus, and serve narrow target market better than competitors.
+    * Analyzes customer buying habits, preferences
+    * Advertising pitches to smaller and smaller target markets
+  * E.g., Hilton Hotel’sOn QSystem
+    * Analyzes data collected on guests to determine preferences and guest's profitability
+
+* Strengthen customer and supplier intimacy.
+  * Strong linkages to customers and suppliers increase switching costs and loyalty
+  * Toyota: usesI Sto facilitate direct access from suppliers to production schedules
+    * Permits suppliers to decide how and when to ship supplies to plants, allowing more lead time in producing goods
+  * Amazon: keeps track of user preferences for purchases, and recommends titles purchased by others
+
+---
+
+## The Internet’s Impact on Competitive Advantage
+
+- Enables new products and services
+- Encourages substitute products
+- Lowers barrier to entry
+- Changes balance of power of customers and suppliers
+- Transforms some industries
+- Creates new opportunities for creating new markets, building brands, and large customer bases
+- Smart products and the Internet of Things
+
+---
+
+## The Business Value Chain Model
+
+* Highlights specific activities in a business where competitive strategies can best be applied and where information systems are likely to have a strategic impact.
+  * Primary activities
+  * Support activities
+  * Benchmarking
+  * Best practices
+
+---
+
+## Figure 3.2 The Value Chain Model
+
+&lt;img src="img/laudon_emis14_ppt_ch03_MS-ct2.jpg" width=500px /&gt;
+
+---
+
+## Interactive Session: Singapore as a Smart Nation
+
+* Class Discussion
+  * What are the factors driving the Smart Nation initiative?
+  * What are the possible downsides of the Smart Nation projects?
+  * Describe the smart city initiatives of an urban center in your country or region.
+
+---
+
+## The Value Web
+
+* A firm’s value chain is linked to the value chains of its suppliers, distributors, and customers.
+* Value web
+  * Collection of independent firms that use information technology to coordinate their value chains to produce a product collectively
+  * Value webs are flexible and adapt to changes in supply and demand
+
+---
+
+## Figure 3.3 The Value Web
+
+&lt;img src="img/laudon_emis14_ppt_ch03_MS-ct3.jpg" width=500px /&gt;
+
+---
+
+## Synergies, Core Competencies, and Network-Based Strategies
+
+* Large corporations comprised of business units
+  * Financial returns overall are tied to performance of business units
+* Information systems improve performance of business units by promoting
+  * Communication
+  * Synergies (Revenue, Cost, Financial)
+  * Core competencies, Dynamic Capabilities
+
+---
+
+## Synergies
+
+# Types of Synergies
+
+- Revenue
+- Cost
+- Financial
+
+
+# Examples
+
+- When output of some businessunits can be used as inputs to other units
+- When two firms can pool markets and expertise (e.g., recent bank mergers) to lower costs and generate profits
+- Enabled by information systems that ties together disparate units so they act as whole
+
+???
+
+
+
+---
+
+## Core Competency
+
+* Activities for which firm is world-class leader
+  * E.g., world’s best miniature parts designer, best package delivery service, etc
+* Relies on knowledge gained over years of experience as well as knowledge research
+* Any information system that encourages the sharing of knowledge across business units enhances competency
+  * E.g., Procter &amp; Gamble uses intranet to help people working on similar problems share ideas and expertise.
+
+---
+
+## Network-Based Strategies
+
+* Network economics
+  * Marginal costs of adding another participant are near zero, whereas marginal gain is much larger
+  * E.g., larger number of participants in Internet, greater value to all participants
+* Virtual company
+  * Uses networks to link people, resources, and ally with other companies to create and distribute products without traditional organizational boundaries or physical locations
+
+---
+
+## Disruptive Technologies
+
+* Technologies with disruptive impact on industries and businesses, rendering existing products, services and business models obsolete
+  * Personal computers
+  * World Wide Web
+  * Internet music services
+* First movers versus fast followers
+  * First movers of disruptive technologies may fail to see potential, allowing second movers to reap rewards (fast followers)
+
+---
+
+## The Internet and Globalization
+
+* Prior to the Internet, competing globally was only an option for huge firms able to afford factories, warehouses, and distribution centers abroad.
+* The Internet drastically reduces costs of operating globally.
+* Globalization benefits
+  * Scale economies and resource cost reduction
+  * Higher utilization rates, fixed capital costs, and lower cost per unit of production
+  * Speeding time to market
+
+---
+
+## Figure 3.4 Apple i Phone’s Global Supply Chain
+
+&lt;img src="img/laudon_emis14_ppt_ch03_MS-ct4.jpg" width=500px /&gt;
+
+---
+
+## Global Business and System Strategies
+
+Domestic exporters
+
+Multinationals
+
+Franchisers
+
+Transnationals
+
+---
+
+## Global System Configuration
+
+Centralized systems
+
+Duplicated systems
+
+Decentralized systems
+
+Networked systems
+
+---
+
+## Figure 3.5 Global Business Organization Systems Configurations
+
+&lt;img src="img/laudon_emis14_ppt_ch03_MS-ct5.jpg" width=500px /&gt;
+
+---
+
+## What is Quality?
+
+* Producer perspective
+  * Conformance to specifications and absence of variation from specs
+* Customer perspective
+  * Physical quality (reliability), quality of service, psychological quality
+* Total quality management (T Q M)
+  * Quality control is end in itself
+  * All people, functions responsible for quality
+* Six sigma
+  * Measure of quality: 3.4 defects/million opportunities
+
+---
+
+## How Information Systems Improve Quality
+
+* Reduce cycle time and simplify production
+* Benchmark
+* Use customer demands to improve products and services
+* Improve design quality and precision
+  * Computer-aided design (C A D) systems
+* Improve production precision and tighten production tolerances
+
+---
+
+## What is Business Process Management (B P M )?
+
+* Technology alone is often not enough to improve business
+* Organizational changes often necessary
+  * Minor changes in work habits
+  * Redesigning entire business processes
+* Aims to continuously improve processes
+* Uses variety of tools and methodologies to
+  * Understand existing processes
+  * Design and optimize new processes
+
+---
+
+## Steps in B P M
+
+Identify processes for change
+
+Analyze existing processes
+
+Design new process
+
+Implement new process
+
+Continuous measurement
+
+---
+
+## Figure 3.6 As-Is Business Process for Purchasing a Book from a Physical Bookstore
+
+&lt;img src="img/laudon_emis14_ppt_ch03_MS-ct6.jpg" width=500px /&gt;
+
+---
+
+## Figure 3.7 Redesigned Process for Purchasing a Book Online
+
+&lt;img src="img/laudon_emis14_ppt_ch03_MS-ct7.jpg" width=500px /&gt;
+
+---
+
+## Interactive Session – Organizations: Strategic Information Systems at Hong Kong Disneyland
+
+* Class discussion
+  * Discuss the various strategies adopted by Hong Kong Disneyland to attract visitors.
+  * What problem did Disneyland face as it began to draw more visitors to the theme park? How was it overcome?
+  * How does Hong Kong Disneyland manage its suppliers?
+  * How does Hong Kong Disneyland determine which theme or character should be introduced in the park?
+
+---
+
+## Business Process Reengineering
+
+A radical form of fast change
+
+Not continuous improvement, but elimination of old processes, replacement with new processes, in a brief time period
+
+Can produce dramatic gains in productivity
+
+Can produce more organizational resistance to change
+
+---
+
+## How Will M I S Help My Career?
+
+The Company: A+ Superior Data Quality
+
+Position Description
+
+Job Requirements
+
+Interview Questions
+
+
+
+
+
+---
+class: segue, left, bottom
+
+
+# Ethics
+### ERP Systems
+
+#### Dominik Böhler, Deggendorf Institute of Technology
+
+
+---
+class: agenda
+
+Agenda
+------
+
+- [The ethical questions of Digital Transformation](#the-ethical-questions-of-digital-transformation)
+- [The Basic Concepts of Ethics](#the-basic-concepts-of-ethics)
+- [Ethics in the Real World](#ethics-in-the-real-world)
+- [CLASS DISCUSSION: Hacking the Hospital](#class-discussion:-hacking-the-hospital)
+
+
+---
+
+Learning Components
+-------------------
+
+#### ERP Systems, Summer 2021
+
+
+.pull-left[
+
+### &lt;svg viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z"&gt;&lt;/path&gt;&lt;/svg&gt; PREPARATION
+
+Skim-read, get the essentials, prepare discussion. 
+
+&lt;img src="img/laudon_emis14_ppt_ch01_MS-ct0.jpg" width="150" style="float:left; margin: 0 1em 2em 0;" /&gt;
+
+Laudon &amp; Laudon (2020), ** Essentials of Management Information Systems**
+
+Fourteenth Edition,
+Global Edition.
+
+.content-box-gray[
+
+**This week: Chapter NA | [Pages: NA-119](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6191969&amp;ppg=NA)**
+  ]
+]
+
+.pull-right[
+
+### &lt;svg viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M208 352c-2.39 0-4.78.35-7.06 1.09C187.98 357.3 174.35 360 160 360c-14.35 0-27.98-2.7-40.95-6.91-2.28-.74-4.66-1.09-7.05-1.09C49.94 352-.33 402.48 0 464.62.14 490.88 21.73 512 48 512h224c26.27 0 47.86-21.12 48-47.38.33-62.14-49.94-112.62-112-112.62zm-48-32c53.02 0 96-42.98 96-96s-42.98-96-96-96-96 42.98-96 96 42.98 96 96 96zM592 0H208c-26.47 0-48 22.25-48 49.59V96c23.42 0 45.1 6.78 64 17.8V64h352v288h-64v-64H384v64h-76.24c19.1 16.69 33.12 38.73 39.69 64H592c26.47 0 48-22.25 48-49.59V49.59C640 22.25 618.47 0 592 0z"&gt;&lt;/path&gt;&lt;/svg&gt; LECTURE
+
+- Get perspectives and understanding
+- Discuss with peers
+- (maybe) Entertainment
+
+### &lt;svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z"&gt;&lt;/path&gt;&lt;/svg&gt; EXCERCISE
+
+- Apply knowledge in practical excercises
+- Build your digital skillset in a project
+- Prepare directly for the exam
+  
+]
+
+
+---
+
+## Learning Objectives
+
+__4.1__ What ethical, social, and political issues are raised by information systems?
+
+__4.2__ What specific principles for conduct can be used to guide ethical decisions?
+
+__4.3__ Why do contemporary information systems technology and the Internet pose challenges to the protection of individual privacy and intellectual property?
+
+__4.4__ How have information systems affected laws for establishing accountability, liability, and the quality of everyday life?
+
+__4.5__ How will MIS help my career?
+
+---
+class: segue-red, center, middle
+
+# The ethical questions of Digital Transformation
+
+---
+
+## Video Cases
+
+Case 1: What Net Neutrality Means for You
+
+Case 2: Facebook and Google Privacy: What Privacy?
+
+---
+
+## Are Cars Becoming Big Brother on Wheels? (1 of 2)
+
+* Problem
+  * Vehicle and driver monitoring systems
+  * Opportunities from new technology
+  * Undeveloped legal environment
+* Solutions
+  * Increases safety
+  * Increases efficiency
+  * Creates need for new privacy protection laws and policies
+
+Illustrates an IT-created ethical dilemma
+
+Privacy vs. other values
+
+Lack of meaningful privacy laws
+
+---
+
+## What Ethical, Social, and Political Issues are Raised by Information Systems?
+
+* Recent cases of failed ethical judgment in business
+  * Volkswagen AG, Wells Fargo, General Motors, Takata Corporation
+  * In many, information systems used to bury decisions from public scrutiny
+  
+* Ethics
+  * Principles of right and wrong that individuals, acting as free moral agents, use to make choices to guide their behaviors
+
+* Information systems raise new ethical questions because they create opportunities for:
+  * Intense social change, threatening existing distributions of power, money, rights, and obligations
+  * New kinds of crime
+
+---
+
+## A Model for Thinking About Ethical, Social, and Political Issues
+
+* Society as a calm pond
+* I Tas rock dropped in pond, creating ripples of new situations not covered by old rules
+* Social and political institutions cannot respond overnight to these ripples—it may take years to develop etiquette, expectations, laws
+  * Requires understanding of ethics to make choices in legally gray areas
+
+---
+
+## Figure 4.1 The Relationship Between Ethical, Social, and Political Issues in an Information Society
+
+&lt;img src="img/laudon_emis14_ppt_ch04_MS-ct1.jpg" width=500px /&gt;
+
+---
+
+## Five Moral Dimensions of the Information Age
+
++ Information rights and obligations
++ Property rights and obligations
++ Accountability and control
++ System quality
++ Quality of life
+
+---
+
+## Key Technology Trends That Raise Ethical Issues
+
++ Computing power doubles every 18 months
++ Data storage costs rapidly decline
++ Data analysis advances
++ Networking advances
++ Mobile device growth impact
+
+---
+
+## Advances in Data Analysis Techniques
+
+* Profiling
+  * Combining data from multiple sources to create dossiers of detailed information on individuals
+* Nonobvious relationship awareness (N O R A)
+  * Combining data from multiple sources to find obscure hidden connections that might help identify criminals or terrorists
+
+---
+
+## Figure 4.2 Nonobvious Relationship Awareness (N O R A )
+
+![](img/laudon_emis14_ppt_ch04_MS-ct2.jpg)
+
+---
+class: segue-red
+
+# The Basic Concepts of Ethics
+
+---
+
+## Basic Concepts: Responsibility, Accountability, and Liability
+
+* Responsibility
+  * Accepting the potential costs, duties, and obligations for decisions
+* Accountability
+  * Mechanisms for identifying responsible parties
+* Liability
+  * Permits individuals (and firms) to recover damages done to them
+* Due process
+  * Laws are well-known and understood, with an ability to appeal to higher authorities
+
+---
+
+## Ethical Analysis
+
+* Five-step process for ethical analysis
+  * Identify and clearly describe the facts.
+  * Define the conflict or dilemma and identify the higher-order values involved.
+  * Identify the stakeholders.
+  * Identify the options that you can reasonably take.
+  * Identify the potential consequences of your options.
+
+---
+
+## Candidate Ethical Principles
+
+* Golden Rule
+  * Do unto others as you would have them do unto you.
+  
+* Immanuel Kant’s Categorical Imperative
+  * If an action is not right for everyone to take, it is not right for anyone.
+  
+* Slippery Slope Rule
+  * If an action cannot be taken repeatedly, it is not right to take at all.
+
+* Utilitarian Principle
+  * Take the action that achieves the higher or greater value.
+  
+* Risk Aversion Principle
+  * Take the action that produces the least harm or potential cost.
+  
+* Ethical “No Free Lunch” Rule
+  * Assume that virtually all tangible and intangible objects are owned by someone unless there is a specific declaration otherwise.
+
+---
+
+## Professional Codes of Conduct
+
+* Promulgated by associations of professionals
+  * American Medical Association (AMA)
+  * American Bar Association (ABA)
+  * Association for Computing Machinery (ACM)
+* Promises by professions to regulate themselves in the general interest of society
+
+
+---
+class: segue-red, center, middle
+
+# Ethics in the Real World
+
+---
+
+## Real-World Ethical Dilemmas
+
+* One set of interests pitted against another
+* Examples
+  * Monitoring employees: right of company to maximize productivity of workers versus workers’ desire to use Internet for short personal tasks
+  * Facebook monitors users and sells information to advertisers and app developers
+
+---
+
+## Information Rights: Privacy and Freedom in the Internet Age
+
+* Privacy
+  * Claim of individuals to be left alone, free from surveillance or interference from other individuals, organizations, or state; claim to be able to control information about yourself
+* In the United States, privacy protected by:
+  * First Amendment (freedom of speech and association)
+  * Fourth Amendment (unreasonable search and seizure)
+  * Additional federal statues (e.g., Privacy Act of 1974)
+
+* Fair information practices
+  * Set of principles governing the collection and use of information
+    * Basis of most U.S. and European privacy laws
+  * Used to drive changes in privacy legislation
+    * COPPA
+    * Gramm-Leach-Bliley Act
+    * HIPAA
+
+* FTCFIP principles
+  * Notice/awareness (core principle)
+  * Choice/consent (core principle)
+  * Access/participation
+  * Security
+  * Enforcement
+
+---
+
+## European Directive on Data Protection
+
++ Requires unambiguous explicit informed consent of customer
+
++ EU member nations cannot transfer personal data to countries without similar privacy protection
+
++ Applies across all EU countries to any firms operating in EU or processing data on EU citizens or residents
+
++ Strengthens right to be forgotten
+
++ Privacy Shield : all countries processing EU data must conform to GDPR requirements
+
++ Heavy fines: 4% of global daily revenue
+
+---
+
+## Internet Challenges to Privacy
+
+* Cookies
+  * Identify browser and track visits to site
+  * Super cookies (Flash cookies)
+  
+* Web beacons (web bugs)
+  * Tiny graphics embedded in emails and web pages
+  * Monitor who is reading email message or visiting site
+  
+* Spyware
+  * Surreptitiously installed on user’s computer
+  * May transmit user’s keystrokes or display unwanted ads
+  
+* Google services and behavioral targeting
+
+* The United States allows businesses to gather transaction information and use this for other marketing purposes.
+
+* Opt-out vs. opt-in model
+
+* Online industry promotes self-regulation over privacy legislation.
+  * Complex/ambiguous privacy statements
+  * Opt-out models selected over opt-in
+  * Online “seals” of privacy principles
+
+---
+
+## Figure 4.3 How Cookies Identify Web Visitors
+
+![](img/laudon_emis14_ppt_ch04_MS-ct3.jpg)
+
+The Web server reads the user's Web browser and determines the operating system, browser name, version number, Internet address, and other information.
+
+The server transmits a tiny text file with user identification information called a cookie, which the user's browser receives and stores on the user's computer.
+
+When the user returns to the Web site, the server requests the contents of any cookie it deposited previously in the user's computer.
+
+The Web server reads the cookie, identifies the visitor, and calls up data on the user.
+
+---
+
+## Technical Solutions
+
+* Solutions include:
+  * Email encryption
+  * Anonymity tools
+  * Anti-spyware tools
+  
+* Overall, technical solutions have failed to protect users from being tracked from one site to another
+  * Browser features
+    * “Private” browsing
+    * “Do not track” options
+
+---
+
+## Property Rights: Intellectual Property
+
+* Intellectual property
+  * Tangible and intangible products of the mind created by individuals or corporations
+* Protected in four main ways:
+  * Copyright
+  * Patents
+  * Trademarks
+  * Trade secret
+
+---
+
+## Challenges to Intellectual Property Rights
+
+* Digital media different from physical media
+  * Ease of replication
+  * Ease of transmission (networks, Internet)
+  * Ease of alteration
+  * Compactness
+  * Difficulties in establishing uniqueness
+* Digital Millennium Copyright Act (D M C A)
+
+
+class:segue-red, center, middle
+
+# CLASS DISCUSSION: Hacking the Hospital
+
+
+???
+
+[https://parallaxview.ghost.io/the-parallax-view-130-new-direction/](https://parallaxview.ghost.io/the-parallax-view-130-new-direction/)
+https://apnews.com/article/technology-hacking-europe-cf8f8eee1adcec69bcc864f2c4308c94
+
+
+## System Quality: Data Quality and System Errors
+
+* What is an acceptable, technologically feasible level of system quality?
+  * Flawless software is economically unfeasible
+* Three principal sources of poor system performance
+  * Software bugs, errors
+  * Hardware or facility failures
+  * Poor input data quality (most common source of business system failure)
+
+## Quality of Life: Equity, Access, Boundaries
+
++ Negative social consequences of systems
+
++ Big tech: Concentrating economic and political power
+
++ Rapidity of change
+
++ Maintaining boundaries: family, work and leisure
+
++ Dependence and vulnerability
+
+* Computer crime and abuse
+  * Computer crime
+  * Computer abuse
+  * Spam
+  * CAN-SPAMAct of 2003
+  
+* Employment
+  * Trickle-down technology
+  * Reengineering job loss
+
+* Equity and access
+  * The digital divide
+  
+* Health risks
+  * Repetitive stress injury (RSI)
+  * Carpal tunnel syndrome (CTS)
+  * Computer vision syndrome (CVS)
+  * Technostress
+
+---
+
+## Computer-Related Liability Problems
+
++ If software fails, who is responsible?
++ If seen as part of a machine that injures or harms, software producer and operator may be liable
++ If seen as similar to book, difficult to hold author/publisher responsible
++ If seen as a service, would this be similar to telephone systems not being liable for transmitted messages?
+
+
+???
+
+- What is free will and what is reason?
+
+Who should be liable:
+- The driver? (Nooo... didn't do anything...)
+- The car company?
+- The software engineer?
+- The car itself?
+
+Guiding Questions:
+- Who owns the code and data center
+- Where is the code executed?
+- How much learning war involved in the process?
+- When can we speak about free will?
+  - Memories and distributed decision?
+  - Did someone tell the car to do it or did it infer that
+  - 
+
+
+
+---
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="assets/remark-zoom.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9",
+"navigation": {
+"scroll": false
+}
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

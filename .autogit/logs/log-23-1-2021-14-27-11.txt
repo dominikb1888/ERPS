@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Tue Feb 23 2021 14:27:11 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Introduction.Rmd
+* Introduction.html
+
+
+Created files:
+* .autogit/logs/log-23-1-2021-13-57-5.txt
+
+
+Deleted files:
+* Introduction_files/countdown-0.3.5/countdown.css
+* Introduction_files/countdown-0.3.5/countdown.js
+* Introduction_files/countdown-0.3.5/smb_stage_clear.mp3
+
+
+Renamed files:

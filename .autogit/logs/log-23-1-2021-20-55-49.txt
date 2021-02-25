@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Tue Feb 23 2021 20:55:49 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .DS_Store
+* 2_Collaboration.Rmd
+* 2_Collaboration.html
+* laudon_emis14_ppt_ch03_MS-ct.pptx.Rmd
+
+
+Created files:
+* .autogit/logs/log-23-1-2021-20-25-43.txt
+
+
+Deleted files:
+
+
+Renamed files:

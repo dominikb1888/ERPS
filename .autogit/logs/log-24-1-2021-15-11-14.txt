@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Wed Feb 24 2021 15:11:14 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* 4_Ethics.Rmd
+
+
+Created files:
+* .autogit/logs/log-24-1-2021-14-41-8.txt
+
+
+Deleted files:
+
+
+Renamed files:

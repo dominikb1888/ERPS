@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Landscape generator="SAP GUI for Windows v7500.2.4.128" updated="2020-03-06T07:55:36Z" version="1">
+	<Workspaces>
+		<Workspace name="Local" uuid="221d2ba0-0648-4bf6-bae3-6e59290238f1">
+			<Item serviceid="b54f067f-bd5c-4198-8342-985386d5c8d0" uuid="c91f95c4-ac81-4fac-bc70-2681d6ca0c29"/>
+			<Item serviceid="fecadd0b-c728-4a4f-8fa6-943160aeb035" uuid="172b08a6-0704-4033-9e78-e3bf039abae3"/>
+			<Item serviceid="476426e9-160b-4160-8a1c-71b093d32a0e" uuid="1f4f92a1-5f23-4a2f-bf9a-695523456e41"/>
+			<Item uuid="86ea3213-64a2-4bfe-9fdb-5036767978df" serviceid="ef70b5c5-d9d0-48f9-a19c-ad0a9c7c5a6d"/>
+			<Item uuid="1c8b908a-13be-41ef-ab6a-e7b956948881" serviceid="a877712f-4b87-4737-8d52-0e8e01c68f67"/>
+		</Workspace>
+	</Workspaces>
+	<Messageservers>
+		<Messageserver host="I62Z" name="I62" uuid="d0048618-b353-41f6-8d3f-aefa0fc243d2"/>
+		<Messageserver host="S06Z" name="S06" uuid="acdc0178-e188-4c88-92e6-f3a030486189"/>
+		<Messageserver host="S71Z" name="S71" uuid="9069ef29-3316-4262-8e08-ba1457fde68f"/>
+		<Messageserver uuid="afc6a1ba-30b0-402c-b4ad-d586656a7d6b" name="I66" host="I66Z"/>
+		<Messageserver uuid="21b6d1af-a12c-4d88-b932-c5d66c722735" name="S80" host="S80Z"/>
+	</Messageservers>
+	<Routers>
+		<Router description="/H/saprouter.hcc.uni-magdeburg.de/S/3299" name="/H/saprouter.hcc.uni-magdeburg.de/S/3299" router="/H/saprouter.hcc.uni-magdeburg.de/S/3299" uuid="b59eda59-59d6-420a-ba0c-b61dbf6cdcd1"/>
+		<Router description="/H/saprouter.hcc.in.tum.de/S/3299" name="/H/saprouter.hcc.in.tum.de/S/3299" router="/H/saprouter.hcc.in.tum.de/S/3299" uuid="a3397bfe-fb6f-474b-bd8b-b153c30cc93d"/>
+	</Routers>
+	<Services>
+		<Service dcpg="2" mode="1" msid="d0048618-b353-41f6-8d3f-aefa0fc243d2" name="BW_on_HANA" routerid="a3397bfe-fb6f-474b-bd8b-b153c30cc93d" sapcpg="1100" server="i62lp1:3200" sncop="-1" systemid="I62" type="SAPGUI" uuid="b54f067f-bd5c-4198-8342-985386d5c8d0"/>
+		<Service dcpg="2" msid="acdc0178-e188-4c88-92e6-f3a030486189" name="S06" routerid="a3397bfe-fb6f-474b-bd8b-b153c30cc93d" sapcpg="1100" type="SAPGUI" systemid="S06" uuid="fecadd0b-c728-4a4f-8fa6-943160aeb035" mode="1" server="s06lp1:3200" sncop="-1" clocale="DE"/>
+		<Service type="SAPGUI" uuid="476426e9-160b-4160-8a1c-71b093d32a0e" name="S71" systemid="S71" msid="9069ef29-3316-4262-8e08-ba1457fde68f" server="s71lp1:3200" routerid="a3397bfe-fb6f-474b-bd8b-b153c30cc93d" sncop="-1" sapcpg="1100" clocale="DE" dcpg="2" mode="1"/><Service type="SAPGUI" uuid="ef70b5c5-d9d0-48f9-a19c-ad0a9c7c5a6d" name="SAP ERP IDES (TERP 10)" systemid="I66" msid="afc6a1ba-30b0-402c-b4ad-d586656a7d6b" mode="1" server="i66lp1:3200" routerid="a3397bfe-fb6f-474b-bd8b-b153c30cc93d" sncop="-1" sapcpg="1100" dcpg="2"/><Service type="SAPGUI" uuid="a877712f-4b87-4737-8d52-0e8e01c68f67" name="S80" systemid="S80" msid="21b6d1af-a12c-4d88-b932-c5d66c722735" mode="1" server="s80lp1:3200" routerid="a3397bfe-fb6f-474b-bd8b-b153c30cc93d" sncop="-1" sapcpg="1100" dcpg="2"/></Services>
+	<Includes>
+		<Include index="0" url="file:///C:/Windows/SAPUILandscapeGlobal.xml"/>
+	</Includes>
+</Landscape>

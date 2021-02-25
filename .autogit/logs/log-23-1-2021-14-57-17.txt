@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Tue Feb 23 2021 14:57:17 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Introduction.Rmd
+
+
+Created files:
+* .autogit/logs/log-23-1-2021-14-27-11.txt
+
+
+Deleted files:
+
+
+Renamed files:

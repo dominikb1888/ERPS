@@ -1,0 +1,104 @@
+-------------------- Auto-Git Log --------------------
+		Mon Feb 22 2021 22:19:52 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .DS_Store
+* Introduction.Rmd
+* Introduction.html
+* assets/custom.css
+
+
+Created files:
+* .autogit/logs/log-22-1-2021-21-49-46.txt
+* Introduction_files/highchart-binding/highchart.js
+* Introduction_files/highcharts/css/htmlwdgtgrid.css
+* Introduction_files/highcharts/css/motion.css
+* Introduction_files/highcharts/custom/appear.js
+* Introduction_files/highcharts/custom/reset.js
+* Introduction_files/highcharts/custom/symbols-extra.js
+* Introduction_files/highcharts/custom/text-symbols.js
+* Introduction_files/highcharts/highcharts-3d.js
+* Introduction_files/highcharts/highcharts-more.js
+* Introduction_files/highcharts/highcharts.js
+* Introduction_files/highcharts/modules/accessibility.js
+* Introduction_files/highcharts/modules/annotations-advanced.js
+* Introduction_files/highcharts/modules/annotations.js
+* Introduction_files/highcharts/modules/arrow-symbols.js
+* Introduction_files/highcharts/modules/boost-canvas.js
+* Introduction_files/highcharts/modules/boost.js
+* Introduction_files/highcharts/modules/broken-axis.js
+* Introduction_files/highcharts/modules/bullet.js
+* Introduction_files/highcharts/modules/coloraxis.js
+* Introduction_files/highcharts/modules/current-date-indicator.js
+* Introduction_files/highcharts/modules/cylinder.js
+* Introduction_files/highcharts/modules/data.js
+* Introduction_files/highcharts/modules/datagrouping.js
+* Introduction_files/highcharts/modules/debugger.js
+* Introduction_files/highcharts/modules/dependency-wheel.js
+* Introduction_files/highcharts/modules/dotplot.js
+* Introduction_files/highcharts/modules/drag-panes.js
+* Introduction_files/highcharts/modules/draggable-points.js
+* Introduction_files/highcharts/modules/drilldown.js
+* Introduction_files/highcharts/modules/dumbbell.js
+* Introduction_files/highcharts/modules/export-data.js
+* Introduction_files/highcharts/modules/exporting.js
+* Introduction_files/highcharts/modules/full-screen.js
+* Introduction_files/highcharts/modules/funnel.js
+* Introduction_files/highcharts/modules/funnel3d.js
+* Introduction_files/highcharts/modules/gantt.js
+* Introduction_files/highcharts/modules/grid-axis.js
+* Introduction_files/highcharts/modules/heatmap.js
+* Introduction_files/highcharts/modules/histogram-bellcurve.js
+* Introduction_files/highcharts/modules/item-series.js
+* Introduction_files/highcharts/modules/lollipop.js
+* Introduction_files/highcharts/modules/map.js
+* Introduction_files/highcharts/modules/marker-clusters.js
+* Introduction_files/highcharts/modules/networkgraph.js
+* Introduction_files/highcharts/modules/no-data-to-display.js
+* Introduction_files/highcharts/modules/offline-exporting.js
+* Introduction_files/highcharts/modules/oldie-polyfills.js
+* Introduction_files/highcharts/modules/oldie.js
+* Introduction_files/highcharts/modules/organization.js
+* Introduction_files/highcharts/modules/overlapping-datalabels.js
+* Introduction_files/highcharts/modules/parallel-coordinates.js
+* Introduction_files/highcharts/modules/pareto.js
+* Introduction_files/highcharts/modules/pathfinder.js
+* Introduction_files/highcharts/modules/pattern-fill.js
+* Introduction_files/highcharts/modules/price-indicator.js
+* Introduction_files/highcharts/modules/pyramid3d.js
+* Introduction_files/highcharts/modules/sankey.js
+* Introduction_files/highcharts/modules/series-label.js
+* Introduction_files/highcharts/modules/solid-gauge.js
+* Introduction_files/highcharts/modules/sonification.js
+* Introduction_files/highcharts/modules/static-scale.js
+* Introduction_files/highcharts/modules/stock-tools.js
+* Introduction_files/highcharts/modules/stock.js
+* Introduction_files/highcharts/modules/streamgraph.js
+* Introduction_files/highcharts/modules/sunburst.js
+* Introduction_files/highcharts/modules/tilemap.js
+* Introduction_files/highcharts/modules/timeline.js
+* Introduction_files/highcharts/modules/treegrid.js
+* Introduction_files/highcharts/modules/treemap.js
+* Introduction_files/highcharts/modules/variable-pie.js
+* Introduction_files/highcharts/modules/variwide.js
+* Introduction_files/highcharts/modules/vector.js
+* Introduction_files/highcharts/modules/venn.js
+* Introduction_files/highcharts/modules/windbarb.js
+* Introduction_files/highcharts/modules/wordcloud.js
+* Introduction_files/highcharts/modules/xrange.js
+* Introduction_files/highcharts/plugins/draggable-legend.js
+* Introduction_files/highcharts/plugins/grouped-categories.js
+* Introduction_files/highcharts/plugins/highcharts-regression.js
+* Introduction_files/highcharts/plugins/motion.js
+* Introduction_files/highcharts/plugins/multicolor_series.js
+* Introduction_files/highcharts/plugins/pattern-fill-v2.js
+* Introduction_files/highcharts/plugins/tooltip-delay.js
+* Introduction_files/proj4js/proj4.js
+* img/hypecycle.png
+
+
+Deleted files:
+
+
+Renamed files:

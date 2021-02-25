@@ -1,0 +1,166 @@
+-------------------- Auto-Git Log --------------------
+		Tue Feb 23 2021 21:56:02 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .DS_Store
+* 0_Index.html
+* 1_Introduction.Rmd
+* 2_Collaboration.Rmd
+
+
+Created files:
+* .autogit/logs/log-23-1-2021-21-25-55.txt
+* 0_Index.Rmd
+
+
+Deleted files:
+* 1_Introduction.html
+* 1_Introduction_files/crosstalk-1.1.1/css/crosstalk.css
+* 1_Introduction_files/crosstalk-1.1.1/js/crosstalk.js
+* 1_Introduction_files/crosstalk-1.1.1/js/crosstalk.js.map
+* 1_Introduction_files/crosstalk-1.1.1/js/crosstalk.min.js
+* 1_Introduction_files/crosstalk-1.1.1/js/crosstalk.min.js.map
+* 1_Introduction_files/header-attrs-2.7.1/header-attrs.js
+* 1_Introduction_files/htmlwidgets-1.5.3/htmlwidgets.js
+* 1_Introduction_files/jquery-3.5.1/jquery-AUTHORS.txt
+* 1_Introduction_files/jquery-3.5.1/jquery.js
+* 1_Introduction_files/jquery-3.5.1/jquery.min.js
+* 1_Introduction_files/jquery-3.5.1/jquery.min.map
+* 1_Introduction_files/panelset-0.2.5/panelset.css
+* 1_Introduction_files/panelset-0.2.5/panelset.js
+* 1_Introduction_files/plotly-binding-4.9.3/plotly.js
+* 1_Introduction_files/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css
+* 1_Introduction_files/plotly-main-1.57.1/plotly-latest.min.js
+* 1_Introduction_files/remark-css-0.0.1/default.css
+* 1_Introduction_files/tachyons-4.12.0/tachyons.min.css
+* 1_Introduction_files/tile-view-0.2.5/tile-view.css
+* 1_Introduction_files/tile-view-0.2.5/tile-view.js
+* 1_Introduction_files/typedarray-0.1/typedarray.min.js
+* 1_Introduction_files/xaringanExtra-extra-styles-0.2.5/xaringanExtra-extra-styles.css
+* 2_Collaboration.html
+* 2_Collaboration_files/countdown/countdown.css
+* 2_Collaboration_files/countdown/countdown.js
+* 2_Collaboration_files/countdown/smb_stage_clear.mp3
+* 2_Collaboration_files/header-attrs/header-attrs.js
+* 2_Collaboration_files/panelset/panelset.css
+* 2_Collaboration_files/panelset/panelset.js
+* 2_Collaboration_files/remark-css/default.css
+* 2_Collaboration_files/tachyons/tachyons.min.css
+* 2_Collaboration_files/tile-view/tile-view.css
+* 2_Collaboration_files/tile-view/tile-view.js
+* 2_Collaboration_files/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css
+* 2_Strategy.html
+* 2_Strategy_files/header-attrs/header-attrs.js
+* 2_Strategy_files/panelset/panelset.css
+* 2_Strategy_files/panelset/panelset.js
+* 2_Strategy_files/remark-css/default.css
+* 2_Strategy_files/tachyons/tachyons.min.css
+* 2_Strategy_files/tile-view/tile-view.css
+* 2_Strategy_files/tile-view/tile-view.js
+* 2_Strategy_files/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css
+* Archive/0_Index.Rmd
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]

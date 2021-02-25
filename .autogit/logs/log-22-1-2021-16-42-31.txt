@@ -1,0 +1,1233 @@
+-------------------- Auto-Git Log --------------------
+		Mon Feb 22 2021 16:42:31 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .DS_Store
+* .gitignore
+* Introduction.Rmd
+* Introduction.html
+
+
+Created files:
+* .RData
+* .Rhistory
+* .autogit/autogit.json
+* .vscode/settings.json
+* 0_Index.html
+* 2_Strategy.html
+* 2_Strategy_files/header-attrs/header-attrs.js
+* 2_Strategy_files/panelset/panelset.css
+* 2_Strategy_files/panelset/panelset.js
+* 2_Strategy_files/remark-css/default.css
+* 2_Strategy_files/tachyons/tachyons.min.css
+* 2_Strategy_files/tile-view/tile-view.css
+* 2_Strategy_files/tile-view/tile-view.js
+* 2_Strategy_files/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css
+* Archive/.DS_Store
+* Archive/0_Index.Rmd
+* Archive/1_Introduction.Rmd
+* Archive/2_Strategy.Rmd
+* Archive/Excercise/CE13Ex01_E9e.xlsx
+* Archive/Excercise/CE18Ex01_E9e.vsdx
+* Archive/Excercise/CE3Ex01_E9e_PR.xlsx
+* Archive/Excercise/CE4Ex01_E9e.txt
+* Archive/Excercise/CE4Ex02_E9e.xlsx
+* Archive/Excercise/Ch01Ex01_E9e_PR.xlsx
+* Archive/Excercise/Ch02Ex02_E9e_PR.pptx
+* Archive/Excercise/Ch03Ex01_E9e.accdb
+* Archive/Excercise/Ch03Ex01_E9e1.accdb
+* Archive/Excercise/Ch04Ex01_E9e.accdb
+* Archive/Excercise/Ch04Ex02_E9e.xlsx
+* Archive/Excercise/Ch05Ex01_E9e.accdb
+* Archive/Excercise/Ch05Ex02_E9e.accdb
+* Archive/Excercise/Ch05Ex03_E9e.xlsx
+* Archive/Excercise/Ch06Ex02_E9e.accdb
+* Archive/Excercise/Ch06Ex02_E9e.xlsx
+* Archive/Excercise/Ch07Ex01_E9e_PR.docx
+* Archive/Excercise/Ch07Ex02_E9e.accdb
+* Archive/Excercise/Ch08Ex01_E9e.docx
+* Archive/Excercise/Ch09Ex01_E9e.docx
+* Archive/Excercise/Ch11Ex01_E9e.xlsx
+* Archive/Excercise/Ch12Ex01_E9e.docx
+* Archive/Excercise/Ch12Ex01_E9e.xlsx
+* Archive/Excercise/kroenke_emis9e_ppt_ce03_CRM-DATABASE-MAKRETING.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce04_OLAP-REPORTING.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce05_MOBILE-SYSTEMS.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce06-DATABASE-DESIGN.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce07-MS-ACCESS.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce08_EXCEL+ACCESS.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce09_NETWORK-CLOUD.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce10_COLLABORATION-SYSTEMS.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce11_ERP-SYSTEMS.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce12_SCM.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce13_ESN-KM-SLACK.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce14_DATA-BREACHES.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce15_INTERNATIONAL-MIS.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce16_DEV-PM.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce17_AGILE.pptx
+* Archive/Excercise/kroenke_emis9e_ppt_ce18_BPM.pptx
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/CE03Ex01_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/CE04Ex01_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/CE04Ex02_E9e_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/CE13Ex01_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/CE18Ex01_E9e_Solution.vsdx"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch02Ex01_E9e_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch02Ex02_E9e_Solution.pptx"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch03Ex01_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch04Ex01_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch04Ex02Win 10 Upgrade List.docx"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch04Ex02_Answer.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch05Ex01_E9e_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch05Ex02_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch05Ex5-3_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch06Ex02_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch06Ex02_parts_def_E9e_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch07Ex01_E9e_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch07Ex02_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch08Ex01_E9e_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch08Ex02_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch09Ex01_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch11Ex01_E9e_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/AppExSolutionFiles/Ch12Ex01_E9e_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/Ch5CollabEx_eHermes.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/ChExtSolutionFiles/ChExt01Ex02_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/ChExtSolutionFiles/ChExt01Ex03_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/ChExtSolutionFiles/ChExt06Ex01_Solution.pptx"
+* "Archive/Experiencing MIS/Excercise Solutions/ChExtSolutionFiles/ChExt06Ex02_Solution.pptx"
+* "Archive/Experiencing MIS/Excercise Solutions/ChExtSolutionFiles/ChExt07Ex01_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/ChExtSolutionFiles/ChExt07Ex02_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/ChExtSolutionFiles/ChExt08Ex01_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/ChExtSolutionFiles/ChExt08Ex02_Solution.accdb"
+* "Archive/Experiencing MIS/Excercise Solutions/ChExtSolutionFiles/ChExt08Ex03a_Solution.xlsx"
+* "Archive/Experiencing MIS/Excercise Solutions/ChExtSolutionFiles/ChExt08Ex03b_Solution.xlsx"
+* "Archive/Experiencing MIS/Images/App/fgae_01.jpg"
+* "Archive/Experiencing MIS/Images/App/fgae_02.jpg"
+* "Archive/Experiencing MIS/Images/App/fgae_03.jpg"
+* "Archive/Experiencing MIS/Images/App/fgae_04.jpg"
+* "Archive/Experiencing MIS/Images/App/fgae_05.jpg"
+* "Archive/Experiencing MIS/Images/App/fgae_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_09a.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_09b.jpg"
+* "Archive/Experiencing MIS/Images/CE 02/fgce2_10.jpg"
+* "Archive/Experiencing MIS/Images/CE 03/fgce03_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 03/fgce03_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 03/fgce03_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 03/fgce03_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_09.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_10.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_11.jpg"
+* "Archive/Experiencing MIS/Images/CE 04/fgce4_12.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_09.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_10.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_11.jpg"
+* "Archive/Experiencing MIS/Images/CE 05/fgce05_12.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_07a.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_07b.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_09.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_10.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_11.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_12.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_13.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_14.jpg"
+* "Archive/Experiencing MIS/Images/CE 06/fgce06_15.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_09.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_10.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_11.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_12.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_13a.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_13b.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_14.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_15.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_16.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_17.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_18.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_19.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_20.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_21.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_22.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_23.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_24.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_25.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_26.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_27.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_28.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_29.jpg"
+* "Archive/Experiencing MIS/Images/CE 07/fgce07_30.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_04a.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_04b.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_04c.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_09.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_10.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_11.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_12.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_13.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_14.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_15.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_16.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_17.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_18.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_19.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_20.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_21.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_22.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_23.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_24.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_25.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_26.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_27.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_28a.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_28b.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_29.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_30.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_31.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_32.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_33.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_34.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_35.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_36.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_37.jpg"
+* "Archive/Experiencing MIS/Images/CE 08/fgce08_38.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_09.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_10.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_11.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_12.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_13a.jpg"
+* "Archive/Experiencing MIS/Images/CE 09/fgce09_13b.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_09.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_10.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_11.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_12.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_13.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_14.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_15.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_16.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_17.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_18.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_19.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_20.jpg"
+* "Archive/Experiencing MIS/Images/CE 10/fgce10_21.jpg"
+* "Archive/Experiencing MIS/Images/CE 11/fgce11_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 11/fgce11_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 11/fgce11_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 11/fgce11_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 11/fgce11_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 11/fgce11_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 11/fgce11_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 11/fgce11_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 12/fgce12_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 12/fgce12_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 12/fgce12_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 12/fgce12_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 12/fgce12_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 13/fgce13_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 13/fgce13_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 13/fgce13_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 13/fgce13_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 13/fgce13_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 13/fgce13_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 13/fgce13_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 14/fgce14_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 14/fgce14_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 14/fgce14_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 14/fgce14_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 14/fgce14_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 14/fgce14_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 15/fgce15_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 15/fgce15_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 15/fgce15_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 15/fgce15_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 15/fgce15_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 15/fgce15_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 15/fgce15_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 15/fgce15_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 15/unphotoce15_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 16/fgce16_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 16/fgce16_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 16/fgce16_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 16/fgce16_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 16/fgce16_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 16/fgce16_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 17/fgce17_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 17/fgce17_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 17/fgce17_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 17/fgce17_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 17/fgce17_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 17/fgce17_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 17/fgce17_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 18/fgce18_01.jpg"
+* "Archive/Experiencing MIS/Images/CE 18/fgce18_02.jpg"
+* "Archive/Experiencing MIS/Images/CE 18/fgce18_03.jpg"
+* "Archive/Experiencing MIS/Images/CE 18/fgce18_04.jpg"
+* "Archive/Experiencing MIS/Images/CE 18/fgce18_05.jpg"
+* "Archive/Experiencing MIS/Images/CE 18/fgce18_06.jpg"
+* "Archive/Experiencing MIS/Images/CE 18/fgce18_07.jpg"
+* "Archive/Experiencing MIS/Images/CE 18/fgce18_08.jpg"
+* "Archive/Experiencing MIS/Images/CE 18/fgce18_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/co01_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_08.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_10.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig01_11.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/fig_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/unfig01_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/unfig01_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/unfig01_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/unphoto01_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 01/unphoto01_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 02/co02_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 02/fig02_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 02/fig02_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 02/unfig02_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 02/unfig02_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 02/unphoto02_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 02/unphoto02_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 02/unphoto02_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/co03_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_08.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_10.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_11.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_12.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_13.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_14.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_15.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_16.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_17.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/fig03_18.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/unfig03_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/unphoto03_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/unphoto03_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 03/unphoto03_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/co04_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_08.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_10.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_11.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_12.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_13.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_14.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_15.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_16.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_17.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_18.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/fig04_19.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/unfig04_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/unfig04_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/unfig04_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/unphoto04_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 04/unphoto04_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/co05_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_08.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_10.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_11.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_12a.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_12b.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_13.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_14.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_15.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_16.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_17.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_18.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_19.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_20.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_21.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_22.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/fig05_23.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/unfig05_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/unfig05_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/unphoto05_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/unphoto05_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 05/unphoto05_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/co06_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_08.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_10.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_11.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_12.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_13.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_14.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_15.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_16.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_17.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_18.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/fig06_19.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/unfig06_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/unphoto06_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/unphoto06_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/unphoto06_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/unphoto06_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 06/unphoto06_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/co07_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/fig07_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/fig07_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/fig07_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/fig07_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/fig07_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/fig07_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/fig07_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/unfig07_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/unphoto07_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/unphoto07_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/unphoto07_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 07/unphoto07_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/co08_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_08.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_10.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_11.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_12.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_13.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_14.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_15.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/fig08_16.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/unfig08_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/unphoto08_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/unphoto08_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/unphoto08_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 08/unphoto08_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/FG_09_011.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/co09_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_08.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_10a.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/fig09_10b.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/unfig09_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/unfig09_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/unphoto09_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/unphoto09_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 09/unphoto09_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/co10_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_08.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_10.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_11.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_12.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_13.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_14.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_15.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_16.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/fig10_17.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/unfig10_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/unphoto10_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/unphoto10_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/unphoto10_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 10/unphoto10_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/CO_11_001.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/fig11_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/fig11_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/fig11_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/fig11_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/fig11_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/fig11_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/fig11_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/fig11_08.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/fig11_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/fig11_10.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/unfig11_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/unphoto11_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/unphoto11_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/unphoto11_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 11/unphoto11_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/co12_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/fig12_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/fig12_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/fig12_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/fig12_04.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/fig12_05.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/fig12_06.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/fig12_07.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/fig12_08.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/fig12_09.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/fig12_10.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/unfig12_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/unfig12_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/unphoto12_01.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/unphoto12_02.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/unphoto12_03.jpg"
+* "Archive/Experiencing MIS/Images/Ch 12/unphoto12_04.jpg"
+* "Archive/Experiencing MIS/Images/FM/unfigfm_01.jpg"
+* "Archive/Experiencing MIS/Images/FM/unfigfm_02.jpg"
+* "Archive/Experiencing MIS/Images/FM/unfigfm_03.jpg"
+* "Archive/Experiencing MIS/Images/FM/unfigfm_04.jpg"
+* "Archive/Experiencing MIS/Images/FM/unfigfm_05.jpg"
+* "Archive/Experiencing MIS/Images/FM/unfigfm_06.jpg"
+* "Archive/Experiencing MIS/Images/FM/unfigfm_07.jpg"
+* "Archive/Experiencing MIS/Images/FM/unfigfm_08.jpg"
+* "Archive/Experiencing MIS/Images/FM/untabfm_01.jpg"
+* "Archive/Experiencing MIS/Images/FM/untabfm_02a.jpg"
+* "Archive/Experiencing MIS/Images/FM/untabfm_02b.jpg"
+* "Archive/Experiencing MIS/Images/FM/untabfm_02c.jpg"
+* "Archive/Experiencing MIS/Images/P01/po01_01.jpg"
+* "Archive/Experiencing MIS/Images/P01/po01_02.jpg"
+* "Archive/Experiencing MIS/Images/P02/po02_01.jpg"
+* "Archive/Experiencing MIS/Images/P02/po02_02.jpg"
+* "Archive/Experiencing MIS/Images/P03/po07_01.jpg"
+* "Archive/Experiencing MIS/Images/P03/po07_02.jpg"
+* "Archive/Experiencing MIS/Images/P03/po07_03.jpg"
+* "Archive/Experiencing MIS/Images/P04/po04_01.jpg"
+* "Archive/Experiencing MIS/Images/P04/po04_02.jpg"
+* "Archive/Experiencing MIS/Images/P04/po04_03.jpg"
+* "Archive/Experiencing MIS/Instructors Manual/KroenkeBoyle_EMIS_9e_IM_TitlePage.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_app_ex.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce01.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce02.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce03.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce04.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce05.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce06.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce07.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce08.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce09.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce10.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce11.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce12.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce13.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce14.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce15.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce16.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce17.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ce18.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch01.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch02.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch03.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch04.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch05.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch06.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch07.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch08.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch09.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch10.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch11.docx"
+* "Archive/Experiencing MIS/Instructors Manual/kroenke_exp9e_im_ch12.docx"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs.zip"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 1.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 10.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 11.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 12.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 2.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 3.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 4.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 5.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 6.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 7.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 8.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter 9.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce1.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce10.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce11.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce12.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce13.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce14.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce15.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce16.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce17.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce18.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce2.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce3.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce4.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce5.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce6.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce7.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce8.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_PDFs/chapter ce9.pdf"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports.zip"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 1.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 10.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 11.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 12.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 2.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 3.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 4.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 5.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 6.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 7.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 8.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter 9.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce1.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce10.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce11.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce12.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce13.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce14.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce15.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce16.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce17.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce18.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce2.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce3.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce4.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce5.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce6.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce7.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce8.doc"
+* "Archive/Experiencing MIS/MC Solutions/Kroenke_expmis9_WordExports/chapter ce9.doc"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 1 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 10 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 11 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 12 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 2 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 3 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 4 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 5 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 6 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 7 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 8 of 12.xml"
+* "Archive/Experiencing MIS/Moodle Testbank/expmis9_moodle 9 of 12.xml"
+* Archive/Files/CE13Ex01_E9e.xlsx
+* Archive/Files/CE18Ex01_E9e.vsdx
+* Archive/Files/CE3Ex01_E9e_PR.xlsx
+* Archive/Files/CE4Ex01_E9e.txt
+* Archive/Files/CE4Ex02_E9e.xlsx
+* Archive/Files/Ch01Ex01_E9e.xlsx
+* Archive/Files/Ch01Ex02_E9e.accdb
+* Archive/Files/Ch02Ex02_E9e.pptx
+* Archive/Files/Ch03Ex012_E9e.accdb
+* Archive/Files/Ch03Ex01_E9e.accdb
+* Archive/Files/Ch04Ex01_E9e.accdb
+* Archive/Files/Ch04Ex02_E9e.xlsx
+* Archive/Files/Ch05Ex01_E9e.accdb
+* Archive/Files/Ch05Ex02_E9e.accdb
+* Archive/Files/Ch05Ex03_E9e.xlsx
+* Archive/Files/Ch06Ex02_E9e.accdb
+* Archive/Files/Ch06Ex02_E9e.xlsx
+* Archive/Files/Ch07Ex01_E9e.docx
+* Archive/Files/Ch07Ex02_E9e.accdb
+* Archive/Files/Ch08Ex01_E9e.docx
+* Archive/Files/Ch09Ex01_E9e.docx
+* Archive/Files/Ch11Ex01_E9e.xlsx
+* Archive/Files/Ch12Ex01_E9e.docx
+* Archive/Files/Ch12Ex01_E9e.xlsx
+* Archive/Slides/.DS_Store
+* Archive/Slides/.RData
+* Archive/Slides/.Rhistory
+* Archive/Slides/1920BasicsOfSAPGM.doc
+* "Archive/Slides/Introduction SAP.docx"
+* Archive/Slides/SAPUILandscape.xml
+* Archive/Slides/SAPUILandscapeGlobal.xml
+* "Archive/Slides/Skript SAP_case_study.docx"
+* Archive/Slides/img/kroenke_emis9e_ppt_011.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0110.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0111.png
+* Archive/Slides/img/kroenke_emis9e_ppt_0112.png
+* Archive/Slides/img/kroenke_emis9e_ppt_012.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_013.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_014.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_015.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_016.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_017.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_018.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_019.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_021.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0210.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0211.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0212.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0213.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0214.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_022.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_023.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_024.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_025.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_026.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_027.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_028.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_029.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_030.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_031.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0310.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0311.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0312.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0313.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0314.png
+* Archive/Slides/img/kroenke_emis9e_ppt_0315.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0316.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0317.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0318.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0319.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_032.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0320.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0321.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0322.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0323.png
+* Archive/Slides/img/kroenke_emis9e_ppt_033.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_034.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_035.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_036.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_037.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_038.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_039.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_040.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_041.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0410.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0411.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0412.png
+* Archive/Slides/img/kroenke_emis9e_ppt_0413.png
+* Archive/Slides/img/kroenke_emis9e_ppt_0414.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0415.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0416.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0417.png
+* Archive/Slides/img/kroenke_emis9e_ppt_042.png
+* Archive/Slides/img/kroenke_emis9e_ppt_043.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_044.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_045.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_046.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_047.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_048.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_049.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_050.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_051.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0510.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0511.png
+* Archive/Slides/img/kroenke_emis9e_ppt_0512.png
+* Archive/Slides/img/kroenke_emis9e_ppt_0513.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0514.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0515.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0516.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0517.png
+* Archive/Slides/img/kroenke_emis9e_ppt_0518.png
+* Archive/Slides/img/kroenke_emis9e_ppt_0519.png
+* Archive/Slides/img/kroenke_emis9e_ppt_052.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0520.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0521.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0522.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0523.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0524.png
+* Archive/Slides/img/kroenke_emis9e_ppt_053.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_054.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_055.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_056.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_057.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_058.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_059.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_060.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_061.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0610.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0611.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0612.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0613.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0614.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0615.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0616.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0617.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0618.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0619.png
+* Archive/Slides/img/kroenke_emis9e_ppt_062.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_063.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_064.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_065.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_066.png
+* Archive/Slides/img/kroenke_emis9e_ppt_067.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_068.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_069.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_070.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_071.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_072.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_073.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_074.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_075.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_076.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_077.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_078.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_079.png
+* Archive/Slides/img/kroenke_emis9e_ppt_080.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_081.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0810.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0811.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0812.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0813.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0814.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0815.png
+* Archive/Slides/img/kroenke_emis9e_ppt_082.png
+* Archive/Slides/img/kroenke_emis9e_ppt_083.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_084.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_085.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_086.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_087.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_088.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_089.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_090.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_091.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_0910.png
+* Archive/Slides/img/kroenke_emis9e_ppt_092.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_093.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_094.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_095.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_096.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_097.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_098.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_099.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_100.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_101.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1010.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1011.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1012.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1013.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1014.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1015.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1016.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1017.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1018.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1019.png
+* Archive/Slides/img/kroenke_emis9e_ppt_102.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_103.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_104.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_105.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_106.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_107.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_108.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_109.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_110.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_111.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1110.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1111.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1112.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1113.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1114.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1115.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_1116.png
+* Archive/Slides/img/kroenke_emis9e_ppt_112.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_113.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_114.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_115.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_116.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_117.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_118.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_119.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS0.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS1.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS10.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS11.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS12.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS13.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS14.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS15.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS16.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS17.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS18.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS19.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS2.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS20.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS21.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS22.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS23.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS24.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS25.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS26.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS27.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS28.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS29.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS3.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS30.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS31.png
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS4.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS5.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS6.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS7.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS8.jpg
+* Archive/Slides/img/kroenke_emis9e_ppt_ce01_EXCEL-BASICS9.jpg
+* Archive/Slides/kroenke_emis9e_ppt_01.pptx
+* Archive/Slides/kroenke_emis9e_ppt_02.pptx
+* Archive/Slides/kroenke_emis9e_ppt_03.pptx
+* Archive/Slides/kroenke_emis9e_ppt_04.pptx
+* Archive/Slides/kroenke_emis9e_ppt_05.pptx
+* Archive/Slides/kroenke_emis9e_ppt_06.pptx
+* Archive/Slides/kroenke_emis9e_ppt_07.pptx
+* Archive/Slides/kroenke_emis9e_ppt_08.pptx
+* Archive/Slides/kroenke_emis9e_ppt_09.pptx
+* Archive/Slides/kroenke_emis9e_ppt_10.pptx
+* Archive/Slides/kroenke_emis9e_ppt_11.pptx
+* Archive/Slides/kroenke_emis9e_ppt_12.pptx
+* Archive/Slides/kroenke_emis9e_ppt_ce01_EXCEL-BASICS.pptx
+* Archive/Slides/kroenke_emis9e_ppt_ce02_AI-INNOVATION.pptx
+* Archive/Slides/out01.md
+* Archive/Slides/out02.md
+* Archive/Slides/out02e.md
+* Archive/Slides/out03.md
+* Archive/Slides/out04.md
+* Archive/Slides/out10.md
+* Archive/Slides/out11.md
+* ERPS.Rproj
+* assets/USydLogo-black.svg
+* assets/USydLogo-white.svg
+* assets/USydLogo.svg
+* assets/custom.css
+* assets/example.bib
+* assets/mathjax-equation-numbers.html
+* assets/remark-zoom.js
+* assets/sydney-fonts.css
+* assets/sydney.css
+* assets/title-image1.jpg
+* assets/title-image2.jpg
+* img/laudon_emis14_ppt_ch01_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch01_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch01_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch01_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch01_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct10.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct11.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct12.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct13.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct5.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct6.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct7.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct8.jpg
+* img/laudon_emis14_ppt_ch02_MS-ct9.jpg
+* img/laudon_emis14_ppt_ch03_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch03_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch03_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch03_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch03_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch03_MS-ct5.jpg
+* img/laudon_emis14_ppt_ch03_MS-ct6.jpg
+* img/laudon_emis14_ppt_ch03_MS-ct7.jpg
+* img/laudon_emis14_ppt_ch04_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch04_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch04_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch04_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch05_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch05_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch05_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch05_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch05_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch05_MS-ct5.jpg
+* img/laudon_emis14_ppt_ch05_MS-ct6.jpg
+* img/laudon_emis14_ppt_ch05_MS-ct7.jpg
+* img/laudon_emis14_ppt_ch05_MS-ct8.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct10.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct11.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct12.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct5.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct6.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct7.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct8.jpg
+* img/laudon_emis14_ppt_ch06_MS-ct9.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct10.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct11.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct12.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct13.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct14.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct15.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct16.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct5.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct6.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct7.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct8.jpg
+* img/laudon_emis14_ppt_ch07_MS-ct9.jpg
+* img/laudon_emis14_ppt_ch08_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch08_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch08_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch08_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch08_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch08_MS-ct5.jpg
+* img/laudon_emis14_ppt_ch08_MS-ct6.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct10.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct5.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct6.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct7.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct8.jpg
+* img/laudon_emis14_ppt_ch09_MS-ct9.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct10.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct5.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct6.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct7.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct8.jpg
+* img/laudon_emis14_ppt_ch10_MS-ct9.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct10.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct11.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct5.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct6.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct7.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct8.jpg
+* img/laudon_emis14_ppt_ch11_MS-ct9.jpg
+* img/laudon_emis14_ppt_ch12_MS-ct0.jpg
+* img/laudon_emis14_ppt_ch12_MS-ct1.jpg
+* img/laudon_emis14_ppt_ch12_MS-ct2.jpg
+* img/laudon_emis14_ppt_ch12_MS-ct3.jpg
+* img/laudon_emis14_ppt_ch12_MS-ct4.jpg
+* img/laudon_emis14_ppt_ch12_MS-ct5.jpg
+* img/laudon_emis14_ppt_ch12_MS-ct6.jpg
+* img/laudon_emis14_ppt_ch12_MS-ct7.jpg
+* laudon_emis14_ppt_ch01_MS-ct.pptx.html
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/countdown/countdown.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/countdown/countdown.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/countdown/smb_stage_clear.mp3
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/crosstalk/css/crosstalk.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/crosstalk/js/crosstalk.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/crosstalk/js/crosstalk.js.map
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/crosstalk/js/crosstalk.min.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/crosstalk/js/crosstalk.min.js.map
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/header-attrs/header-attrs.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/htmlwidgets/htmlwidgets.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/jquery/jquery-AUTHORS.txt
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/jquery/jquery.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/jquery/jquery.min.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/jquery/jquery.min.map
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/panelset/panelset.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/panelset/panelset.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/plotly-binding/plotly.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/plotly-main/plotly-latest.min.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/remark-css/default.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/tachyons/tachyons.min.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/tile-view/tile-view.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/tile-view/tile-view.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/typedarray/typedarray.min.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css
+* laudon_emis14_ppt_ch02_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch03_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch04_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch05_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch06_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch07_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch08_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch09_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch10_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch11_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch12_MS-ct.pptx.Rmd
+* libs/.DS_Store
+* libs/remark-css-0.0.1/default-fonts.css
+* libs/remark-css-0.0.1/default.css
+* out01.md
+* out04.md
+* out05.md
+* out06.md
+* out07.md
+* out08.md
+* out09.md
+
+
+Deleted files:
+* out03e.md
+* out12.md
+* rsconnect/documents/Tes.Rmd/rpubs.com/rpubs/Document.dcf
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]

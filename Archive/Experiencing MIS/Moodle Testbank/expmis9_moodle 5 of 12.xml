@@ -1,0 +1,6481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question type="category">
+		<category>
+			<text><![CDATA[$course$/Experiencing MIS, 9e (Kroenke)/009 Chapter 9  Social Media Information Systems]]></text>
+		</category>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q001 ________ is the use of information technology to support the sharing of con]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[________ is the use of information technology to support the sharing of content among networks of users.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Electronic data interchange]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Data warehousing]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Cloud computing]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Social media]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q002 Which of the following statements is a characteristic of social media (SM) ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Which of the following statements is a characteristic of social media (SM) user communities?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[SM user communities are mostly based on geographic and familial ties.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Most users of SM belong to several different user communities.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[In community SM site relationships, the relationships in second-tier communities are disassociated from first-tier users.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[A viral hook is an inducement to constrain communications between user communities.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q003 Social media (SM) communities differ from regular communities because _____]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media (SM) communities differ from regular communities because ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[they are based on mutual interests of users]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[they are based only on organizational boundaries]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[most people belong to a single community]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[the total number of its users is determined by the sum of the sizes of all its communities]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q004 Platforms that enable the creation of social networks, or social relationsh]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Platforms that enable the creation of social networks, or social relationships among people with common interests, are offered by social media ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[users]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[sponsors]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[providers]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[communities]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q005 Social media (SM) ________ utilize SM sites to build social relationships.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media (SM) ________ utilize SM sites to build social relationships.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[outlets]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[users]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[providers]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[newsrooms]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q006 Social media (SM) ________ are formed based on mutual interests and transce]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media (SM) ________ are formed based on mutual interests and transcend familial, geographic, and organizational boundaries.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[communities]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[collaborators]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[dashboards]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[outlets]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q007 Which of the following statements is TRUE about viral hooks in a social med]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Which of the following statements is TRUE about viral hooks in a social media (SM) site?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[It is used to restrain information leaks from an organization.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[It is used to enhance an organization's privacy on its SM sites.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[It is designed to root out users who post junk content on an organization's SM site.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[It is an inducement to pass communication along the tiers of a community.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q008 Which of the following statements is TRUE of social media (SM) providers?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Which of the following statements is TRUE of social media (SM) providers?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[They do not support custom software for long durations as it is expensive.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[They generally charge users a license fee to use their applications.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[They use elastic, cloud-based servers to host SM presence.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[They sponsor content on SM sites.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q009 ________ refers to data and responses to data that are contributed by users]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[________ refers to data and responses to data that are contributed by users and SM sponsors.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Connection data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Capital data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Content data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Custom data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q010 ________ is data about relationships.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[________ is data about relationships.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Connection data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Capital data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Content data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Communication data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q011 A Facebook user likes pages of various organizations on Facebook. The fact ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[A Facebook user likes pages of various organizations on Facebook. The fact that the user has liked a particular organization is an example of ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[content data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[user response]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[data contribution]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[connection data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q012 In the context of the five components of social media information systems (]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[In the context of the five components of social media information systems (SMIS), which of the following statements is TRUE of social media (SM) providers?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[They usually process SM sites using desktops, laptops, and smartphones.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[They store and retrieve SM data on behalf of users.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[They employ browsers and native mobile applications to store and retrieve connection data.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[They are informal, evolving, and socially oriented.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q013 In the context of the five components of social media information systems (]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[In the context of the five components of social media information systems (SMIS), which of the following statements is TRUE of social media (SM) procedures?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[They process SM sites using elastic, cloud-based servers.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Organizations develop and operate their own custom, proprietary, social networking application software.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Informality makes SMIS difficult to use.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[They are informal, evolving, and socially oriented.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q014 Social media enables people to form communities, which are groups of people]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media enables people to form communities, which are groups of people related by a common interest.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q015 A social media information system is an information system that supports th]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[A social media information system is an information system that supports the sharing of content among networks of users.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q016 Social media communities develop and operate their own custom, proprietary,]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media communities develop and operate their own custom, proprietary, social networking application software.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q017 Social media communities are the companies that operate social media (SM) s]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media communities are the companies that operate social media (SM) sites.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q018 Facebook, Google+, LinkedIn, Twitter, Instagram, and Pinterest are examples]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Facebook, Google+, LinkedIn, Twitter, Instagram, and Pinterest are examples of social media providers that enable the creation of social networks.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q019 Social media providers create the features and functions of the site, and t]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media providers create the features and functions of the site, and they compete with one another for the attention of users.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q020 Social media users include only individuals and not organizations that use ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media users include only individuals and not organizations that use social media sites.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q021 Organizations create and manage social media (SM) accounts just like typica]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Organizations create and manage social media (SM) accounts just like typical users.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q022 Some companies hire staff to maintain their social media (SM) presence, pro]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Some companies hire staff to maintain their social media (SM) presence, promote their products, build relationships, and manage their image.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q023 Depending on how an organization wants to use social media, it can be a use]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Depending on how an organization wants to use social media, it can be a user, a provider, or both.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q024 Social media providers develop and operate their own custom, proprietary, s]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media providers develop and operate their own custom, proprietary, social networking application software.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q025 Content data is data about relationships.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Content data is data about relationships.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q026 Connection data differentiates social media.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Connection data differentiates social media.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q027 Web sites and social networking sites both present user and responder conte]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Web sites and social networking sites both present user and responder content, but only social networking applications store and process connection data.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q028 Social media (SM) application providers store and retrieve SM data on behal]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media (SM) application providers store and retrieve SM data on behalf of users.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q029 For social networking users, procedures are informal, evolving, and sociall]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[For social networking users, procedures are informal, evolving, and socially oriented.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q030 Informality in procedures means that unintended consequences are common in ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Informality in procedures means that unintended consequences are common in social media.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q031 Social media is creating new job titles, new responsibilities, and the need]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media is creating new job titles, new responsibilities, and the need for new types of training.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q032 What is social media?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[What is social media?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Social media (SM) is the use of information technology to support the sharing of content among networks of users. Social media enables people to form communities of practice, or communities that are groups of people related by a common interest. A social media information system (SMIS) is an information system that supports the sharing of content among networks of users.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q033 Who are social media (SM) users?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Who are social media (SM) users?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Social media (SM) users include both individuals and organizations that use SM sites to build social relationships. Hundreds of millions of individuals visit SM sites on a regular basis, and they do so in several ways. Organizations are SM users too. One may not think of an organization as a typical user, but in many ways it is. Organizations create and manage SM accounts just like typical users.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q034 What are social media (SM) providers?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[What are social media (SM) providers?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Social media (SM) providers are the companies that operate the SM sites. Facebook, Twitter, LinkedIn, and Google are all SM providers. They provide platforms that enable the creation of social networks, or social relationships among people with common interests. They develop and operate their own custom, proprietary, social networking application software and compete with one another for the attention of users.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q035 Explain the hardware component of social media information systems (SMIS) w]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Explain the hardware component of social media information systems (SMIS) with respect to each of the three organizational roles.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Both community users and employees process social media (SM) sites using desktops, laptops, smartphones, iPads, HTML 5 devices, and, indeed, any intelligent communications device. In most cases, SM application providers host the SM presence using elastic servers in the cloud.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q036 Explain the software component of social media information systems (SMIS) w]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Explain the software component of social media information systems (SMIS) with respect to each of the three organizational roles.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Social media (SM) users employ browsers and client applications to communicate with other users, send and receive content, and add and remove connections to communities and other users. These include desktop and mobile applications for a variety of platforms, including iOS, Android, and Windows.<br />SM application providers develop and operate their own custom, proprietary, social networking application software. Supporting such custom software is expensive over the long term, but SM application vendors must do so because the features and functions of their applications are fundamental to their competitive strategy.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q037 Explain the data component of social media information systems (SMIS).]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Explain the data component of social media information systems (SMIS).]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Social media (SM) data falls into two categories&#58; content and connection. Content data is data and responses to data that are contributed by users. Connection data is data about relationships. Connection data differentiates SMIS from Web site applications. Both Web sites and social networking sites present user and responder content, but only social networking applications store and process connection data. SM application providers store and retrieve SM data on behalf of sponsors and user communities.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q038 Explain the procedure component of social media information systems (SMIS) ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Explain the procedure component of social media information systems (SMIS) with respect to a user and an organization.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[For social networking users, procedures are informal, evolving, and socially oriented. One does what their friends do. Such informality makes using SMIS easy; it also means that unintended consequences are common. The most troubling examples concern user privacy. For organizations, social networking procedures are more formalized and aligned with an organization's strategy. Organizations develop procedures for creating content, managing user responses, removing obsolete or objectionable content, and extracting value from content. For example, setting up an SMIS to gather data on product problems is a wasted expense unless procedures exist to extract knowledge from that social networking data. Organizations also need to develop procedures to manage SM risk.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q039 Explain the people component of social media information systems (SMIS) wit]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Explain the people component of social media information systems (SMIS) with respect to a user and an organization.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Users of social media (SM) do what they want to do depending on their goals and their personalities. They behave in certain ways and observe the consequences. They may or may not change their behavior. SM users aren't necessarily rational, at least not in purely monetary ways. Organizations cannot be so casual. Anyone who uses his or her position in a company to speak for an organization needs to be trained on both SMIS user procedures and the organization's social networking policy.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q040 Social media's flow cannot be designed or diagrammed as it is very ________]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media's flow cannot be designed or diagrammed as it is very ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[dynamic]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[static]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[confounding]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[simple]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q041 Value chains determine ________.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Value chains determine ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[social media's requirements]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[social media's flow]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[unstructured business processes]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[structured business processes]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q042 Which of the following statements is TRUE of social customer relationship m]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Which of the following statements is TRUE of social customer relationship management (CRM)?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Relationships between organizations and customers are unchanging.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Each customer crafts his or her own relationship with a company.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Sales managers can control what a customer is reading about a company and its products.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Customers who are likely to make the highest purchases are likely to receive the most attention.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q043 ________ is a dynamic social media process of employing users to participat]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[________ is a dynamic social media process of employing users to participate in product design or product redesign.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Social capitalization]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Flexible product development]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Crowdsourcing]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Collaborative product development]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q044 Since its inception, social media (SM) has been widely used to market produ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Since its inception, social media (SM) has been widely used to market products to end users in ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[improving communication channels within an organization]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[business-to-business (B2B) relationships]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[business-to-consumer (B2C) relationships]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[promoting brand awareness]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q045 A(n) ________ social networking service like Yammer can be used to provide ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[A(n) ________ social networking service like Yammer can be used to provide managers with real-time feedback about how to resolve internal operational inefficiencies.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[enterprise]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[media sharing]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[microblogging]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[polling]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q046 Which of the following is a use of social media (SM) in human resources?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Which of the following is a use of social media (SM) in human resources?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[It is used to determine performance incentives.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[It is used to keep track of employees' personal lives.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[It is used for recruiting candidates.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[It is used for terminating employees.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q047 Internal personnel social media sites such as MySite and MyProfile in Share]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Internal personnel social media sites such as MySite and MyProfile in SharePoint and other similar enterprise systems are used for ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[employee recruitment]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[employee communication]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[employee evaluation]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[employee termination]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q048 Which of the following indicates a risk of using social media in human reso]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Which of the following indicates a risk of using social media in human resources?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[recruiting employees for vacant jobs only through social media and not otherwise]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[determining employee performance through social media]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[probing employee personal and social life through social media]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[making errors in forming conclusions about employees through social media]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q049 Which of the following statements is TRUE of using social media to advance ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Which of the following statements is TRUE of using social media to advance organizational strategies?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[The unpredictability of dynamic processes like social media is encouraged in supply chains.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Solving supply chain problems via social media reinforces an organization's sense of privacy.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Users who have no financial incentive are willing to provide reviews to the buyer community.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Organizations who sell to developer networks are the last to adopt SM-based customer support.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q050 Value chains determine unstructured business processes.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Value chains determine unstructured business processes.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q051 Social media (SM) is by its very nature static.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media (SM) is by its very nature static.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q052 Social media's flow cannot be designed or diagrammed easily. Even if it was]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media's flow cannot be designed or diagrammed easily. Even if it was to be designed, the social media process would have changed even before the diagram is finished.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q053 Social media fundamentally changes the balance of power among users, their ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media fundamentally changes the balance of power among users, their communities, and organizations.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q054 In social customer relationship management, relationships between organizat]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[In social customer relationship management, relationships between organizations and customers are fixed.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q055 In social customer relationship management, since the relationships between]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[In social customer relationship management, since the relationships between organizations and customers emerge from joint activity, customers have as much control as companies.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q056 Traditional customer relationship management (CRM) flies in the face of str]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Traditional customer relationship management (CRM) flies in the face of structured and controlled processes of social CRM.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q057 eBay often solicits customers to provide feedback on their eBay experience;]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[eBay often solicits customers to provide feedback on their eBay experience; this is an example of crowdsourcing.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q058 Social media is widely used in business-to-business relationships and not i]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media is widely used in business-to-business relationships and not in business-to-customer relationships.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q059 Operations use social media to improve communication channels with their cu]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Operations use social media to improve communication channels with their customers, but not within an organization.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q060 Social media is increasingly used for finding employee prospects.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media is increasingly used for finding employee prospects.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q061 Use of social media to recruit and evaluate potential employees is prohibit]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Use of social media to recruit and evaluate potential employees is prohibited.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q062 Social media sites that become too defensive can be perceived as promulgati]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media sites that become too defensive can be perceived as promulgating (i.e., promoting) an unpopular management message.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q063 What was the purpose of traditional customer relationship management (CRM)?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[What was the purpose of traditional customer relationship management (CRM)?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[In the past, organizations controlled their relationships with customers using structured processes and related information systems. In fact, the primary purpose of traditional CRM was to manage customer touches. Traditional CRM ensured that an organization spoke to customers with one voice and that it controlled the messages, the offers, and even the support that customers received based on the value of each particular customer.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q064 Explain the social customer relationship management (CRM) process.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Explain the social customer relationship management (CRM) process.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Social CRM is a dynamic, social media-based CRM process. The relationships between organizations and customers emerge in a dynamic process as both parties create and process content. In addition to the traditional forms of promotion, employees in an organization create wikis, blogs, discussion lists, frequently asked questions, sites for user reviews and commentary, and other dynamic content. Customers search this content, contribute reviews and commentary, ask more questions, create user groups, and so forth. With social CRM, each customer crafts his or her own relationship with the company.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q065 What is the difference between traditional customer relationship management]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[What is the difference between traditional customer relationship management (CRM) and social customer relationship management (CRM)?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[In social CRM, because relationships emerge from a joint activity, customers have as much control as companies. This characteristic is an anathema to traditional sales managers who want control over what a customer is reading, seeing, and hearing about a company and its products. Further, traditional CRM is centered on lifetime value; customers who are likely to generate the most business get the most attention and have the most impact on the organization. But, with social CRM, a customer who spends 10 cents but who is an effective reviewer, commentator, or blogger can have more influence than a quiet customer who purchases $10 million a year. Such imbalance is incomprehensible to traditional sales managers.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q066 Being linked to a network of highly regarded contacts is a form of ________]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Being linked to a network of highly regarded contacts is a form of ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[social credential]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[personal reinforcement]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[mobility]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[nepotism]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q067 Which of the following statements is TRUE of social capital?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Which of the following statements is TRUE of social capital?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Social capital is an investment in human knowledge and skills for future profit.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[The value of social capital is determined by the number of relationships in a social network.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Social capital can be gained by limiting the number of friends.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Being linked into social networks undermines a professional's image and position in an organization.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q068 A person gains social capital by ________.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[A person gains social capital by ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[adding more friends]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[removing unknown friends]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[adding only work-related friends]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[removing people who have less social capital]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q069 Capital is defined as the investment of resources for future profit.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Capital is defined as the investment of resources for future profit.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q070 Social capital is investment in human knowledge and skills for future profi]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social capital is investment in human knowledge and skills for future profit.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q071 Being linked into social networks reinforces a professional's identity, ima]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Being linked into social networks reinforces a professional's identity, image, and position in an organization or industry.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q072 A social networking user gains social capital by adding more friends and by]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[A social networking user gains social capital by adding more friends and by strengthening relationships with existing friends.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q073 Humans have social capital, whereas organizations do not have social capita]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Humans have social capital, whereas organizations do not have social capital.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q074 To an organization, the strength of a relationship is the likelihood that a]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[To an organization, the strength of a relationship is the likelihood that an entity in the relationship will do something that benefits the organization.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q075 According to business literature, describe three types of capital that are ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[According to business literature, describe three types of capital that are used.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Business literature describes three types of capital&#58; traditional, human, and social. Karl Marx defined capital as the investment of resources for future profit. This traditional definition refers to investments into resources such as factories, machines, manufacturing equipment, and the like. In comparison, human capital is the investment in human knowledge and skills for future profit. By taking this class, people are investing in their own human capital. In other words, they are investing their money and time to obtain knowledge that they hope will differentiate them from other workers and ultimately give them a wage premium in the workforce. According to Nan Lin, social capital is investment in social relations with the expectation of returns in a marketplace.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q076 What is social capital?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[What is social capital?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[According to Nan Lin, social capital is investment in social relations with the expectation of returns in a marketplace. One can see social capital at work in one's personal life. They strengthen their social relationships when they help someone get a job, set a friend up on a date, or introduce a friend to someone famous. They weaken their social relationships by continually freeloading, declining requests for help, or failing to spend time with friends.<br />In one's professional life, they are investing in their social capital when they attend a business function for the purpose of meeting people and reinforcing relationships. Similarly, one can use social media to increase their social capital by recommending or endorsing someone on LinkedIn, liking a picture on Facebook, retweeting a tweet, or commenting on an Instagram picture.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q077 According to Nan Lin, how do people benefit from social capital?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[According to Nan Lin, how do people benefit from social capital?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[According to Nan Lin, people benefit from social capital in four ways&#58;<br />1. Information<br />2. Influence<br />3. Social credentials<br />4. Personal reinforcement<br /><br />First, relationships in social networks can provide information about opportunities, alternatives, problems, and other factors important to business professionals. Second, social networks provide an opportunity to influence decision makers at one's employer or in other organizations that are critical to their success. Third, being linked to a network of highly regarded contacts is a form of social credential. One can bask in the glory of those with whom they are connected. Finally, being linked into social networks reinforces a professional's identity, image, and position in an organization or industry.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q078 Web surfers cannot filter out advertising content.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Web surfers cannot filter out advertising content.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q079 Conversion rate measures the frequency that someone who clicks on an ad mak]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Conversion rate measures the frequency that someone who clicks on an ad makes a purchase, &quot;likes&quot; a site, or takes some other action desired by an advertiser.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q080 Why do advertisers like digital advertising?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Why do advertisers like digital advertising?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Advertisers like digital ads because unlike traditional media such as newspapers, users can respond directly to these ads by clicking on them. By running an ad in the print version of the Wall Street Journal, one has no idea of who responds to that ad and how strongly, but by placing an ad for that same product in the newspaper's online version, one will soon know the percentage of viewers who clicked that ad and what action they took next. The ability to track these statistics led to development of the pay-per-click revenue model, in which advertisers display ads to potential customers for free, and then get paid when a customer clicks on the ad.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q081 A ________ is a statement that delineates employees' rights and responsibil]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[A ________ is a statement that delineates employees' rights and responsibilities in an organization.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[statement of purpose]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[labor bill]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[social media policy]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[corporate datasheet]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q082 Which of the following statements is TRUE of social networking problems?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Which of the following statements is TRUE of social networking problems?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Responses to problematic content are best reserved for instances where it has caused an organization to do something positive.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Inappropriate contributions that contain obscene or otherwise inappropriate content should be ignored indefinitely.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[The product development team should not receive criticisms posted on a social networking site.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[If problematic content represents reasonable criticism of the organization's products, the best response is to delete it.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q083 Patronizing responses to comments from content contributors can generate a ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Patronizing responses to comments from content contributors can generate a ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[positive review]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[sympathetic appeal]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[rise in followers count]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[strong backlash]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q084 The first step that any organization should take to manage the risk of empl]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[The first step that any organization should take to manage the risk of employee communication is to develop and publicize a social media policy.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q085 If a reasoned, non-defensive response generates continued and unreasonable ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[If a reasoned, non-defensive response generates continued and unreasonable user-generated content from that same source, it is best for an organization to delete it.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q086 Explain the major sources of user-generated content problems.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Explain the major sources of user-generated content problems.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[When a business participates in a social network or opens its site to a user-generated content (UGC), it opens itself to misguided people who post junk unrelated to the site's purpose. Crackpots may also use the network or UGC site as a way of expressing passionately held views about unrelated topics, such as UFOs, government cover-ups, fantastic conspiracy theories, and so forth. As of the possibility of such content, organizations should regularly monitor the site and remove objectionable material immediately. Unfavorable reviews are another risk. Research indicates that customers are sophisticated enough to know that few, if any, products are perfect. Most customers want to know the disadvantages of a product before purchasing it so they can determine if those disadvantages are important for their application. Mutinous movements are an extension of bad reviews.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q087 How should one respond to social networking problems?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[How should one respond to social networking problems?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[The first task in managing social networking risk is to know the sources of potential problems and to monitor sites for problematic content. Once such content is found, however, organizations must have a plan for creating an organization's response. Three possibilities are&#58;<br />1. Leave it<br />2. Respond to it<br />3. Delete it<br /><br />If the problematic content represents reasonable criticism of the organization's products or services, the best response may be to leave it where it is. Such criticism indicates that the site is not just a shill for the organization, but contains legitimate user content.<br />A second alternative is to respond to the problematic content. However, this alternative is dangerous. If the response could be construed in any way as patronizing or insulting to the content contributor, the response can enrage the community and generate a strong backlash. In most cases, responses are best reserved for when the problematic content has caused the organization to do something positive as a result. If a reasoned, nondefensive response generates continued and unreasonable UGC from that same source, it is best for the organization to do nothing.<br />Deleting content should be reserved for contributions that are inappropriate because they are contributed by crackpots, because they have nothing to do with the site, or because they contain obscene or otherwise inappropriate content. However, deleting legitimate negative comments can also result in a strong user backlash.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q088 ________ in the context of management means loss of control of employees.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[________ in the context of management means loss of control of employees.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Transcendence]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Divergence]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Emergence]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Dependence]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q089 Chief Digital Officer (CDO) is a position responsible for developing and ma]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Chief Digital Officer (CDO) is a position responsible for developing and managing innovative social media programs.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q090 In the context of customer relationship management (CRM), a vendor might lo]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[In the context of customer relationship management (CRM), a vendor might lose control of the customer relationship.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q091 In the context of management, transcendence means loss of control of employ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[In the context of management, transcendence means loss of control of employees.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q092 Social media is a convergence of disciplines.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media is a convergence of disciplines.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q093 Larger organizations only use external social media platforms.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Larger organizations only use external social media platforms.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q094 A popular radio station is trying to get more users. They have created a co]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[A popular radio station is trying to get more users. They have created a contest for the social media fans to win tickets to see a popular music artists. The more the user shares the link, the more entries they have to the contest. This is called a ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[community contest]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[user response]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[data contribution]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[viral hook]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q095 Creating and managing content is part of the ________ component from the fi]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Creating and managing content is part of the ________ component from the five components of SMIS.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[procedures]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[software]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[people]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q096 Social CRM is not a dynamic social media process.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social CRM is not a dynamic social media process.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q097 The primary risk of ________ is the loss of control.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[The primary risk of ________ is the loss of control.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[peer-to-peer support]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[social media]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[structured supply chain processes]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[limited supply chain processes]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q098 Organizations use social media sites to hire the best people quickly and at]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Organizations use social media sites to hire the best people quickly and at a lower cost.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q099 One way to measure the success of your social networking efforts is through]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[One way to measure the success of your social networking efforts is through an online service such as ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Facebook]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[social capital]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Klout]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[influencer]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q100 ________ allow sales to scale to levels not possible in the past because of]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[________ allow sales to scale to levels not possible in the past because of the many simultaneous connections.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Influencer individuals]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Video production]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Social media information system]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[The Internet]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q101 Social capital can never be overspent.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social capital can never be overspent.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q102 ________ measures the frequency that someone who clicks on an ad makes a pu]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[________ measures the frequency that someone who clicks on an ad makes a purchase.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Conversion rate]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Advertising metrics]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Digital ads]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Data]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q103 James decides to create an app that keeps up with miles on the car. He offe]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[James decides to create an app that keeps up with miles on the car. He offers the app for free, but if a user wants a report sent to them they have to upgrade the app. This revenue model is referred to as ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[advertising]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[pay-per-click]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[freemium]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[software]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q104 All of these are revenue models for social media EXCEPT ________.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[All of these are revenue models for social media EXCEPT ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[freemium]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[advertising]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[pay-per-click]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[peer-to-peer]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q105 Explain how a company can raise the value of their site with user contribut]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Explain how a company can raise the value of their site with user contributions.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[The phrase use increases value means that the more people use a site, the more value the site has, and the more people that visit it. Furthermore, the more value a site has, the more its existing users will return. This phenomenon led to the rise of user comments and reviews, blogging, and, within a few years, social media. Ad revenue, as a result, increased because more people were seeing, and clicking on, more ads on their favorite sites. ]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q106 Users do not click on mobile ads.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Users do not click on mobile ads.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q107 Who is the product since social media is free?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Who is the product since social media is free?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>false</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[you]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[video ads]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[companies]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[There is no product in social media.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q108 Since users expect for social media to be free, what is one of the biggest ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Since users expect for social media to be free, what is one of the biggest dilemmas for social media?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[How do companies monetize the product?]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[How do the companies keep every safe?]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[What to do about fake news?]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[deleting any inappropriate content]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q109 All of the followings are problems from external sources when dealing with ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[All of the followings are problems from external sources when dealing with the risk of inappropriate content EXCEPT ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[the CEO of the company]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[junk contributions]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[unfavorable reviews]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[inappropriate content]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q110 Social media can directly affect the ability of the organization to secure ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media can directly affect the ability of the organization to secure their information resources.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q111 Describe the internal risks from social media when using social media.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Describe the internal risks from social media when using social media.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[First, the use of social media can directly affect the ability of the organization to secure their information resources. Employees using social media can unintentionally (or intentionally) leak information about intellectual property, new marketing campaigns, future products, potential layoffs, budget woes, product flaws, or upcoming mergers. Second, employees may inadvertently increase corporate liability when they use social media. Finally, the increased use of social media can be a threat to employee productivity. Posts, tweets, pins, likes, comments, and endorsements all take time.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q112 By 2029, organizations will be the ________, supporting the work of people ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[By 2029, organizations will be the ________, supporting the work of people on the exterior.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[endoskeleton]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[in the cloud]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[only on social media]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[agile corporations]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q113 If you enjoy social media and desire an executive position, which position ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[If you enjoy social media and desire an executive position, which position would be right for you?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Chief Operating Officer]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Chief Digital Officer]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Chief Social Media Strategist]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Chief Financial Officer]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q114 Many social networking vendors use ________ to process their data.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Many social networking vendors use ________ to process their data.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Microsoft Excel]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[the Cloud]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[a browser]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[a NoSQL database management system]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q115 Facebook began developing its own in-house DBMS called ________ which it ev]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Facebook began developing its own in-house DBMS called ________ which it eventually donated to the open source community.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Cassandra]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Facebook Live]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[NoSQL]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Facebook Mobile]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q116 In terms of actual users, some social media sites exceed the total populati]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[In terms of actual users, some social media sites exceed the total population of the United States.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q117 Social media content and connection data have a complicated structure.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Social media content and connection data have a complicated structure.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="0">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q118 ________ can warp and ruin the support experience as customers fight with o]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[________ can warp and ruin the support experience as customers fight with one another.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Payment]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Customer acknowledgement]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Polling]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Developer networks]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q119 Which of the following is a significant risk when discussing problems over ]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Which of the following is a significant risk when discussing problems over social media especially in logistics?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[disagreements in the company]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[confusion for the customer]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[loss of privacy]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[developer networks cooperation]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q120 All of the following are viewed as negatives when companies use social medi]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[All of the following are viewed as negatives when companies use social media for recruiting EXCEPT ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[spelling errors]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[political rants]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[poor grammar]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[volunteer work]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q121 Organizations use social media sites such as LinkedIn to hire the best peop]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Organizations use social media sites such as LinkedIn to hire the best people at a lower cost than traditional hiring methods.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q122 What is one way organizations increase social capital?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[What is one way organizations increase social capital?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[by posting funny videos]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[creating contests and giveaways]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[endorsements by high-profile people]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[offering coupons on their social media site.]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q123 What guidelines should one consider when using social networking profession]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[What guidelines should one consider when using social networking professionally?]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[So, when you use social networking professionally, consider these guidelines. You gain social capital by adding more friends and by strengthening the relationships you have with existing friends. Further, you gain more social capital by adding friends and strengthening relationships with people who control resources that are important to you. Such calculations may seem cold, impersonal, and possibly even phony. When applied to the recreational use of social networking, they may be. But when you use social networking for professional purposes, keep them in mind. As a business professional, it's important to understand what social capital is, why it's valuable, and how you can benefit from it.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q124 ________ is a location service that allows applications to know when a user]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[________ is a location service that allows applications to know when a user has crossed a virtual fence and then triggers an automated action.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[Geofencing]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Google Maps]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Wi-Fi]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[Super user]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q125 Companies can use ________ to target customers with ads when they are physi]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Companies can use ________ to target customers with ads when they are physically on company premises.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[the Internet]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[geofencing]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[greeters]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[free products]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="essay">
+		<name>
+			<text>
+				<![CDATA[q126 What is geofencing? Provide an example of how can a company use geofencing?]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[What is geofencing? Provide an example of how can a company use geofencing? ]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0</penalty>
+		<hidden>0</hidden>
+		<responseformat>editor</responseformat>
+		<responsefieldlines>15</responsefieldlines>
+		<attachments>0</attachments>
+		<graderinfo format="html">
+			<text>
+				<![CDATA[Examples may vary. Geofencing is a location service that allows applications to know when a user has crossed a virtual fence (specific location) and then triggers an automated action. For example, suppose a user enters a coffee shop and her phone automatically connects to the free Wi-Fi. An app on her phone recognizes the coffee shop wireless network and pushes an in-store ad to her phone for a free donut. Her phone might also be able to use her cellular network to determine her location, and she could see that there's a sale on shoes at the outdoor mall down the street.]]>
+			</text>
+		</graderinfo>
+		<responsetemplate format="html">
+			<text></text>
+		</responsetemplate>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>
+				<![CDATA[q127 All of the followings are problems from internal risks from social media wi]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[All of the followings are problems from internal risks from social media within an organization EXCEPT ________.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<shuffleanswers>true</shuffleanswers>
+		<answernumbering>ABCD</answernumbering>
+		<single>true</single>
+		<correctfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</correctfeedback>
+		<partiallycorrectfeedback format="html">
+			<text></text>
+		</partiallycorrectfeedback>
+		<incorrectfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</incorrectfeedback>
+		<answer fraction="100" format="html">
+			<text>
+				<![CDATA[unfavorable reviews by a user]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[intentionally leaking intellectual property]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[decreased productivity]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="html">
+			<text>
+				<![CDATA[tweeting about students]]>
+			</text>
+			<feedback format="html">
+				<text>
+					<![CDATA[]]>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>
+				<![CDATA[q128 Most social media companies rely on selling data to make money.]]>
+			</text>
+		</name>
+		<questiontext format="html">
+			<text>
+				<![CDATA[Most social media companies rely on selling data to make money.]]>
+			</text>
+		</questiontext>
+		<generalfeedback format="html">
+			<text>
+				<![CDATA[]]>
+			</text>
+		</generalfeedback>
+		<defaultgrade>1</defaultgrade>
+		<penalty>0.0000000</penalty>
+		<hidden>0</hidden>
+		<answer fraction="100">
+			<text>true</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback format="html">
+				<text>
+				</text>
+			</feedback>
+		</answer>
+	</question>
+</quiz>

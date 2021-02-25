@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Tue Feb 23 2021 17:27:47 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* 2_Collaboration.Rmd
+* 2_Collaboration.html
+
+
+Created files:
+* .autogit/logs/log-23-1-2021-16-57-40.txt
+* img/1280px-Valve_logo.svg.png
+* img/2_DOC_Valve_NewEmployeeHandbook.pdf
+* references.bib
+
+
+Deleted files:
+
+
+Renamed files:

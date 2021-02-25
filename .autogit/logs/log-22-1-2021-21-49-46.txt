@@ -1,0 +1,109 @@
+-------------------- Auto-Git Log --------------------
+		Mon Feb 22 2021 21:49:46 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Introduction.Rmd
+* Introduction.html
+* assets/custom.css
+
+
+Created files:
+* .autogit/logs/log-22-1-2021-21-19-40.txt
+* Introduction_files/bootstrap/css/bootstrap-theme.css
+* Introduction_files/bootstrap/css/bootstrap-theme.css.map
+* Introduction_files/bootstrap/css/bootstrap-theme.min.css
+* Introduction_files/bootstrap/css/bootstrap.css
+* Introduction_files/bootstrap/css/bootstrap.css.map
+* Introduction_files/bootstrap/css/bootstrap.min.css
+* Introduction_files/bootstrap/css/cerulean.min.css
+* Introduction_files/bootstrap/css/cosmo.min.css
+* Introduction_files/bootstrap/css/darkly.min.css
+* Introduction_files/bootstrap/css/flatly.min.css
+* Introduction_files/bootstrap/css/fonts/Lato.ttf
+* Introduction_files/bootstrap/css/fonts/LatoBold.ttf
+* Introduction_files/bootstrap/css/fonts/LatoItalic.ttf
+* Introduction_files/bootstrap/css/fonts/NewsCycle.ttf
+* Introduction_files/bootstrap/css/fonts/NewsCycleBold.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSans.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSansBold.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSansBoldItalic.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSansItalic.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSansLight.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSansLightItalic.ttf
+* Introduction_files/bootstrap/css/fonts/Raleway.ttf
+* Introduction_files/bootstrap/css/fonts/RalewayBold.ttf
+* Introduction_files/bootstrap/css/fonts/Roboto.ttf
+* Introduction_files/bootstrap/css/fonts/RobotoBold.ttf
+* Introduction_files/bootstrap/css/fonts/RobotoLight.ttf
+* Introduction_files/bootstrap/css/fonts/RobotoMedium.ttf
+* Introduction_files/bootstrap/css/fonts/SourceSansPro.ttf
+* Introduction_files/bootstrap/css/fonts/SourceSansProBold.ttf
+* Introduction_files/bootstrap/css/fonts/SourceSansProItalic.ttf
+* Introduction_files/bootstrap/css/fonts/SourceSansProLight.ttf
+* Introduction_files/bootstrap/css/fonts/Ubuntu.ttf
+* Introduction_files/bootstrap/css/journal.min.css
+* Introduction_files/bootstrap/css/lumen.min.css
+* Introduction_files/bootstrap/css/paper.min.css
+* Introduction_files/bootstrap/css/readable.min.css
+* Introduction_files/bootstrap/css/sandstone.min.css
+* Introduction_files/bootstrap/css/simplex.min.css
+* Introduction_files/bootstrap/css/spacelab.min.css
+* Introduction_files/bootstrap/css/united.min.css
+* Introduction_files/bootstrap/css/yeti.min.css
+* Introduction_files/bootstrap/fonts/glyphicons-halflings-regular.eot
+* Introduction_files/bootstrap/fonts/glyphicons-halflings-regular.svg
+* Introduction_files/bootstrap/fonts/glyphicons-halflings-regular.ttf
+* Introduction_files/bootstrap/fonts/glyphicons-halflings-regular.woff
+* Introduction_files/bootstrap/fonts/glyphicons-halflings-regular.woff2
+* Introduction_files/bootstrap/js/bootstrap.js
+* Introduction_files/bootstrap/js/bootstrap.min.js
+* Introduction_files/bootstrap/js/npm.js
+* Introduction_files/bootstrap/shim/html5shiv.min.js
+* Introduction_files/bootstrap/shim/respond.min.js
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/acceptDeleteIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/addNodeIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/backIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/connectIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/cross.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/cross2.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/deleteIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/downArrow.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/editIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/leftArrow.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/minus.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/plus.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/rightArrow.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/upArrow.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/zoomExtends.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/timeline/delete.png
+* Introduction_files/timeline/lib/vis-4.16.1/vis.min.css
+* Introduction_files/timeline/lib/vis-4.16.1/vis.min.js
+* Introduction_files/timeline/timevis.css
+* Introduction_files/timeline/timevis.js
+* Introduction_files/timeline/timevis.yaml
+* Introduction_files/timevis-binding/timevis.js
+* Introduction_files/vis/img/network/acceptDeleteIcon.png
+* Introduction_files/vis/img/network/addNodeIcon.png
+* Introduction_files/vis/img/network/backIcon.png
+* Introduction_files/vis/img/network/connectIcon.png
+* Introduction_files/vis/img/network/cross.png
+* Introduction_files/vis/img/network/cross2.png
+* Introduction_files/vis/img/network/deleteIcon.png
+* Introduction_files/vis/img/network/downArrow.png
+* Introduction_files/vis/img/network/editIcon.png
+* Introduction_files/vis/img/network/leftArrow.png
+* Introduction_files/vis/img/network/minus.png
+* Introduction_files/vis/img/network/plus.png
+* Introduction_files/vis/img/network/rightArrow.png
+* Introduction_files/vis/img/network/upArrow.png
+* Introduction_files/vis/img/network/zoomExtends.png
+* Introduction_files/vis/img/timeline/delete.png
+* Introduction_files/vis/vis.min.css
+* Introduction_files/vis/vis.min.js
+
+
+Deleted files:
+
+
+Renamed files:

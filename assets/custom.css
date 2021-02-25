@@ -1,0 +1,201 @@
+.hide {
+  display: none;
+}
+
+div.remark-slide-content.video {
+  padding: 0;
+}
+
+.sessions ol {
+  display: inline-block;
+  list-style: none;
+  counter-reset: list-number 0;
+}
+
+.sessions ol li {
+  float: left;
+  width: 10em;
+  height: 5.3em;
+  display: block;
+  background-color:#e64626;;
+  margin: 0.5em;
+  padding: 0 0 0 2em;
+  font-weight: bold;
+  color: white;
+}
+
+.sessions ol li:before {
+  counter-increment: list-number;
+  content: counter(list-number);
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin: 0 .5em 0 -2.5em;
+  background-color:white;
+  color:  #e64626;
+  text-align: right;
+  padding: .3em .5em;
+}
+
+.sessions ol li .excercise,
+.sessions ol li .date {
+  line-height: 1em;
+  display: block;
+  clear: left;
+  font-size: .7em;
+  font-weight: normal;
+  margin-left: -1.35em;
+  margin-top: .4em;
+}
+
+.sessions ol li .excercise::before,
+.sessions ol li .date::before {
+  font-family: "Font Awesome 5 Free";
+   display: inline-block;
+   padding-right: .4em;
+   vertical-align: middle;
+   font-weight: 900;
+   margin-left: -1em;
+   margin-right: 1em;
+}
+
+.sessions ol li .excercise::before {
+  content: "\f135";
+}
+
+.sessions ol li .date::before {
+  content: "\f073";
+}
+
+.module-structure table {
+  font-size: 2em;
+  line-height: 1.3em;
+  border: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.module-structure table td {
+  background-color: transparent;
+}
+
+.module-structure thead {
+  font-size: .5em;
+  color: #ddd;
+  height: 1em;
+  background: transparent;
+  padding-right: 2em;
+}
+
+.module-structure table td {
+  padding-right: 2em;
+}
+
+.module-structure .lecture::before, 
+.module-structure .discussion::before, 
+.module-structure .break::before,
+.module-structure .excercise::before, 
+.module-structure .presentation::before,
+.module-structure .reflection::before,
+.module-structure .time::after {
+   font-family: "Font Awesome 5 Free";
+   display: inline-block;
+   width: 1.5em;
+   padding-right: 1.2em;
+   padding-left: .7em;
+   vertical-align: middle;
+   font-weight: 900;
+}
+
+.module-structure .lecture::before {content: "\f51c";}
+.module-structure .discussion::before {content: "\f086";}
+.module-structure .break::before {content: "\f0f4";}
+.module-structure .excercise::before {content: "\f135";}
+.module-structure .presentation::before {content: "\f630";}
+.module-structure .reflection::before {content: "\f079";}
+
+.module-structure .time::after {
+  content: "\f017"; 
+  padding-left: .5em;
+  padding-right: 2em;
+  text-align: right;
+  font-size: 1.9em; 
+  color:black;
+}
+
+div.arrows ol {
+  list-style: none;
+  display: block;
+  width: 100%;
+}
+
+div.arrows ol li {
+  width: 5.5em;
+  background-color: #e64626;
+  border: 1px solid #e64626;
+  border-right-width: 4px;
+  display: table-cell;
+  float: left;
+  height: 4em;
+  padding-left: .5em;
+  vertical-align: middle;
+  display:flex;
+  align-items:center;
+  margin-right: 3em;
+  font-size: .8em;
+  color: white;
+}
+
+div.arrows li::after {
+  position: absolute;
+  content: " ";
+  width: 0;
+  height: 0;
+  border: 2em solid #e64626;;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  margin-left: 4.945em;
+}
+
+.agenda ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 2em;
+}
+
+.agenda ul li {
+  counter-increment: step-counter;
+  margin-bottom: 1em;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 1.2em;
+  border: 3px solid #e64626;
+}
+
+.agenda ul li a {
+  display: inline-block;
+  color: #e64626;
+  font-weight: bold;
+}
+
+.agenda ul li a:hover {
+  background-color: gainsboro;
+}
+
+.agenda ul li a:active {
+  background-color: #e64626;
+  color: #fff;
+}
+
+.agenda ul li::before {
+  content: counter(step-counter);
+  margin-right: 1em;
+  font-size: 1.2em;
+  background-color: #e64626;
+  color: white;
+  font-weight: bold;
+  padding: .12em .5em;
+  vertical-align: baseline;
+}

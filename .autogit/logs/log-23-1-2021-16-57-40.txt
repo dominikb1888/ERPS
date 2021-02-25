@@ -1,0 +1,359 @@
+-------------------- Auto-Git Log --------------------
+		Tue Feb 23 2021 16:57:40 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .DS_Store
+* .RData
+* .Rhistory
+* 2_Strategy.html
+
+
+Created files:
+* .autogit/logs/log-23-1-2021-16-27-34.txt
+* 2_Collaboration.html
+
+
+Deleted files:
+* Introduction_files/bootstrap/css/bootstrap-theme.css
+* Introduction_files/bootstrap/css/bootstrap-theme.css.map
+* Introduction_files/bootstrap/css/bootstrap-theme.min.css
+* Introduction_files/bootstrap/css/bootstrap.css
+* Introduction_files/bootstrap/css/bootstrap.css.map
+* Introduction_files/bootstrap/css/bootstrap.min.css
+* Introduction_files/bootstrap/css/cerulean.min.css
+* Introduction_files/bootstrap/css/cosmo.min.css
+* Introduction_files/bootstrap/css/darkly.min.css
+* Introduction_files/bootstrap/css/flatly.min.css
+* Introduction_files/bootstrap/css/fonts/Lato.ttf
+* Introduction_files/bootstrap/css/fonts/LatoBold.ttf
+* Introduction_files/bootstrap/css/fonts/LatoItalic.ttf
+* Introduction_files/bootstrap/css/fonts/NewsCycle.ttf
+* Introduction_files/bootstrap/css/fonts/NewsCycleBold.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSans.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSansBold.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSansBoldItalic.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSansItalic.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSansLight.ttf
+* Introduction_files/bootstrap/css/fonts/OpenSansLightItalic.ttf
+* Introduction_files/bootstrap/css/fonts/Raleway.ttf
+* Introduction_files/bootstrap/css/fonts/RalewayBold.ttf
+* Introduction_files/bootstrap/css/fonts/Roboto.ttf
+* Introduction_files/bootstrap/css/fonts/RobotoBold.ttf
+* Introduction_files/bootstrap/css/fonts/RobotoLight.ttf
+* Introduction_files/bootstrap/css/fonts/RobotoMedium.ttf
+* Introduction_files/bootstrap/css/fonts/SourceSansPro.ttf
+* Introduction_files/bootstrap/css/fonts/SourceSansProBold.ttf
+* Introduction_files/bootstrap/css/fonts/SourceSansProItalic.ttf
+* Introduction_files/bootstrap/css/fonts/SourceSansProLight.ttf
+* Introduction_files/bootstrap/css/fonts/Ubuntu.ttf
+* Introduction_files/bootstrap/css/journal.min.css
+* Introduction_files/bootstrap/css/lumen.min.css
+* Introduction_files/bootstrap/css/paper.min.css
+* Introduction_files/bootstrap/css/readable.min.css
+* Introduction_files/bootstrap/css/sandstone.min.css
+* Introduction_files/bootstrap/css/simplex.min.css
+* Introduction_files/bootstrap/css/spacelab.min.css
+* Introduction_files/bootstrap/css/united.min.css
+* Introduction_files/bootstrap/css/yeti.min.css
+* Introduction_files/bootstrap/fonts/glyphicons-halflings-regular.eot
+* Introduction_files/bootstrap/fonts/glyphicons-halflings-regular.svg
+* Introduction_files/bootstrap/fonts/glyphicons-halflings-regular.ttf
+* Introduction_files/bootstrap/fonts/glyphicons-halflings-regular.woff
+* Introduction_files/bootstrap/fonts/glyphicons-halflings-regular.woff2
+* Introduction_files/bootstrap/js/bootstrap.js
+* Introduction_files/bootstrap/js/bootstrap.min.js
+* Introduction_files/bootstrap/js/npm.js
+* Introduction_files/bootstrap/shim/html5shiv.min.js
+* Introduction_files/bootstrap/shim/respond.min.js
+* Introduction_files/crosstalk/css/crosstalk.css
+* Introduction_files/crosstalk/js/crosstalk.js
+* Introduction_files/crosstalk/js/crosstalk.js.map
+* Introduction_files/crosstalk/js/crosstalk.min.js
+* Introduction_files/crosstalk/js/crosstalk.min.js.map
+* Introduction_files/highchart-binding/highchart.js
+* Introduction_files/highcharts/css/htmlwdgtgrid.css
+* Introduction_files/highcharts/css/motion.css
+* Introduction_files/highcharts/custom/appear.js
+* Introduction_files/highcharts/custom/reset.js
+* Introduction_files/highcharts/custom/symbols-extra.js
+* Introduction_files/highcharts/custom/text-symbols.js
+* Introduction_files/highcharts/highcharts-3d.js
+* Introduction_files/highcharts/highcharts-more.js
+* Introduction_files/highcharts/highcharts.js
+* Introduction_files/highcharts/modules/accessibility.js
+* Introduction_files/highcharts/modules/annotations-advanced.js
+* Introduction_files/highcharts/modules/annotations.js
+* Introduction_files/highcharts/modules/arrow-symbols.js
+* Introduction_files/highcharts/modules/boost-canvas.js
+* Introduction_files/highcharts/modules/boost.js
+* Introduction_files/highcharts/modules/broken-axis.js
+* Introduction_files/highcharts/modules/bullet.js
+* Introduction_files/highcharts/modules/coloraxis.js
+* Introduction_files/highcharts/modules/current-date-indicator.js
+* Introduction_files/highcharts/modules/cylinder.js
+* Introduction_files/highcharts/modules/data.js
+* Introduction_files/highcharts/modules/datagrouping.js
+* Introduction_files/highcharts/modules/debugger.js
+* Introduction_files/highcharts/modules/dependency-wheel.js
+* Introduction_files/highcharts/modules/dotplot.js
+* Introduction_files/highcharts/modules/drag-panes.js
+* Introduction_files/highcharts/modules/draggable-points.js
+* Introduction_files/highcharts/modules/drilldown.js
+* Introduction_files/highcharts/modules/dumbbell.js
+* Introduction_files/highcharts/modules/export-data.js
+* Introduction_files/highcharts/modules/exporting.js
+* Introduction_files/highcharts/modules/full-screen.js
+* Introduction_files/highcharts/modules/funnel.js
+* Introduction_files/highcharts/modules/funnel3d.js
+* Introduction_files/highcharts/modules/gantt.js
+* Introduction_files/highcharts/modules/grid-axis.js
+* Introduction_files/highcharts/modules/heatmap.js
+* Introduction_files/highcharts/modules/histogram-bellcurve.js
+* Introduction_files/highcharts/modules/item-series.js
+* Introduction_files/highcharts/modules/lollipop.js
+* Introduction_files/highcharts/modules/map.js
+* Introduction_files/highcharts/modules/marker-clusters.js
+* Introduction_files/highcharts/modules/networkgraph.js
+* Introduction_files/highcharts/modules/no-data-to-display.js
+* Introduction_files/highcharts/modules/offline-exporting.js
+* Introduction_files/highcharts/modules/oldie-polyfills.js
+* Introduction_files/highcharts/modules/oldie.js
+* Introduction_files/highcharts/modules/organization.js
+* Introduction_files/highcharts/modules/overlapping-datalabels.js
+* Introduction_files/highcharts/modules/parallel-coordinates.js
+* Introduction_files/highcharts/modules/pareto.js
+* Introduction_files/highcharts/modules/pathfinder.js
+* Introduction_files/highcharts/modules/pattern-fill.js
+* Introduction_files/highcharts/modules/price-indicator.js
+* Introduction_files/highcharts/modules/pyramid3d.js
+* Introduction_files/highcharts/modules/sankey.js
+* Introduction_files/highcharts/modules/series-label.js
+* Introduction_files/highcharts/modules/solid-gauge.js
+* Introduction_files/highcharts/modules/sonification.js
+* Introduction_files/highcharts/modules/static-scale.js
+* Introduction_files/highcharts/modules/stock-tools.js
+* Introduction_files/highcharts/modules/stock.js
+* Introduction_files/highcharts/modules/streamgraph.js
+* Introduction_files/highcharts/modules/sunburst.js
+* Introduction_files/highcharts/modules/tilemap.js
+* Introduction_files/highcharts/modules/timeline.js
+* Introduction_files/highcharts/modules/treegrid.js
+* Introduction_files/highcharts/modules/treemap.js
+* Introduction_files/highcharts/modules/variable-pie.js
+* Introduction_files/highcharts/modules/variwide.js
+* Introduction_files/highcharts/modules/vector.js
+* Introduction_files/highcharts/modules/venn.js
+* Introduction_files/highcharts/modules/windbarb.js
+* Introduction_files/highcharts/modules/wordcloud.js
+* Introduction_files/highcharts/modules/xrange.js
+* Introduction_files/highcharts/plugins/draggable-legend.js
+* Introduction_files/highcharts/plugins/grouped-categories.js
+* Introduction_files/highcharts/plugins/highcharts-regression.js
+* Introduction_files/highcharts/plugins/motion.js
+* Introduction_files/highcharts/plugins/multicolor_series.js
+* Introduction_files/highcharts/plugins/pattern-fill-v2.js
+* Introduction_files/highcharts/plugins/tooltip-delay.js
+* Introduction_files/htmlwidgets/htmlwidgets.js
+* Introduction_files/jquery/jquery-AUTHORS.txt
+* Introduction_files/jquery/jquery.js
+* Introduction_files/jquery/jquery.min.js
+* Introduction_files/jquery/jquery.min.map
+* Introduction_files/plotly-binding/plotly.js
+* Introduction_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css
+* Introduction_files/plotly-main/plotly-latest.min.js
+* Introduction_files/proj4js/proj4.js
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/acceptDeleteIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/addNodeIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/backIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/connectIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/cross.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/cross2.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/deleteIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/downArrow.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/editIcon.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/leftArrow.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/minus.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/plus.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/rightArrow.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/upArrow.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/network/zoomExtends.png
+* Introduction_files/timeline/lib/vis-4.16.1/img/timeline/delete.png
+* Introduction_files/timeline/lib/vis-4.16.1/vis.min.css
+* Introduction_files/timeline/lib/vis-4.16.1/vis.min.js
+* Introduction_files/timeline/timevis.css
+* Introduction_files/timeline/timevis.js
+* Introduction_files/timeline/timevis.yaml
+* Introduction_files/timevis-binding/timevis.js
+* Introduction_files/typedarray/typedarray.min.js
+* Introduction_files/vis/img/network/acceptDeleteIcon.png
+* Introduction_files/vis/img/network/addNodeIcon.png
+* Introduction_files/vis/img/network/backIcon.png
+* Introduction_files/vis/img/network/connectIcon.png
+* Introduction_files/vis/img/network/cross.png
+* Introduction_files/vis/img/network/cross2.png
+* Introduction_files/vis/img/network/deleteIcon.png
+* Introduction_files/vis/img/network/downArrow.png
+* Introduction_files/vis/img/network/editIcon.png
+* Introduction_files/vis/img/network/leftArrow.png
+* Introduction_files/vis/img/network/minus.png
+* Introduction_files/vis/img/network/plus.png
+* Introduction_files/vis/img/network/rightArrow.png
+* Introduction_files/vis/img/network/upArrow.png
+* Introduction_files/vis/img/network/zoomExtends.png
+* Introduction_files/vis/img/timeline/delete.png
+* Introduction_files/vis/vis.min.css
+* Introduction_files/vis/vis.min.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx.html
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/countdown/countdown.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/countdown/countdown.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/countdown/smb_stage_clear.mp3
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/crosstalk/css/crosstalk.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/crosstalk/js/crosstalk.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/crosstalk/js/crosstalk.js.map
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/crosstalk/js/crosstalk.min.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/crosstalk/js/crosstalk.min.js.map
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/header-attrs/header-attrs.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/htmlwidgets/htmlwidgets.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/jquery/jquery-AUTHORS.txt
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/jquery/jquery.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/jquery/jquery.min.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/jquery/jquery.min.map
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/panelset/panelset.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/panelset/panelset.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/plotly-binding/plotly.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/plotly-main/plotly-latest.min.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/remark-css/default.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/tachyons/tachyons.min.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/tile-view/tile-view.css
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/tile-view/tile-view.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/typedarray/typedarray.min.js
+* laudon_emis14_ppt_ch01_MS-ct.pptx_files/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css
+* test_session_list.R
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]

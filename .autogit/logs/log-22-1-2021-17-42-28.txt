@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Mon Feb 22 2021 17:42:28 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Introduction.Rmd
+* Introduction.html
+* assets/custom.css
+
+
+Created files:
+* .autogit/logs/log-22-1-2021-17-12-23.txt
+
+
+Deleted files:
+
+
+Renamed files:

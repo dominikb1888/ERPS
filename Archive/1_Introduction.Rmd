@@ -1,0 +1,707 @@
+---
+title: "Introduction"
+subtitle: "Foundations of Health Informatics"
+author: "Dominik Böhler"
+institute: "Deggendorf Institute of Technology"
+date: "2016/12/12"
+bibliography: ["assets/example.bib"]
+output:
+  xaringan::moon_reader:
+    css: ["default", "assets/sydney-fonts.css", "assets/sydney.css"]
+    self_contained: true # if true, fonts will be stored locally
+    seal: true # show a title slide with YAML information
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"
+    nature:
+      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9' # alternatives '16:9' or '4:3' or others e.g. 13:9
+      navigation:
+        scroll: false # disable slide transitions by scrolling
+
+---
+
+```{r, load_refs, echo=FALSE, cache=FALSE, message=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE, 
+           bib.style = "authoryear", 
+           cite.style = 'authoryear', 
+           style = "markdown",
+           hyperlink = FALSE, 
+           dashed = FALSE)
+myBib <- ReadBib("assets/example.bib", check = FALSE)
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+```{r xaringan-tachyons, echo=FALSE}
+xaringanExtra::use_tachyons()
+```
+
+```{r xaringan-extra-styles, echo=FALSE}
+xaringanExtra::use_extra_styles(
+  hover_code_line = TRUE,         #<<
+  mute_unhighlighted_code = TRUE  #<<
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.duplicate.label = 'allow')
+```
+
+---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+
+???
+
+Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+
+
+---
+```{r, echo=FALSE, message=FALSE}
+source("../../Templates/render_toc.R")
+
+# `this_post` is set in the setup chunk, 
+# points to the Rmd file for this post
+render_toc("1_Introduction.Rmd")
+```
+
+---
+
+# Foundations of Health Informatics - Introduction
+
+This is an introductory course on Foundations of Health Informatics. It will provide an overview on current topics in Integrated Enterprise Application Software. The course takes a look at the basic terms, the history of Enterprise Systems, Enterprise Systems for different types of organizations. It expects students to have basic understanding of terms in business and computation.
+
+
+---
+background-image:url(https://media1.giphy.com/media/XgE4LlECZjw6k/giphy.gif)
+
+## One Ring to Rule them All - The (old) Idea of One Integrated Monolithical System
+
+ 
+
+---
+
+# Let's unwrap the term ERP together
+
+.columns-2[
+
+  .content-box-army[
+    Enterprises
+    ]
+
+  .content-box-yellow[
+    Resources
+    ]
+]
+
+.content-box-purple[
+    Planning
+    ]
+    
+    
+    
+---
+
+## Enterprises - What is you perspective on Organization?
+
+- What is organized? Organized == Ordered?
+- How can you enforce coordinated action?
+- Information only? 
+- Leadership + Real-time Information (True Agility)
+
+
+
+
+---
+
+## Resources - What is and what will be valuable
+
+.content-box-blue[
+
+Test
+
+]
+
+.columns-2[
+  .content-box-army[
+    Old Economy:
+    
+    - Physical Goods
+    - Recombination of Physical Goods
+    - Economies of Scale, Linearity
+  ]
+
+  .content-box-yellow[
+
+    New Economy:
+
+    - Virtual Goods, Connection
+    - Global Real-time Collaboration
+    - Network Effects, Complexity
+  ]
+]
+
+
+
+---
+
+## Planning - How are we supposed to know what we did until we did it?
+
+- Switch from a producer to a consumer-centric industrial production
+- From:  Mass Custumization, 3D-Printing, Industry 4.0
+- To: Hyperpersonlization and Servitization
+
+
+
+
+---
+
+## Wrap-up
+
+- ERP-Systems put strict models on current sitations 
+- Reasonable in particular "Standard Processes"
+- However, less and less "STandard Processes" more Agility
+- Less Orders, More Discourse
+
+
+
+
+---
+class: segue, center, middle
+
+# LET'S TALK ABOUT **INFORMATION SYSTEMS**
+
+
+
+
+---
+class: segue, center, middle
+
+## ... AND SOME ERP **(but later...) **
+
+
+
+
+
+---
+class: segue-red, left, middle
+
+## A modern view on Enterprises and their Application Landscape (The Cloud is Unlimited)
+
+
+  .content-box-gray[Informations Systems]
+  
+  .content-box-gray[Management Information Systems]
+  
+  .content-box-gray[Healthcare Information Systems]
+   
+---
+class: segue-red, left, middle
+
+# Course Outline and Modules
+
+---
+
+## “But today, they’re not enough.”
+
+Amanda Lacks Skills eHermes Needs:
+
+- Abstract Reasoning Skills.
+- Systems Thinking Skills.
+- Collaboration Skills.
+- Experimentation Skills.
+
+---
+
+## What Do Employers Want?
+
+* Self starter, Don’t wait to be told what to do.
+* Team worker
+* Develops ideas with others.
+* Ask questions.
+* Pulls more than their own weight.
+
+---
+
+## Study Questions
+
+__1.1__ Whyis Introduction to MIS the most important class in the business school?
+
+__1.2__ How will MIS affect me?
+
+__1.3__ Why are MIS–related jobs in high demand?
+
+__1.4__ What is MIS?
+
+__1.5__ What is information?
+
+__1.6__ What data characteristics are necessary for quality information?
+
+---
+class: segue-red, left, middle
+
+# The Digital Revolution
+
+* Technology fundamentally changing business.
+*__Information Age__ 
+* Production, distribution, control of information primary economic drivers.
+*__Digital Revolution__ 
+* From mechanical/analog devices to digital devices.
+
+---
+
+## Understanding the Forces Pushing the Evolution of New Digital Devices
+
+* Bell’s Law
+* New class of computers establishes a new industry each decade.
+* New platforms, programming environments, industries, networks, and information systems.
+* Understand how next digital evolution will affect businesses.
+* What an industry does and how does it will change.
+
+---
+
+## Moore's Law - Computer Price/Performance Ratio Historical Trend
+
+
+```{r, echo=FALSE, message=FALSE}
+
+library(ggplot2)
+library(dplyr)
+library(plotly)
+library(hrbrthemes)
+library(lubridate)
+
+data <- read.csv("1_transistors-per-microprocessor.csv", header = TRUE)
+data$Year <- ymd(sprintf("%d-01-01",data$Year))
+
+# head(data)
+
+# Usual area chart
+p <- data %>%
+  ggplot( aes(x=Year, y=Transistors.per.microprocessor)) +
+    geom_area(fill="#69b3a2", alpha=0.5) +
+    geom_line(color="#69b3a2")
+
+# Turn it interactive with ggplotly
+p <- ggplotly(p, width =  1000)
+p
+
+```
+
+Source: [Karl Rupp - GitHub Repo](https://github.com/karlrupp/microprocessor-trend-data)
+
+
+---
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/7uvUiq_jTLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+---
+
+## Metcalfe’s Law
+
+1\-1 Why is Introduction to MIS the most important class in the business school?
+
+Network value equal to square of number of users connected to it.
+
+ __Figure 1\-2__ Increasing Value of Networks
+
+<img src="img/kroenke_emis9e_ppt_012.jpg" width=500px />
+
+* Google, Amazon, eBay exist due to large numbers of Internet users.
+
+---
+
+## Fundamental Forces Changing Technology
+
+<img src="img/kroenke_emis9e_ppt_013.jpg" width=100% />
+__Figure 1\-4__ Price of Storage Capacity per GB __Figure 1\-3__ Fundamental Forces Changing Technology
+
+---
+
+## Price of Storage Capacity per Gigabyte
+
+<img src="img/kroenke_emis9e_ppt_014.jpg" width=100% />
+
+__Figure 1\-4__ Price of Storage Capacity per GB
+
+
+---
+
+## Why is Introduction to MIS the most important class in the business school?
+
+How technology fundamentally changes businesses.
+
+Why executives try to find ways to use new technology to create a sustainable competitive advantage.
+
+Assess, evaluate, apply emerging information technology to business.
+
+Help you attain knowledge needed byfuture business professionals.
+
+---
+
+## Technological Change is Accelerating
+
+* 1\-2 How will MIS affect me?
+* Bell’s Law
+* Today’s highly successful business could be bankrupt quickly becausetechnology changed and it didn’t.
+* Example: Blockbuster
+* In 2004, Blockbuster had $5.9B in revenues
+* In 2010, Blockbuster filed for bankruptcy
+* High\-speed network connections and streaming video changed the competitive landscape
+
+---
+
+## How Can I Attain Job Security?
+
+* 1\-2 How will MIS affect me?
+* Moore’s Law, Metcalfe’s Law, and Kryder’s Law
+* Driving data processing, storage, communications costs to essentially zero.
+* Any routine skill can, and will, be outsourced to lowest bidder.
+
+---
+
+## What Skills Will be Marketable during Your Career?
+
+* 1\-2 How will MIS affect me?
+* Rapid technological change and increased international competition:
+* Requires skills and ability to adapt.
+* Favors people with strong non\-routine cognitive skills.
+*__Message: Develop strong non\-routine cognitive skills.__ 
+
+---
+
+## What is a Marketable Skill?
+
+1\-2 How will MIS affect me?
+
+ __Figure 1\-5__ Examples of Critical Skills for Nonroutine Cognition
+
+<img src="img/kroenke_emis9e_ppt_015.jpg" width=500px />
+
+---
+
+## How Can Intro to M I S Help You Learn Non-Routine Skills? (1 of 4)
+
+* 1\-2 How will MIS affect me?
+*__Abstract Reasoning__ 
+* Ability to make and manipulate models.
+* Learn to use and construct abstract models.
+* Ch. 1: Five components of an IS model.
+* Ch. 5: How to create data models.
+* Ch. 12: How to make process models.
+
+* 1\-2 How will MIS affect me?
+*__Systems Thinking__ 
+* Ability to model system components, connect inputs and outputs among components to reflect structure and dynamics.
+* Ability to discuss, illustrate, critique systems; compare alternative systems; apply different systems to different situations.
+
+* 1\-2 How will MIS affect me?
+* __Collaboration__
+* People working together to achieve a common goal, result, or work product.
+* Chapter 7 and Chapter Extension10 discuss collaboration skills and illustrate several collaboration information systems.
+
+* 1\-2 How will MIS affect me?
+*__Ability to Experiment__ 
+* Make reasoned analysis of an opportunity; develop and evaluate possible solutions.
+* “I’ve never done this before.”
+* “I don’t know how to do it.”
+* “But will it work?”
+* “Is it too weird for the market?”
+*__Fear of failure paralyzes____many good people and ideas__ 
+
+---
+
+## Jobs
+
+1\-3 Why are MIS\-related jobs in high demand?
+
+74 percent of CEOs plan to use artificial intelligence \(AI\) to automate tasks to a large or very large extent over the next 3 years.
+
+Those same CEOs believe just 26 percent of their workers are prepared to collaborate with their AI coworkers.
+
+Just 3 percent of CEOs plan to increase investments toward training and reskilling employees to prepare them for these new tech\-centric jobs.
+
+Understanding technology and having a willingness to learn new tech skills will be increasingly important for future job security.
+
+---
+
+## Median Wages and Job Growth by Sector
+
+1\-3 Why are MIS\-related jobs in high demand?
+
+ __Figure 1\-6__ Median Wage and Percent Job Growth by Sector
+
+<img src="img/kroenke_emis9e_ppt_016.jpg" width=500px />
+
+---
+
+## B L S Occupational Outlook 2016-2026
+
+1\-3 Why are MIS\-related jobs in high demand?
+
+__Figure 1\-7__ Bureau of Labor Statistics Occupational Outlook 2016–2026
+
+<img src="img/kroenke_emis9e_ppt_017.jpg" width=500px />
+
+---
+
+## Bottom Line of M I S Course
+
+1\-3 Why are MIS\-related jobs in high demand?
+
+Most important course in business school because:
+
+Gives background needed to assess, evaluate, and apply emerging information systems technology to business.
+
+Gives marketable skills by helping you learn abstraction, systems thinking, collaboration, and experimentation.
+
+Makes you aware of well\-paying, high demandMIS\-relatedjobs.
+
+---
+
+## A is for Alphabet (1 of 2)
+
+So What?
+
+The Internet has enabled innovation and changed our lives.
+
+Google is one of the largest publicly traded companies in the world with a diverse portfolio of projects.
+
+As of August 10, 2015, it was a subsidiary of an overarching company named Alphabet Inc.
+
+Page and Brin manage the overall strategy, but not daily operations of each company.
+
+* So What?
+* The company was restructured to:
+* Retain top talent in a highly competitive industry.
+* Decrease bureaucratic climate.
+* Improve internal career trajectories of industry superstars.
+* Make individual companies more nimble, efficient, and autonomous.
+
+---
+
+# Components of an Information System?
+TMP
+ __Figure 1\-8__ Five Components of an Information System
+
+<img src="img/kroenke_emis9e_ppt_018.jpg" width=500px />
+
+---
+
+## Difference between IT and IS
+
+* What is MIS?
+* Information technology \(IT\)
+* Products
+* Methods
+* Inventions
+* Standards
+* IT drives development of new IS.
+* IT components = Hardware \+ Software \+ Data
+*__I____S____= I____T \+ P____rocedures \+ People__ 
+
+<img src="img/kroenke_emis9e_ppt_019.jpg" width=329px />
+
+---
+
+## Management Information Systems (1 of 2)
+
+1\-4 What is MIS?
+
+* Key elements
+* Management and use
+* Information systems
+* Strategies
+*__Goal of M____I____S:__ 
+* Managing IS to achieve business strategies.
+
+* 1\-4 What is MIS?
+*__Management__ and __use__ to:
+* Develop, maintain, adapt by:
+* Creating an information system that meets your needs, take an active role in system’s development. Why?
+* Business professionals using cognitive skills to understand business needs and requirements.
+
+---
+
+## Achieving Strategies
+
+* 1\-4 What is MIS?
+* Information systems exist to help people achieve business strategies.
+* “What is the purpose of our Facebook page?”
+* “What is it going to do for us?”
+* “What is our policy for employees’ contributions?”
+* “What should we do about critical customer reviews?”
+* “Are the costs of maintaining the page sufficiently offset by the benefits?”
+
+---
+
+## Management and Use of Information Systems
+
+* 1\-4 What is MIS?
+* Business professionals need to:
+* Take active role to ensure systems meet their needs.
+* Understand how IS constructed.
+* Consider users’ needs during development.
+* Learn how to use IS.
+* Remember ancillary requirements \(security, backups\).
+
+---
+
+## Defining Information
+
+1\-5 What is information?
+
+Definitions vary:
+
+Knowledge derived from data.
+
+Data presented in a meaningful context.
+
+Processed data, or data processed by summing, ordering, averaging, grouping, comparing, or similar operations.
+
+“A difference that makes a difference.”
+
+---
+
+## Where is Information?
+
+1\-5 What is information?
+
+Graph is not, itself, information
+
+Graph is data that you, and others, use to conceive information
+
+Ability to conceive information from data determined by cognitive skills
+
+People perceive different information from same data
+
+---
+
+## Amazon.com stock price and net income
+
+1\-5 What is information?
+
+ __Figure 1\-9__ Amazon Stock Price and Net Income
+
+<img src="img/kroenke_emis9e_ppt_0110.jpg" width=500px />
+
+---
+
+## Data Characteristics Needed for Quality Information
+
+* 1\-6 What data characteristics are necessary for quality information?
+* Accurate
+* Timely
+* Relevant
+* To context
+* To subject
+* Just barely sufficient
+* Worth its cost
+
+---
+
+## How Does the Knowledge in This Chapter Help You?
+
+Realize future belongs to those who creatively envision new applications of information systems and technology
+
+Learn Reich’s four key skills
+
+Learn IS components
+
+Understand every business professional needs active role in new information systems development
+
+Learn definitions of information
+
+Understand the data characteristics of quality information
+
+---
+
+# Ethics and Professional Responsibility (1 of 3)
+
+Ethics Guide
+
+ __Figures 1\-3__ Measuring Growth of Units Sold using Different Axis Values
+
+<img src="img/kroenke_emis9e_ppt_0111.png" width=418px />
+
+<img src="img/kroenke_emis9e_ppt_0112.png" width=424px />
+
+* Ethics Guide: Ethics and Professional Responsibility
+* Immanuel Kant
+*__Categorical imperative__ 
+*__One____should behave only in a way that one would want the behavior to be a universal law.__ 
+* Are you willing to publish your behavior to the world?
+
+* Ethics Guide: Ethics and Professional Responsibility
+* Necessity to act in accordance with categorical imperative.
+*__Perfect duty__ —behavior that must always be met.
+*__Imperfect duty__ —a praiseworthy action, but not required.
+* Giving to charity, developing your business skills and abilities.
+
+---
+
+## Imperfect Duty of Business Professionals
+
+* Ethics Guide: Ethics and Professional Responsibility
+* Imperfect duties
+* Cultivating your talent is a professional responsibility.
+* Obtaining skills necessary to accomplish your job.
+* Continuing to develop business skills and abilities throughout your career.
+
+---
+
+## Five-Component Careers
+
+Career Guide
+
+---
+
+## Active Review
+
+__1\-1__Why is Introduction to MIS the most important class in the business school?
+
+__1\-2__How will MIS affect me?
+
+__1\-3__Why areMIS \- relatedjobs in high demand?
+
+__1\-4__What is MIS?
+
+__1\-5__What is information?
+
+__1\-6__What data characteristics are necessary for quality information?
+
+---
+
+## Pluralsight
+
+* Case Study 1
+* Who is Pluralsight and what do they do?
+* Go online to pluralsight.com and search for a course you might be interested in taking:
+* What is attractive to you about online training?
+* What advice would you give executives at Pluralsight if they wanted to grow their business?
+* How could they increase their revenues?
+* Why would corporate clients be interested in online technology training for their employees?
+
+---
+
+## Pluralsight (con’t)
+
+* Case Study 1
+* What is the technology skills gap and why does it exist?
+* How might a traditional university benefit from a partnership with Pluralsight?
+* Why might some universities see such a partnership as a threat?
+* Suppose you were considering buying stock in Pluralsight. What types of threats might Pluralsight face in the future?

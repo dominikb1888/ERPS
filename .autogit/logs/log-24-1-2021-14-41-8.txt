@@ -1,0 +1,27 @@
+-------------------- Auto-Git Log --------------------
+		Wed Feb 24 2021 14:41:08 GMT+0100 (Central European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .RData
+* .Rhistory
+* 0_Index.Rmd
+* 0_Index.html
+* 1_Introduction.Rmd
+* 2_Collaboration.Rmd
+* 3_Strategy.Rmd
+* assets/custom.css
+
+
+Created files:
+* .autogit/logs/log-23-1-2021-22-26-7.txt
+* 4_Ethics.Rmd
+* 4_Ethics.html
+* img/lord+ring_ZiK1I0ceU2FMc.gif
+
+
+Deleted files:
+* laudon_emis14_ppt_ch04_MS-ct.pptx.Rmd
+
+
+Renamed files:
