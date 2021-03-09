@@ -1,0 +1,269 @@
+---
+jupyter:
+  jupytext:
+    formats: ipynb,Rmd
+    text_representation:
+      extension: .Rmd
+      format_name: rmarkdown
+      format_version: '1.2'
+      jupytext_version: 1.10.2
+  kernelspec:
+    display_name: erpsex
+    language: python
+    name: erpsex
+---
+
+```{python}
+import pm4py
+import pandas as pd
+```
+
+Process Mining Tutorial
+====
+
+Taken and extended from: https://pm4py.fit.fraunhofer.de/getting-started-page#understanding
+
+Make sure to have Graphviz Library installed: 
+
+
+```{python}
+## Import Data
+    
+```
+
+```{python}
+def import_csv(file_path):
+    event_log = pd.read_csv(file_path, sep=';')
+    num_events = len(event_log)
+    num_cases = len(event_log.case_id.unique())
+    print("Number of events: {}\nNumber of cases: {}".format(num_events, num_cases))
+
+
+log = pm4py.read_xes("process_mining.xes")
+```
+
+```{python}
+process_tree = pm4py.discover_process_tree_inductive(log)
+```
+
+```{python}
+process_tree = pm4py.discover_process_tree_inductive(log)
+bpmn_model = pm4py.convert_to_bpmn(process_tree)
+pm4py.view_bpmn(bpmn_model)
+```
+
+```{python}
+dfg, start_activities, end_activities = pm4py.discover_dfg(log)
+pm4py.view_dfg(dfg, start_activities, end_activities)
+```
+
+```{python}
+map = pm4py.discover_heuristics_net(log)
+pm4py.view_heuristics_net(map)
+```
+
+
+---
+
+## A healthcare example
+
+Based on the example in R here: [https://notast.netlify.app/post/process-mining-part-1-3-introduction-to-bupar-package/](https://notast.netlify.app/post/process-mining-part-1-3-introduction-to-bupar-package/)
+We will use example data from BupaR [@jansBuildingValuableEvent2019]. More and Install instructions here: https://www.bupar.net/getting_started.html
+
+```{r }
+
+library(dplyr)
+library(tidyverse)
+library(bupaR)
+library(eventdataR)
+
+theme_set(theme_light())
+
+#class(patients) 
+#mapping(patients)
+
+dim(patients)
+
+patients_df <- data.frame(patients) %>%  # convert object
+               select(- .order) %>% #remove this col as we don't need it and it messes with the spread function
+spread(registration_type, time) 
+
+activities(patients)
+
+processing_time(patients, #event log 
+  "activity", # level of analysis, in this situation at level of activity
+  units="mins") 
+
+processing_time(patients, level="log", units="days")
+
+# Testing a hypotheses by looking at the time of cases with particular activity
+patients %>% filter_activity_presence("MRI SCAN") %>% processing_time(level="log", units="hours")
+
+patients %>% filter_activity_presence("MRI SCAN", 
+  method="none") %>% # set arugment to "none" to for cases without the specific activity
+    processing_time(level="log", units="hours")
+
+```
+
+---
+## Digging deeper into patients with sepsis
+
+```{r sepsis, }
+sepsis
+
+activity_frequency(sepsis, level = "activity") %>% arrange(relative)#
+
+sepsis_subset <- filter_activity_presence(sepsis, "Release E") # cases with least common activity to achieve smaller eventlog
+
+sepsis_subset %>% process_map(type = frequency("absolute"))
+
+sepsis_subset %>% process_map(type = frequency("absolute_case"))
+
+```
+
+---
+
+## Reoccurence of Activities
+
+In the above process map, the top of the boxes for “CRP”, “Leucocytes”, “Admission NC” and “Lactic Acid” has an arrow head and its tail belonging to the same activity. These arrows indicate reoccurrence of the activities for the same case. Reoccurrence of activities can suggest inefficiency or interruptions or disruptions which may warrant further investigation to optimise workflow.
+
+Reduplication:Same Resource (Repeat), different resource (Redo)
+Chronology: Consecutive (Self-Loop) vs. non-consecutive (Repetition)
+
+- Redo self-loop
+- Redo repetition
+- Repeat self-loop
+- Repeat repetition
+
+```{r reocurrence, }
+
+number_of_repetitions(sepsis_subset, level="activity", type="redo")
+number_of_repetitions(sepsis_subset, level="activity", type="repeat")
+number_of_selfloops(sepsis_subset, level="case", type = "redo")
+number_of_selfloops(sepsis_subset, level="case", type = "repeat")
+
+```
+
+---
+
+## Let's get chronologically visual
+
+```{r animate, }
+
+library(processanimateR)
+library(eventdataR)
+
+sepsis_subset
+
+animate_process(sepsis_subset, mode = "relative", jitter = 10, legend = "color",
+  mapping = token_aes(color = token_scale("resource", 
+    scale = "ordinal", 
+    range = RColorBrewer::brewer.pal(26, "Paired"))))
+
+```
+
+
+---
+
+## The Interruption Index
+
+The interruption index measures how much does a resource have to toggle between cases before completing the case instead of completing all the activities for a case before proceeding to the next case. The toggling between incomplete cases could be due to many reasons. However, if the reason is due to disruptions in the workflow, it will result in inefficiency and lost in productivity. 
+
+Time block is where all the activity instances executed by a specific resource are arranged in chronological order within a defined time. For this post, it will be a day. The consecutive activity instances for a particular case are grouped together to form a time block. In the example below, there are four time blocks.
+
+\@ref(tab:Activity	Resource	Time	Day	Case	Time Block
+Admission	Z	10:40	1	AA	1
+Admission	Z	11:11	1	BB	2
+X-ray	Z	11:30	1	BB	2
+X-ray	Z	12:00	1	AA	3
+Scans	Z	12:44	1	AA	3
+Pre-op	Z	13:59	1	BB	4)
+
+The caseload component in the ratio refers to the maximum number of cases seen by a specific resource on a particular day. In the example above, there is a maximum of 2 cases. Hence, the ratio is 2 (4/2= 2). The lowest score is 1 which means there is no toggling between cases and the day is the least interrupted.
+
+---
+
+## Calculation the Index for our Sepsis Exam
+
+```{r interruption index, }
+
+# library 
+library(dplyr)
+library(plyr)
+library(tidyverse)
+library(bupaR)
+
+#derive desired df 
+sepsis_df <- sepsis %>% 
+  filter_resource(c("A", "B")) %>%  # filter 2 resources for our example 
+  data.frame() %>% # convert event log object
+  select(case_id, activity, lifecycle, resource, timestamp) %>% # select relevant variables
+  drop_na() #drop na observation
+
+sepsis_df <- sepsis_df %>% 
+  mutate(Date = as.Date(timestamp)) %>% 
+  mutate("ID_day" = group_indices_(., .dots = c("resource","Date"))) %>% # add ID_day
+  group_by(ID_day) %>% 
+  arrange(ID_day, timestamp) %>% 
+  select(resource, ID_day, case_id) %>% 
+  mutate(caseload = n_distinct(case_id)) %>% # caseload
+  ungroup()
+
+sepsis_df %>% head()
+
+#remove duplicate rows
+ix <- c(TRUE, rowSums(tail(sepsis_df, -1) == head(sepsis_df, -1)) != ncol(sepsis_df))
+
+sepsis_df <- sepsis_df[ix,] 
+
+#transpose case_id column
+sepsis_df <- ddply(sepsis_df, .(ID_day), transform, idx = paste("TB", 1:length(case_id), sep = ""))  %>% 
+  spread(idx, case_id)
+
+#calculate timeblocks
+sepsis_df <- sepsis_df %>%  
+  mutate(timeblock = rowSums(!is.na(select(.,starts_with("TB"))))) %>% select(-starts_with("TB")) # remove reduntanct TB variables 
+
+#calculate index 
+sepsis_df$interupt_index <- sepsis_df$timeblock/ sepsis_df$caseload
+
+# sample size of index for each resource
+sepsis_df<-sepsis_df %>% 
+  add_count(resource, interupt_index) 
+
+head(sepsis_df)
+
+sepsis_df %>% ggplot(aes (interupt_index, n, size=n)) + geom_point() + facet_grid(~resource)
+
+```
+
+
+---
+
+## Timeseries Heatmap
+
+```{r time-series-heatmap}
+
+patients_df<-data.frame(patients)  #convert the `eventlog` object to a `dataframe` object
+
+levels(patients_df$handling) 
+
+patients_df <- patients_df %>% 
+  mutate(handling = fct_relevel(handling, "Registration", "Triage and Assessment", "Blood test", "X-Ray", "MRI SCAN", "Discuss Results", "Check-out"))
+
+levels(patients_df$handling)
+
+patients_df %>% 
+  dplyr::mutate(
+    time = format(time, format = "%H:%M:%S") %>% 
+    as.POSIXct(format = "%H:%M:%S"), #standardized the date for ploting
+    hour = lubridate::floor_date(time, "hour")) %>% # round down time to nearest hour
+    count(handling, hour) %>% # total instances of each activity at each hour
+    add_count(handling, wt=n) %>% # total instances of each activity 
+    mutate(percent= ((n/nn)*100)) %>% #relative freq for each activity
+    ggplot(aes(hour, handling, fill=percent)) + geom_tile(size=.5, color="white") + scale_fill_gradientn(colours = wesanderson::wes_palette("Zissou1", 20 ,type = "continuous"))+
+    theme_classic() +
+    labs(x="24hour Clock", y="", title= "Peak and Lull Period of Patient Activities", subtitle= "percentage calculated is the relative frequency for a specific activity", fill="%")  + scale_y_discrete(limits = rev(levels(patients_df$handling)))+ # reverse display of y-axis varaibles 
+scale_x_datetime(date_breaks = ("1 hour"), date_labels = "%H")  #display only 24H clock values 
+
+```
