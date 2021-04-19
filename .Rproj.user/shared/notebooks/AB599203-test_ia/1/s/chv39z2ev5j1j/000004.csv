@@ -1,0 +1,4 @@
+"0","library(""interactingan"")"
+"0","# Will configure an empty app to the shinyapps server;"
+"0","# and show a qr code that points to the interactingan app url"
+"0","set_app()"

@@ -229,14 +229,14 @@ __3.5__ How willM I Shelp my career?
 
 ## Synergies
 
-# Types of Synergies
+### Types of Synergies
 
 - Revenue
 - Cost
 - Financial
 
 
-# Examples
+### Examples
 
 - When output of some businessunits can be used as inputs to other units
 - When two firms can pool markets and expertise (e.g., recent bank mergers) to lower costs and generate profits
@@ -332,7 +332,7 @@ Networked systems
   * Conformance to specifications and absence of variation from specs
 * Customer perspective
   * Physical quality (reliability), quality of service, psychological quality
-* Total quality management (T Q M)
+* Total quality management (TQM)
   * Quality control is end in itself
   * All people, functions responsible for quality
 * Six sigma
@@ -346,12 +346,12 @@ Networked systems
 * Benchmark
 * Use customer demands to improve products and services
 * Improve design quality and precision
-  * Computer-aided design (C A D) systems
+  * Computer-aided design (CAD) systems
 * Improve production precision and tighten production tolerances
 
 ---
 
-## What is Business Process Management (B P M )?
+## What is Business Process Management (BPM)?
 
 * Technology alone is often not enough to improve business
 * Organizational changes often necessary
@@ -364,7 +364,7 @@ Networked systems
 
 ---
 
-## Steps in B P M
+## Steps in BPM
 
 Identify processes for change
 
@@ -409,16 +409,4 @@ Not continuous improvement, but elimination of old processes, replacement with n
 Can produce dramatic gains in productivity
 
 Can produce more organizational resistance to change
-
----
-
-## How Will M I S Help My Career?
-
-The Company: A+ Superior Data Quality
-
-Position Description
-
-Job Requirements
-
-Interview Questions
 

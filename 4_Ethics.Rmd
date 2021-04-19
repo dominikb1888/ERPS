@@ -395,6 +395,7 @@ The Web server reads the cookie, identifies the visitor, and calls up data on th
 * Digital Millennium Copyright Act (D M C A)
 
 
+---
 class:segue-red, center, middle
 
 # CLASS DISCUSSION: Hacking the Hospital
@@ -406,6 +407,8 @@ class:segue-red, center, middle
 https://apnews.com/article/technology-hacking-europe-cf8f8eee1adcec69bcc864f2c4308c94
 
 
+---
+
 ## System Quality: Data Quality and System Errors
 
 * What is an acceptable, technologically feasible level of system quality?
@@ -415,17 +418,18 @@ https://apnews.com/article/technology-hacking-europe-cf8f8eee1adcec69bcc864f2c43
   * Hardware or facility failures
   * Poor input data quality (most common source of business system failure)
 
+---
+
 ## Quality of Life: Equity, Access, Boundaries
 
 + Negative social consequences of systems
-
 + Big tech: Concentrating economic and political power
-
 + Rapidity of change
-
 + Maintaining boundaries: family, work and leisure
-
 + Dependence and vulnerability
+
+
+---
 
 * Computer crime and abuse
   * Computer crime
@@ -445,6 +449,7 @@ https://apnews.com/article/technology-hacking-europe-cf8f8eee1adcec69bcc864f2c43
   * Carpal tunnel syndrome (CTS)
   * Computer vision syndrome (CVS)
   * Technostress
+
 
 ---
 
@@ -473,9 +478,4 @@ Guiding Questions:
 - When can we speak about free will?
   - Memories and distributed decision?
   - Did someone tell the car to do it or did it infer that
-  - 
-
-
-
----
 

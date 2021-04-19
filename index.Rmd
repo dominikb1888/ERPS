@@ -40,6 +40,10 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_tachyons()
 ```
 
+```{r xaringan-editable, echo=FALSE}
+xaringanExtra::use_editable(expires = 1)
+```
+
 ```{r xaringan-extra-styles, echo=FALSE}
 xaringanExtra::use_extra_styles(
   hover_code_line = TRUE,         #<<

@@ -1,0 +1,135 @@
+---
+title: "ERP Systems"
+subtitle: "Summer 2021"
+author: "Dominik Böhler"
+institute: "Deggendorf Institute of Technology"
+date: "2021/12/12"
+bibliography: "`r rbbt::bbt_write_bib('biblio.json', keys = unique(unlist(lapply(list.files('.', '.Rmd$'), rbbt::bbt_detect_citations))) , overwrite = TRUE)`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "assets/sydney-fonts.css", "assets/sydney.css", "assets/custom.css"]
+    self_contained: true # if true, fonts will be stored locally
+    seal: false # show a title slide with YAML information
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"
+    nature:
+      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9' # alternatives '16:9' or '4:3' or others e.g. 13:9
+      navigation:
+        scroll: false # disable slide transitions by scrolling
+params:
+  code: ERPS
+  session_list: "../21S Überblick Lehre.xslx"
+  
+---
+class: segue, left, bottom
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+
+```
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+```{r xaringan-tachyons, echo=FALSE}
+xaringanExtra::use_tachyons()
+```
+
+```{r xaringan-extra-styles, echo=FALSE}
+xaringanExtra::use_extra_styles(
+  hover_code_line = TRUE,         #<<
+  mute_unhighlighted_code = TRUE  #<<
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.duplicate.label = 'allow')
+```
+
+```{r, echo=FALSE, message=FALSE, results='asis'}
+
+put_reading <- function(session_no){  
+  course_list <- get_courses()
+    
+  chapter <- paste0("**This week: Chapter ",course_list[session_no,"chapters"]," | [Pages: ",course_list[session_no,"page"],"-",course_list[session_no+1, "page"],"](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6191969&ppg=",course_list[session_no,"page"],")**")
+  
+ return(pandoc.p(chapter))
+}
+
+
+library('pander')
+library('readxl')
+
+#TODO Create global variable for the Course Name in YAML
+
+get_courses <- function() {
+  courses <- read_excel("../21S Überblick Lehre.xlsx", sheet = "ERPS")
+  courses$date <- format(as.Date(as.character(courses$date)), "%d.%m.%Y")
+  
+  return(courses)
+}
+
+list_sessions <- function() {
+  courses <- get_courses()
+  session_list <- list()
+
+  for (session in 1:nrow(courses)) {
+    if (!is.na(courses[session, "session_no"])) {
+      session_no <- as.integer(courses[session, "session_no"])
+      date <- courses[session, "date"]
+      title <- courses[session, "title"]
+      excercise <- courses[session, "excercise"]
+  
+      session_list[[session_no]] <- paste(title," .excercise[",excercise,"].date[",date,"]")
+    }
+  }
+  
+  return(session_list)
+}
+
+```
+
+
+# ERP Systems
+
+### Summer 2021
+
+#### Prof. Dr. Dominik Böhler 
+Deggendorf Institute of Technology
+
+
+---
+class: sessions
+
+```{r echo=FALSE, message=FALSE, results='asis'}
+session_listing <- list_sessions()
+pandoc.list(session_listing, style = "ordered")
+```
+
+
+---
+class: module-structure
+
+## Structure of Sessions
+
+| Agenda Item | .time[Minutes] |
+|:---                                   | ---:|
+|     .lecture[Lecture]                 |  60 |
+|  .discussion[Class Discussion]        |  30 |
+|       .break[Break]                   |  15 |
+|   .excercise[Excercise]               |  60 |
+|.presentation[Selected Presentations]  |  10 |
+|  .reflection[Wrap-up]                 |   5 |
+
+---
+
+
+```{r child=c('1_Introduction.Rmd', '2_Collaboration.Rmd', '3_Strategy.Rmd', '4_Ethics.Rmd') }
+```
