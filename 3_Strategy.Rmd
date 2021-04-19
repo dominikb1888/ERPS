@@ -83,21 +83,20 @@ put_reading(this_session_no)
 
 ---
 
-## Learning Objectives
-
+Learning Objectives
+-----------
 __3.1__ How do Porter’s competitive forces model, the value chain model, synergies, core competencies, and network-based strategies help companies use information systems for competitive advantage?
 
 __3.2__ How do information systems help businesses compete globally?
 
 __3.3__ How do information systems help businesses compete using quality and design?
 
-__3.4__ What is the role of business process management (B P M) in enhancing competitiveness?
-
-__3.5__ How willM I Shelp my career?
+__3.4__ What is the role of business process management (BPM) in enhancing competitiveness?
 
 ---
 
 ## N26: A Bank Without Branches
+
 
 * Problem
   * Improving operational efficiency
@@ -107,6 +106,12 @@ __3.5__ How willM I Shelp my career?
   * Improved cash-based operations
   * Security systems
 * Illustrates use of IT to differentiate services and improve customer experience
+
+---
+class: segue-red
+
+# Competitive Strategy
+
 
 ---
 
@@ -129,38 +134,44 @@ __3.5__ How willM I Shelp my career?
 
 ## Information System Strategies for Dealing with Competitive Forces
 
-* Basic strategy: Align IT with business objectives
-  * Identify business goals and strategies
-  * Break strategic goals into concrete activities and processes
-  * Identify metrics for measuring progress
-  * Determine how IT can help achieve business goals
-  * Measure actual performance
-
-* Low-cost leadership
-  * Use information systems to achieve the lowest operational costs and the lowest prices
-  * E.g. Walmart
-    * Inventory replenishment system sends orders to suppliers when purchase recorded at cash register
-    * Minimizes inventory at warehouses, operating costs
-    * Efficient customer response system
-
-* Product differentiation
-  * Use information systems to enable new products and services, or greatly change the customer convenience in using your existing products and services
-  * E.g., Google's continuous innovations, Apple'si Phone
-  * Use information systems to customize, personalize products to fit specifications of individual consumers
+.panelset[
+  .panel[.panel-name[Basic Strategy]
+      Align IT with business objectives
+      * Identify business goals and strategies
+      * Break strategic goals into concrete activities and processes
+      * Identify metrics for measuring progress
+      * Determine how IT can help achieve business goals
+      * Measure actual performance
+  ]
+  .panel[.panel-name[Low-cost leadership]
+    * Use information systems to achieve the lowest operational costs and the lowest prices
+    * E.g. Walmart
+      * Inventory replenishment system sends orders to suppliers when purchase recorded at cash register
+      * Minimizes inventory at warehouses, operating costs
+      * Efficient customer response system
+  ]
+  .panel[.panel-name[Product differentiation]
+    * Use information systems to enable new products and services, or greatly change the customer convenience in using your existing products and services
+    * E.g., Google's continuous innovations, Apple's iPhone
+    * Use information systems to customize, personalize products to fit specifications of individual consumers
     * E.g., Nike's NIKEi Dprogram for customized sneakers
-
-* Focus on market niche
-  * Use information systems to enable specific market focus, and serve narrow target market better than competitors.
+  ]
+  .panel[.panel-name[Focus on market niche]
+    * Use information systems to enable specific market focus, and serve narrow target market better than competitors.
     * Analyzes customer buying habits, preferences
     * Advertising pitches to smaller and smaller target markets
-  * E.g., Hilton Hotel’sOn QSystem
+  
+    E.g., Hilton Hotel’s OnQSystem
     * Analyzes data collected on guests to determine preferences and guest's profitability
+  ]
+  .panel[.panel-name[Strengthen customer and supplier intimacy]
+    * Strong linkages to customers and suppliers increase switching costs and loyalty
+    * Toyota: usesI Sto facilitate direct access from suppliers to production schedules
+      * Permits suppliers to decide how and when to ship supplies to plants, allowing more lead time in producing goods
+    * Amazon: keeps track of user preferences for purchases, and recommends titles purchased by others
+    ]
+]
 
-* Strengthen customer and supplier intimacy.
-  * Strong linkages to customers and suppliers increase switching costs and loyalty
-  * Toyota: usesI Sto facilitate direct access from suppliers to production schedules
-    * Permits suppliers to decide how and when to ship supplies to plants, allowing more lead time in producing goods
-  * Amazon: keeps track of user preferences for purchases, and recommends titles purchased by others
 
 ---
 
@@ -175,6 +186,12 @@ __3.5__ How willM I Shelp my career?
 - Smart products and the Internet of Things
 
 ---
+class: segue-red
+
+# Value Chain
+
+
+---
 
 ## The Business Value Chain Model
 
@@ -186,18 +203,11 @@ __3.5__ How willM I Shelp my career?
 
 ---
 
-## Figure 3.2 The Value Chain Model
+Figure 3.2 The Value Chain Model
+--------
 
 <img src="img/laudon_emis14_ppt_ch03_MS-ct2.jpg" width=500px />
 
----
-
-## Interactive Session: Singapore as a Smart Nation
-
-* Class Discussion
-  * What are the factors driving the Smart Nation initiative?
-  * What are the possible downsides of the Smart Nation projects?
-  * Describe the smart city initiatives of an urban center in your country or region.
 
 ---
 
@@ -212,11 +222,14 @@ __3.5__ How willM I Shelp my career?
 
 ## Figure 3.3 The Value Web
 
+
 <img src="img/laudon_emis14_ppt_ch03_MS-ct3.jpg" width=500px />
 
----
 
-## Synergies, Core Competencies, and Network-Based Strategies
+---
+class: segue-red
+
+# Synergies, Core Competencies, and Network-Based Strategies
 
 * Large corporations comprised of business units
   * Financial returns overall are tied to performance of business units
@@ -229,6 +242,7 @@ __3.5__ How willM I Shelp my career?
 
 ## Synergies
 
+
 ### Types of Synergies
 
 - Revenue
@@ -238,7 +252,7 @@ __3.5__ How willM I Shelp my career?
 
 ### Examples
 
-- When output of some businessunits can be used as inputs to other units
+- When output of some business units can be used as inputs to other units
 - When two firms can pool markets and expertise (e.g., recent bank mergers) to lower costs and generate profits
 - Enabled by information systems that ties together disparate units so they act as whole
 
@@ -260,11 +274,14 @@ __3.5__ How willM I Shelp my career?
 
 ## Network-Based Strategies
 
+
 * Network economics
   * Marginal costs of adding another participant are near zero, whereas marginal gain is much larger
   * E.g., larger number of participants in Internet, greater value to all participants
+  
 * Virtual company
   * Uses networks to link people, resources, and ally with other companies to create and distribute products without traditional organizational boundaries or physical locations
+
 
 ---
 
@@ -323,6 +340,11 @@ Networked systems
 ## Figure 3.5 Global Business Organization Systems Configurations
 
 <img src="img/laudon_emis14_ppt_ch03_MS-ct5.jpg" width=500px />
+
+---
+class: segue-red
+
+# Quality and Business Processes
 
 ---
 
@@ -387,16 +409,6 @@ Continuous measurement
 ## Figure 3.7 Redesigned Process for Purchasing a Book Online
 
 <img src="img/laudon_emis14_ppt_ch03_MS-ct7.jpg" width=500px />
-
----
-
-## Interactive Session – Organizations: Strategic Information Systems at Hong Kong Disneyland
-
-* Class discussion
-  * Discuss the various strategies adopted by Hong Kong Disneyland to attract visitors.
-  * What problem did Disneyland face as it began to draw more visitors to the theme park? How was it overcome?
-  * How does Hong Kong Disneyland manage its suppliers?
-  * How does Hong Kong Disneyland determine which theme or character should be introduced in the park?
 
 ---
 

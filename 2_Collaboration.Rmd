@@ -85,15 +85,15 @@ put_reading(this_session_no)
 
 ## Learning Objectives
 
-__2\.1__ What major features of a business are important for understanding the role of information systems?
+__2.1__ What major features of a business are important for understanding the role of information systems?
 
-__2\.2__ How do systems serve different management groups in a business\, and how do systems that link the enterprise improve organizational performance?
+__2.2__ How do systems serve different management groups in a business,and how do systems that link the enterprise improve organizational performance?
 
-__2\.3__ Why are systems for collaboration and social business so important\, and what technologies do they use?
+__2.3__ Why are systems for collaboration and social business so important,and what technologies do they use?
 
-__2\.4__ What is the role of the information systems function in a business?
+__2.4__ What is the role of the information systems function in a business?
 
-__2\.5__ How will MIS help my career?
+__2.5__ How will MIS help my career?
 
 ---
 class: segue-red
@@ -121,7 +121,7 @@ countdown(minutes = 15)
 ???
 
 * Problem
-  * Hierarchical top\-down processes and culture
+  * Hierarchical top-down processes and culture
   * New competitors
 * Solutions
   * Improve productivity
@@ -172,11 +172,11 @@ Illustratesimportance of organizational culture and business processes for knowl
 ## Business Processes
 
 * Logically related set of tasks that define how specific business tasks are performed
-  * The tasks each employee performs\, in what order\, and on what schedule
-  * E\.g\.\, Steps in hiring an employee
+  * The tasks each employee performs,in what order,and on what schedule
+  * E.g.,Steps in hiring an employee
 * Some processes tied to functional area
   * Sales and marketing: identifying customers
-* Some processes are cross\-functional
+* Some processes are cross-functional
   * Fulfilling customer order
 
 ---
@@ -200,14 +200,14 @@ Illustratesimportance of organizational culture and business processes for knowl
 
 ## Managing a Business and Firm Hierarchies
 
-* Firms coordinate work of employees by developing hierarchy in which authority is concentrated at top\.
+* Firms coordinate work of employees by developing hierarchy in which authority is concentrated at top.
   * Senior management
   * Middle management
   * Operational management
   * Knowledge workers
   * Data workers
   * Production or service workers
-* Each group has different needs for information\.
+* Each group has different needs for information.
 
 ---
 
@@ -219,11 +219,11 @@ Illustratesimportance of organizational culture and business processes for knowl
 
 ## The Business Environment
 
-* Businesses depend heavily on their environments for capital\, labor\, supplies\, and more\.
+* Businesses depend heavily on their environments for capital,labor,supplies,and more.
 * Global environment
-  * Technology and science\, economy\, politics\, international change
+  * Technology and science,economy,politics,international change
 * Immediate environment
-  * Customers\, suppliers\, competitors\, regulations\, stockholders
+  * Customers,suppliers,competitors,regulations,stockholders
 
 ---
 
@@ -268,7 +268,7 @@ class: segue-red
 * Transaction processing systems \(T P S\)
   * Keep track of basic activities and transactions of organization
 * Systems for business intelligence
-  * Address decision\-making needs of all levels of management
+  * Address decision-making needs of all levels of management
     * Management information systems \(M I S\)
     * Decision support systems \(D S S\)
     * Executive support systems \(E S S\)
@@ -279,7 +279,7 @@ class: segue-red
 
 * Serve operational managers
 * Principal purpose is to answer routine questions and to track the flow of transactions through the organization
-  * E\.g\.\, inventory questions\, granting credit to customer
+  * E.g.,inventory questions,granting credit to customer
 * Monitor status of internal operations and firm’s relationship with external environment
 * Major producers of information for other systems
 * Highly central to business operations and functioning
@@ -294,11 +294,11 @@ class: segue-red
 
 ## Management Information Systems
 
-Provide middle managers with reports on firm’s performance\, to help monitor firm and predict future performance
+Provide middle managers with reports on firm’s performance,to help monitor firm and predict future performance
 
 Summarize and report on basic operations using data fromT P S
 
-Provide weekly\, monthly\, annual results\, but may enable drilling down into daily or hourly data
+Provide weekly,monthly,annual results,but may enable drilling down into daily or hourly data
 
 Typically not very flexible systems with little analytic capability
 
@@ -323,7 +323,7 @@ Typically not very flexible systems with little analytic capability
   * Example: What is impact on production schedule if December sales double?
 * Often use external information as well fromT P SandM I S
 * Model drivenD S S
-  * Voyage\-estimating systems
+  * Voyage-estimating systems
 * Data drivenD S S
   * Intrawest’s marketing analysis systems
 
@@ -338,12 +338,12 @@ Typically not very flexible systems with little analytic capability
 ## Executive Support Systems
 
 * Serve senior managers
-* Address strategic issues and long\-term trends
-  * E\.g\.\, what products should we make in five years?
+* Address strategic issues and long-term trends
+  * E.g.,what products should we make in five years?
 * Address nonroutine decision making
 * Provide generalized computing capacity that can be applied to changing array of problems
-* Draw summarized information fromM I S\,D S S\, and data from external events
-* Typically use portal with web interface\, or digital dashboard\, to present content
+* Draw summarized information fromM I S\,D S S,and data from external events
+* Typically use portal with web interface,or digital dashboard,to present content
 
 ---
 
@@ -356,7 +356,7 @@ Typically not very flexible systems with little analytic capability
 ## Systems for Linking the Enterprise
 
 * Enterprise applications
-  * Systems that span functional areas\, focus on executing business processes across the firm\, and include all levels of management
+  * Systems that span functional areas,focus on executing business processes across the firm,and include all levels of management
 * Four major types
   * Enterprise systems
   * Supply chain management systems
@@ -373,13 +373,13 @@ Typically not very flexible systems with little analytic capability
 
 ## Enterprise Systems
 
-Also called enterprise resource planning \(E R P\) systems
+Also called enterprise resource planning \(ERP\) systems
 
 Integrate data from key business processes into single system
 
 Speed communication of information throughout firm
 
-Enable greater flexibility in responding to customer requests\, greater accuracy in order fulfillment
+Enable greater flexibility in responding to customer requests,greater accuracy in order fulfillment
 
 Enable managers to assemble overall view of operations
 
@@ -387,8 +387,8 @@ Enable managers to assemble overall view of operations
 
 ## Supply Chain Management (S C M ) Systems
 
-* Manage relationships with suppliers\, purchasing firms\, distributors\, and logistics companies
-* Manage shared information about orders\, production\, inventory levels\, and so on
+* Manage relationships with suppliers,purchasing firms,distributors,and logistics companies
+* Manage shared information about orders,production,inventory levels,and so on
   * Goal is to move correct amount of product from source to point of consumption as quickly as possible and at lowest cost
 * Type of interorganizational system
   * Automating flow of information across organizational boundaries
@@ -398,7 +398,7 @@ Enable managers to assemble overall view of operations
 ## Customer Relationship Management (C R M ) Systems
 
 * Help manage relationship with customers
-* Coordinate business processes that deal with customers in sales\, marketing\, and customer service
+* Coordinate business processes that deal with customers in sales,marketing,and customer service
 * Goals:
   * Optimize revenue
   * Improve customer satisfaction
@@ -442,6 +442,7 @@ E-government
 : Using Internet technology to deliver information and services to citizens, employees, and businesses
 
 ---
+class: segue-red
 
 # Collaboration & Open Innovation
 
@@ -465,16 +466,16 @@ E-government
 
 ## What is Social Business?
 
-- Use of social networking platforms to engage employees\, customers\, suppliers
+- Use of social networking platforms to engage employees,customers,suppliers
 - Conversations to strengthen bonds
 - Requires information transparency
-- Seen as way to drive operational efficiency\, spur innovation\, accelerate decision making
+- Seen as way to drive operational efficiency,spur innovation,accelerate decision making
 
 ---
 
 ## Business Benefits of Collaboration and Social Business
 
-- Investment in collaboration technology can return large rewards\, especially in sales and marketing\, research and development\.
+- Investment in collaboration technology can return large rewards,especially in sales and marketing,research and development.
 - Productivity: sharing knowledge and resolving problems
 - Quality: faster resolution of quality issues
 - Innovation: more ideas for products and services
@@ -491,7 +492,7 @@ E-government
 
 ## Tools and Technologies for Collaboration and Teamwork
 
-* Email and instant messaging \(I M\)
+* Email and instant messaging \(IM\)
 * Wikis
 * Virtual worlds
 * Collaboration and social business environments
@@ -579,7 +580,7 @@ countdown(minutes = 30)
 
 ## Systems for Knowledge Management
 
-* Structured vs\. tacit knowledge
+* Structured vs. tacit knowledge
 * Systems for knowledge management
   * Enterprise Content Management  \(ECM\) Systems
   * Locating and sharing expertise

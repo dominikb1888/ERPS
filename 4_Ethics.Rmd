@@ -248,6 +248,7 @@ class: segue-red
 * Ethical “No Free Lunch” Rule
   * Assume that virtually all tangible and intangible objects are owned by someone unless there is a specific declaration otherwise.
 
+
 ---
 
 ## Professional Codes of Conduct
@@ -396,15 +397,29 @@ The Web server reads the cookie, identifies the visitor, and calls up data on th
 
 
 ---
-class:segue-red, center, middle
+class:segue-red
 
 # CLASS DISCUSSION: Hacking the Hospital
 
+---
 
-???
+## A ransomware attack on a German hospital cost lives
 
+Read and analyze the situation:
 [https://parallaxview.ghost.io/the-parallax-view-130-new-direction/](https://parallaxview.ghost.io/the-parallax-view-130-new-direction/)
-https://apnews.com/article/technology-hacking-europe-cf8f8eee1adcec69bcc864f2c4308c94
+(https://apnews.com/article/technology-hacking-europe-cf8f8eee1adcec69bcc864f2c4308c94)
+
+Form Groups around these three questions:
+
+.question[What would you do from a technical perspective?]
+.question[What should hospital management do?]
+.question[Which laws could help avoid this situation in the future?]
+
+
+```{r, echo=FALSE}
+library(countdown)
+countdown(minutes = 30)
+```
 
 
 ---
@@ -427,7 +442,6 @@ https://apnews.com/article/technology-hacking-europe-cf8f8eee1adcec69bcc864f2c43
 + Rapidity of change
 + Maintaining boundaries: family, work and leisure
 + Dependence and vulnerability
-
 
 ---
 
