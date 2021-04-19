@@ -397,7 +397,7 @@ The Web server reads the cookie, identifies the visitor, and calls up data on th
 
 
 ---
-class:segue-red
+class: segue-red
 
 # CLASS DISCUSSION: Hacking the Hospital
 
