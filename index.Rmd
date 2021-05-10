@@ -135,5 +135,5 @@ class: module-structure
 ---
 
 
-```{r child=c('1_Introduction.Rmd', '2_Collaboration.Rmd', '3_Strategy.Rmd', '4_Ethics.Rmd') }
+```{r child=c('1_Introduction.Rmd', '2_Collaboration.Rmd',  '3_Strategy.Rmd', '4_Ethics.Rmd', '5_Infrastructure.Rmd', '6_Business-Intelligence.Rmd', '7_Networking.Rmd')}
 ```
