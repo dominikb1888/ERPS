@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Mon May 17 2021 16:17:32 GMT+0200 (Central European Summer Time)
+------------------------------------------------------
+
+Modified files:
+* .DS_Store
+* index.Rmd
+* index.html
+* slack_example.py
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
+* [object Object]
