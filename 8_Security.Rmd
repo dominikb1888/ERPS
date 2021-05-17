@@ -1,91 +1,96 @@
----
-title: "Introduction"
-subtitle: "Foundations of Health Informatics"
-author: "Dominik Böhler"
-institute: "Deggendorf Institute of Technology"
-date: "2016/12/12"
-bibliography: ["assets/example.bib"]
-output:
-  xaringan::moon_reader:
-    css: ["default", "assets/sydney-fonts.css", "assets/sydney.css"]
-    self_contained: true # if true, fonts will be stored locally
-    seal: true # show a title slide with YAML information
-    includes:
-      in_header: "assets/mathjax-equation-numbers.html"
-    nature:
-      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9' # alternatives '16:9' or '4:3' or others e.g. 13:9
-      navigation:
-        scroll: false # disable slide transitions by scrolling
+```{r, echo=FALSE, message=FALSE}
+library(rstudioapi)
+library(stringr)
+library(tools)
+
+this_file <- knitr::current_input()
+this_file_split <- str_split(file_path_sans_ext(knitr::current_input()),"_")
+this_title <- this_file_split[[1]][2]
+this_session_no <- as.numeric(this_file_split[[1]][1])
+
+source("../../Templates/render_toc.R")
+
+```
+
 
 ---
+class: segue, left, bottom
 
-```{r, load_refs, echo=FALSE, cache=FALSE, message=FALSE}
-library(RefManageR)
-BibOptions(check.entries = FALSE, 
-           bib.style = "authoryear", 
-           cite.style = 'authoryear', 
-           style = "markdown",
-           hyperlink = FALSE, 
-           dashed = FALSE)
-myBib <- ReadBib("assets/example.bib", check = FALSE)
+```{r message=FALSE, echo=FALSE, results='asis'}
+pandoc.header(this_title, 1)
+```
+### ERP Systems
+
+#### Dominik Böhler, Deggendorf Institute of Technology
+
+
+---
+class: agenda
+
+Agenda
+------
+
+```{r, echo=FALSE, message=FALSE}
+render_toc(this_file, toc_depth = 1)
 ```
 
-```{r xaringan-tile-view, echo=FALSE}
-xaringanExtra::use_tile_view()
-```
-
-```{r xaringan-panelset, echo=FALSE}
-xaringanExtra::use_panelset()
-```
-
-```{r xaringan-tachyons, echo=FALSE}
-xaringanExtra::use_tachyons()
-```
-
-```{r xaringan-extra-styles, echo=FALSE}
-xaringanExtra::use_extra_styles(
-  hover_code_line = TRUE,         #<<
-  mute_unhighlighted_code = TRUE  #<<
-)
-```
-
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(echo = FALSE)
-options(knitr.duplicate.label = 'allow')
-```
 
 ---
 
-## Essentials of Management Information Systems
+Learning Components
+-------------------
 
-Fourteenth Edition\, Global Edition
+#### ERP Systems, Summer 2021
 
-<img src="img/laudon_emis14_ppt_ch08_MS-ct0.jpg" width=500px />
 
-Chapter 8
+.pull-left[
 
-Securing Information Systems
+### `r icon::fontawesome("book-open")` PREPARATION
 
-Copyright © 2020 Pearson Education Ltd\.
+Skim-read, get the essentials, prepare discussion. 
+
+<img src="img/laudon_emis14_ppt_ch01_MS-ct0.jpg" width="150" style="float:left; margin: 0 1em 2em 0;" />
+
+Laudon & Laudon (2020), ** Essentials of Management Information Systems**
+
+Fourteenth Edition,
+Global Edition.
+
+.content-box-gray[
+```{r, echo=FALSE, message=FALSE, results='asis'}
+  
+put_reading(this_session_no)
+
+```
+  ]
+]
+
+.pull-right[
+
+### `r icon::fontawesome("chalkboard-teacher")` LECTURE
+
+- Get perspectives and understanding
+- Discuss with peers
+- (maybe) Entertainment
+
+### `r icon::fontawesome("rocket")` EXCERCISE
+
+- Apply knowledge in practical excercises
+- Build your digital skillset in a project
+- Prepare directly for the exam
+  
+]
 
 ---
 
-## Learning Objectives
+Learning Objectives
+-----------
 
-__8\.1__ Why are information systems vulnerable to destruction\, error\, and abuse?
-
+__8\.1__ Why are information systems vulnerable to destruction, error, and abuse?
 __8\.2__ What is the business value of security and control?
-
 __8\.3__ What are the components of an organizational framework for security and control?
-
 __8\.4__ What are the most important tools and technologies for safeguarding information resources?
-
-__8\.5__ How willM I Shelp my career?
+__8\.5__ How will MIS help my career?
 
 ---
 
@@ -123,15 +128,15 @@ Illustrates some of the reasons organizations need to pay special attention to i
 ## Why Systems Are Vulnerable (1 of 2)
 
 * Security
-  * Policies\, procedures\, and technical measures used to prevent unauthorized access\, alteration\, theft\, or physical damage to information systems
+  * Policies, procedures, and technical measures used to prevent unauthorized access, alteration, theft, or physical damage to information systems
 * Controls
-  * Methods\, policies\, and organizational procedures that ensure safety of organization’s assets; accuracy and reliability of its accounting records; and operational adherence to management standards
+  * Methods, policies, and organizational procedures that ensure safety of organization’s assets; accuracy and reliability of its accounting records; and operational adherence to management standards
 
 Accessibility of networks
 
-Hardware problems \(breakdowns\, configuration errors\, damage from improper use or crime\)
+Hardware problems (breakdowns, configuration errors, damage from improper use or crime)
 
-Software problems \(programming errors\, installation errors\, unauthorized changes\)
+Software problems (programming errors, installation errors, unauthorized changes)
 
 Disasters
 
@@ -153,7 +158,7 @@ Loss and theft of portable devices
 * Size of Internet means abuses can have wide impact
 * Use of fixed Internet addresses with cable /D SL modems creates fixed targets for hackers
 * UnencryptedV O IP
-* Email\, P2P\,IM
+* Email, P2P,IM
   * Interception
   * Attachments with malicious software
   * Transmitting trade secrets
@@ -163,23 +168,23 @@ Loss and theft of portable devices
 ## Wireless Security Challenges
 
 * Radio frequency bands easy to scan
-* S S IDs \(service set identifiers\)
-  * Identify access points\, broadcast multiple times\, can be identified by sniffer programs
+* S S IDs (service set identifiers)
+  * Identify access points, broadcast multiple times, can be identified by sniffer programs
 * War driving
   * Eavesdroppers drive by buildings and try to detectS S ID and gain access to network and resources
-  * Once access point is breached\, intruder can gain access to networked drives and files
+  * Once access point is breached, intruder can gain access to networked drives and files
 * Rogue access points
 
 ---
 
 ## Malicious Software: Viruses, Worms, Trojan Horses, and Spyware (1 of 2)
 
-* Malware \(malicious software\)
+* Malware (malicious software)
 * Viruses
 * Worms
 * Worms and viruses spread by
-  * Downloads and drive\-by downloads
-  * Email\,IM attachments
+  * Downloads and drive-by downloads
+  * Email,IM attachments
 * Mobile device malware
 * Social network malware
 
@@ -197,21 +202,30 @@ Loss and theft of portable devices
 
 ## Hackers and Computer Crime (1 of 3)
 
-* Hackersvs\. crackers
+* Hackers vs crackers
 * Activities include:
   * System intrusion
   * System damage
   * Cybervandalism
-    * Intentional disruption\, defacement\, destruction of website or corporate information system
+    * Intentional disruption, defacement, destruction of website or corporate information system
 * Spoofing and sniffing
 
-* Denial\-of\-service attacks \(D oS\)
-* Distributed denial\-of\-service attacks \(D D oS\)
+
+---
+
+## Hackers and Computer Crime (2 of 3)
+
+* Denial-of-service attacks (DoS)
+* Distributed denial-of-service attacks (DDoS)
 * Botnets
 * Spam
 * Computer crime
   * Computer may be target of crime
   * Computer may be instrument of crime
+
+---
+
+## Hackers and Computer Crime (3 of 3)
 
 * Identity theft
   * Phishing
@@ -237,10 +251,10 @@ Loss and theft of portable devices
 ## Software Vulnerability
 
 * Commercial software contains flaws that create security vulnerabilities
-  * Bugs \(program code defects\)
+  * Bugs (program code defects)
   * Zero defects cannot be achieved
   * Flaws can open networks to intruders
-* Zero\-day vulnerabilities
+* Zero-day vulnerabilities
 * Patches
   * Small pieces of software to repair flaws
   * Patch management
@@ -252,7 +266,7 @@ Loss and theft of portable devices
 * Failed computer systems can lead to significant or total loss of business function
 * Firms now are more vulnerable than ever
   * Confidential personal and financial data
-  * Trade secrets\, new products\, strategies
+  * Trade secrets, new products, strategies
 * A security breach may cut into a firm’s market value almost immediately
 * Inadequate security and controls also bring forth issues of liability
 
@@ -262,8 +276,8 @@ Loss and theft of portable devices
 
 * Class discussion
   * How dangerous are Spectre and Meltdown? Explain your answer\.
-  * Compare the threats of Spectre and Meltdown to cloud computing centers\, corporate data centers\, and individual computer and smartphone users\.
-  * How would you protect against Spectre and Meltdown if you were running a public cloud computing center\, if you ran a corporate data center\, and if you were an individual computer user?
+  * Compare the threats of Spectre and Meltdown to cloud computing centers, corporate data centers, and individual computer and smartphone users\.
+  * How would you protect against Spectre and Meltdown if you were running a public cloud computing center, if you ran a corporate data center, and if you were an individual computer user?
 
 ---
 
@@ -271,9 +285,9 @@ Loss and theft of portable devices
 
 * H I P AA
   * Medical security and privacy rules and procedures
-* Gramm\-Leach\-Bliley Act
+* Gramm-Leach-Bliley Act
   * Requires financial institutions to ensure the security and confidentiality of customer data
-* Sarbanes\-Oxley Act
+* Sarbanes-Oxley Act
   * Imposes responsibility on companies and their management to safeguard the accuracy and integrity of financial information that is used internally and released externally
 
 ---
@@ -284,7 +298,7 @@ Loss and theft of portable devices
   * Evidence for white collar crimes often in digital form
   * Proper control of data can save time and money when responding to legal discovery request
 * Computer forensics
-  * Scientific collection\, examination\, authentication\, preservation\, and analysis of data from computer storage media for use as evidence in court of law
+  * Scientific collection, examination, authentication, preservation, and analysis of data from computer storage media for use as evidence in court of law
   * Recovery of ambient data
 
 ---
@@ -293,11 +307,11 @@ Loss and theft of portable devices
 
 * May be automated or manual
 * General controls
-  * Govern design\, security\, and use of computer programs and security of data files in general throughout organization
-  * Software controls\, hardware controls\, computer operations controls\, data security controls\, system development controls\, administrative controls\,
+  * Govern design, security, and use of computer programs and security of data files in general throughout organization
+  * Software controls, hardware controls, computer operations controls, data security controls, system development controls, administrative controls,
 * Application controls
   * Controls unique to each computerized application
-  * Input controls\, processing controls\, output controls
+  * Input controls, processing controls, output controls
 
 ---
 
@@ -306,7 +320,7 @@ Loss and theft of portable devices
 * Determines level of risk to firm if specific activity or process is not properly controlled
   * Types of threat
   * Probability of occurrence during year
-  * Potential losses\, value of threat
+  * Potential losses, value of threat
   * Expected annual loss
 
 ---
@@ -317,9 +331,9 @@ Loss and theft of portable devices
 
 ## Security Policy
 
-* Ranks information risks\, identifies security goals and mechanisms for achieving these goals
+* Ranks information risks, identifies security goals and mechanisms for achieving these goals
 * Drives other policies
-* Acceptable use policy \(A UP\)
+* Acceptable use policy (A UP)
   * Defines acceptable uses of firm’s information resources and computing equipment
 * Identity management
   * Identifying valid users
@@ -350,7 +364,7 @@ Loss and theft of portable devices
 * Information systems audit
   * Examines firm’s overall security environment as well as controls governing individual information systems
 * Security audits
-  * Review technologies\, procedures\, documentation\, training\, and personnel
+  * Review technologies, procedures, documentation, training, and personnel
   * May even simulate disaster to test responses
 * List and rank control weaknesses and the probability of occurrence
 * Assess financial and organizational impact of each threat
@@ -367,19 +381,23 @@ Loss and theft of portable devices
 
 * Identity management software
   * Automates keeping track of all users and privileges
-  * Authenticates users\, protecting identities\, controlling access
+  * Authenticates users, protecting identities, controlling access
 * Authentication
   * Password systems
   * Tokens
   * Smart cards
   * Biometric authentication
-  * Two\-factor authentication
+  * Two-factor authentication
+
+---
+
+## Tools and Technologies for Safeguarding Information Systems   (1 of 3)
 
 * Firewall
   * Combination of hardware and software that prevents unauthorized users from accessing private networks
   * Packet filtering
   * Stateful inspection
-  * Network address translation \(N AT\)
+  * Network address translation (N AT)
   * Application proxy filtering
 
 ---
@@ -397,7 +415,7 @@ Loss and theft of portable devices
 * Antivirus and antispyware software
   * Checks computers for presence of malware and can often eliminate it as well
   * Requires continual updating
-* Unified threat management \(U TM\) systems
+* Unified threat management (U TM) systems
 
 ---
 
@@ -408,7 +426,7 @@ Loss and theft of portable devices
   * Improved if used in conjunction withV PN
 * W P A2 specification
   * ReplacesW EP with stronger standards
-  * Continually changing\, longer encryption keys
+  * Continually changing, longer encryption keys
 
 ---
 
@@ -417,14 +435,18 @@ Loss and theft of portable devices
 * Encryption
   * Transforming text or data into cipher text that cannot be read by unintended recipients
   * Two methods for encryption on networks
-    * Secure Sockets Layer \(S SL\) and successor Transport Layer Security \(T LS\)
-    * Secure Hypertext Transfer Protocol \(S\-H T TP\)
+    * Secure Sockets Layer (S SL) and successor Transport Layer Security (T LS)
+    * Secure Hypertext Transfer Protocol (S-H T TP)
+
+---
+
+## Encryption and Public Key Infrastructure (2 of 3)
 
 * Two methods of encryption of messages
   * Symmetric key encryption
-    * Sender and receiver use single\, shared key
+    * Sender and receiver use single, shared key
   * Public key encryption
-    * Uses two\, mathematically related keys: public key and private key
+    * Uses two, mathematically related keys: public key and private key
     * Sender encrypts message with recipient’s public key
     * Recipient decrypts with private key
 
@@ -440,11 +462,11 @@ Loss and theft of portable devices
 
 * Digital certificate
   * Data file used to establish the identity of users and electronic assets for protection of online transactions
-  * Uses a trusted third party\, certification authority \(CA\)\, to validate a user's identity
-  * CA verifies user’s identity\, stores information inCA server\, which generates encrypted digital certificate containing ownerID information and copy of owner’s public key
-* Public key infrastructure \(P KI\)
+  * Uses a trusted third party, certification authority (CA), to validate a user's identity
+  * CA verifies user’s identity, stores information inCA server, which generates encrypted digital certificate containing ownerID information and copy of owner’s public key
+* Public key infrastructure (PKI)
   * Use of public key cryptography working with certificate authority
-  * Widely used in e\-commerce
+  * Widely used in e-commerce
 
 ---
 
@@ -456,24 +478,21 @@ Loss and theft of portable devices
 
 ## Securing Transactions with Blockchain
 
-Secure transaction database
-
-Encryption used to verify users and transactions
-
-Decentralized
-
-Records cannot be changed
++ Secure transaction database
++ Encryption used to verify users and transactions
++ Decentralized
++ Records cannot be changed
 
 ---
 
 ## Ensuring System Availability
 
 * Online transaction processing requires 100% availability
-* Fault\-tolerant computer systems
-  * Contain redundant hardware\, software\, and power supply components that create an environment that provides continuous\, uninterrupted service
+* Fault-tolerant computer systems
+  * Contain redundant hardware, software, and power supply components that create an environment that provides continuous, uninterrupted service
 * Deep packet inspection
 * Security outsourcing
-  * Managed security service providers \(M S S Ps\)
+  * Managed security service providers (MSSPs)
 
 ---
 
@@ -483,10 +502,14 @@ Records cannot be changed
   * Responsibility for security resides with company owning the data
   * Firms must ensure providers have adequate protection:
     * Where data are stored
-    * Meeting corporate requirements\, legal privacy laws
+    * Meeting corporate requirements, legal privacy laws
     * Segregation of data from other clients
     * Audits and security certifications
-  * Service level agreements \(S L As\)
+  * Service level agreements (SLAs)
+
+---
+
+## Security Issues for Cloud Computing and the Mobile Digital Platform (2 of 2)
 
 * Securing mobile platforms
   * Security policies should include and cover any special requirements for mobile devices
@@ -517,7 +540,7 @@ Records cannot be changed
 ## Interactive Session – Organizations: Phishing for Money: Dangerous Emails
 
 * Class discussion
-  * Explain the difference between spear phishing and bulk phishing\. Which is most difficult to spot by victims\, and why?
+  * Explain the difference between spear phishing and bulk phishing\. Which is most difficult to spot by victims, and why?
   * What factors should a CEO duped by hackers take into consideration before deciding to contact the police?
   * Do you think that not adding attachments to emails will help protect companies against phishing stacks?
   * Give two pieces of advice to a company or individual on increasing protection against a phishing attack\.
@@ -526,13 +549,9 @@ Records cannot be changed
 
 ## How Will M  I  S Help My Career?
 
-The Company: No\. 1 Value Supermarkets
-
-Position Description: Identity access and management support specialist\, entry\-level
-
-Job Requirements
-
-Interview Questions
-
-Author Tips
++ The Company: No\. 1 Value Supermarkets
++ Position Description: Identity access and management support specialist, entry-level
++ Job Requirements
++ Interview Questions
++ Author Tips
 
