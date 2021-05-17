@@ -1,0 +1,31 @@
+-------------------- Auto-Git Log --------------------
+		Mon May 10 2021 15:15:36 GMT+0200 (Central European Summer Time)
+------------------------------------------------------
+
+Modified files:
+* .DS_Store
+* .Rhistory
+* .ipynb_checkpoints/Slack-checkpoint.ipynb
+* Slack.ipynb
+* Slack/.DS_Store
+* biblio.json
+* index.Rmd
+* index.html
+
+
+Created files:
+* 2021-05-10.md
+* 5_Infrastructure.Rmd
+* 6_Business-Intelligence.Rmd
+* 7_Networking.Rmd
+* slack_example.py
+
+
+Deleted files:
+* biblio-PAN-ECRI-073.json
+* laudon_emis14_ppt_ch05_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch06_MS-ct.pptx.Rmd
+* laudon_emis14_ppt_ch07_MS-ct.pptx.Rmd
+
+
+Renamed files:
