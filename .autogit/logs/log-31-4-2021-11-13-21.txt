@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Mon May 31 2021 11:13:21 GMT+0200 (Central European Summer Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-31-4-2021-10-43-14.txt
+* .flaskenv
+
+
+Deleted files:
+* 2018Lecture12.pdf
+* 2021-05-10.md
+
+
+Renamed files:
