@@ -5,6 +5,9 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 
+SLACK_SIGNING_SECRET = "8f6df989e592f201b58f2431232defd5"
+SLACK_BOT_TOKEN = "xoxb-1737245288757-1844648244052-zaZejZsKlMk6V9gfhaXuRHcF"
+
 app = App(token=SLACK_BOT_TOKEN)
 flask_app = Flask(__name__)
 handler = SlackRequestHandler(app)
