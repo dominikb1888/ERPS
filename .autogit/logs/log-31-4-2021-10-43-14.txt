@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Mon May 31 2021 10:43:14 GMT+0200 (Central European Summer Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+
+
+Deleted files:
+* Experiencing_MIS,_Global_Edition_----_(Application_Exercises).pdf
+
+
+Renamed files:
