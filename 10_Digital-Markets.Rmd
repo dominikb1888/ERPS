@@ -85,19 +85,19 @@ put_reading(this_session_no)
 
 ## Learning Objectives
 
-__10\.1__ What are the unique features of e\-commerce\, digital markets\, and digital goods?
+__10.1__ What are the unique features of e-commerce, digital markets, and digital goods?
 
-__10\.2__ What are the principal e\-commerce business and revenue models?
+__10.2__ What are the principal e-commerce business and revenue models?
 
-__10\.3__ How has e\-commerce transformed marketing?
+__10.3__ How has e-commerce transformed marketing?
 
-__10\.4__ How has e\-commerce affected business\-to\-business transactions?
+__10.4__ How has e-commerce affected business-to-business transactions?
 
-__10\.5__ What is the role of m\-commerce in business\, and what are the most important m\-commerce applications?
+__10.5__ What is the role of m-commerce in business, and what are the most important m-commerce applications?
 
-__10\.6__ What issues must be addressed when building an                e\-commerce presence?
+__10.6__ What issues must be addressed when building an                e-commerce presence?
 
-__10\.7__ How willM IS help my career?
+__10.7__ How willM IS help my career?
 
 ---
 
@@ -109,7 +109,7 @@ Case 2: Groupon: Deals Galore
 
 Case 3: Etsy: A Marketplace and Community
 
-Instructional Video 1: Walmart’s E\-commerce Fulfillment Center Network
+Instructional Video 1: Walmart’s E-commerce Fulfillment Center Network
 
 Instructional Video 2: Behind the Scenes of an Amazon Warehouse
 
@@ -124,8 +124,8 @@ Instructional Video 2: Behind the Scenes of an Amazon Warehouse
   * Android Auto and Apple CarPlay
   * Android Automotive
   * Customer and auto databases
-* Illustrates some major trends in e\-commerce
-  * E\-commerce moves to the auto mobile platform
+* Illustrates some major trends in e-commerce
+  * E-commerce moves to the auto mobile platform
   * Sales of services
   * Advanced data mining and search technology
 
@@ -133,13 +133,13 @@ Instructional Video 2: Behind the Scenes of an Amazon Warehouse
 
 ## E-Commerce Today
 
-E\-commerce: Use of the Internet and web to transact business
+E-commerce: Use of the Internet and web to transact business
 
 Began in 1995 and grew exponentially; still stable even in a recession
 
-Companies that survived the dot\-com bubble now thrive
+Companies that survived the dot-com bubble now thrive
 
-The new e\-commerce: social\, mobile\, local
+The new e-commerce: social, mobile, local
 
 Move from desktop to smartphone
 
@@ -161,14 +161,14 @@ Move from desktop to smartphone
 * Universal standards
   * One set of technology standards: Internet standards
 * Richness
-  * Supports video\, audio\, and text messages
+  * Supports video, audio, and text messages
 
 * Interactivity
 * Information density
   * Greater price and cost transparency
   * Enables price discrimination
 * Personalization/customization
-  * Technology permits modification of messages\, goods
+  * Technology permits modification of messages, goods
 * Social technology
   * Promotes user content generation and social networking
 
@@ -180,7 +180,7 @@ Internet and digital markets have changed the way companies conduct business
 
 Information asymmetry reduced
 
-Menu costs\, search and transaction costs reduced
+Menu costs, search and transaction costs reduced
 
 Dynamic pricing enabled
 
@@ -208,23 +208,23 @@ Costs of delivery over the Internet very low
 
 Marketing costs remain the same; pricing highly variable
 
-Industries with digital goods are undergoing revolutionary changes \(publishers\, record labels\, etc\.\)
+Industries with digital goods are undergoing revolutionary changes (publishers, record labels, etc.)
 
 ---
 
 ## Types of E-commerce
 
 * Three major types
-  * Business\-to\-consumer \(B2C\)
+  * Business-to-consumer (B2C)
 
-    * Example: Barnes and Noble\.com
+    * Example: Barnes and Noble.com
 
-  * Business\-to\-business \(B2B\)
+  * Business-to-business (B2B)
     * Example: ChemConnect
-  * Consumer\-to\-consumer \(C2C\)
+  * Consumer-to-consumer (C2C)
     * Example: eBay
-* E\-commerce can also be categorized by platform
-  * Mobile commerce \(m\-commerce\)
+* E-commerce can also be categorized by platform
+  * Mobile commerce (m-commerce)
 
 ---
 
@@ -232,7 +232,7 @@ Industries with digital goods are undergoing revolutionary changes \(publishers\
 
 Portal
 
-E\-tailer
+E-tailer
 
 Content provider
 
@@ -249,10 +249,10 @@ Community provider
 ## Interactive Session – Technology: Small Business Loans From a FinTech App
 
 * Class discussion
-  * What distinguishes the FinTech services described in this case from traditional banks? Explain your answer\.
+  * What distinguishes the FinTech services described in this case from traditional banks? Explain your answer.
   * How do the financial services described here use information technology to innovate?
   * What are the advantages and disadvantages of small businesses obtaining loans from FinTech services?
-  * If you were a small business\, what factors would you consider in deciding whether to use a FinTech service?
+  * If you were a small business, what factors would you consider in deciding whether to use a FinTech service?
 
 ---
 
@@ -304,14 +304,14 @@ Affiliate
 
 ## Social E-commerce and Social Network Marketing (1 of 2)
 
-* Social e\-commerce based on digital social graph
-* Features of social e\-commerce driving its growth
+* Social e-commerce based on digital social graph
+* Features of social e-commerce driving its growth
   * Newsfeed
   * Timelines
-  * Social sign\-on
+  * Social sign-on
   * Collaborative shopping
   * Network notification
-  * Social search \(recommendations\)
+  * Social search (recommendations)
 * Social media
   * Fastest growing media for branding and marketing
 
@@ -329,38 +329,38 @@ Affiliate
 ## Interactive Session – People: Engaging "Socially" with Customers
 
 * Class discussion
-  * Assess the people\, organization\, and technology issues for using social media technology to engage with customers\.
-  * What are the advantages and disadvantages of using social media for advertising\, brand building\, market research\, and customer service?
-  * Give an example of a business decision in this case study that was facilitated by using social media to interact with customers\.
+  * Assess the people, organization, and technology issues for using social media technology to engage with customers.
+  * What are the advantages and disadvantages of using social media for advertising, brand building, market research, and customer service?
+  * Give an example of a business decision in this case study that was facilitated by using social media to interact with customers.
   * Should all companies use social media technology for customer service and marketing? Why or why not? What kinds of companies are best suited to use these platforms?
 
 ---
 
 ## How Has E-commerce Affected Business-To Business Transactions?
 
-* U\.S\. B2B trade in 2019 is $13\.5 trillion
-  * U\.S\. B2B e\-commerce in 2018 is $6\.3 trillion
+* U.S. B2B trade in 2019 is $13.5 trillion
+  * U.S. B2B e-commerce in 2018 is $6.3 trillion
 * Internet and networking helps automate procurement
-* Variety of Internet\-enabled technologies used in B2B
-  * Electronic data interchange \(E DI\)
-  * Private industrial networks \(private exchanges\)
+* Variety of Internet-enabled technologies used in B2B
+  * Electronic data interchange (EDI)
+  * Private industrial networks (private exchanges)
   * Net marketplaces
   * Exchanges
 
 ---
 
-## Electronic Data Interchange (E D I)
+## Electronic Data Interchange (EDI)
 
-* Computer\-to\-computer exchange of standard transactions such as invoices\, purchase orders
-* Major industries haveE D Istandards
+* Computer-to-computer exchange of standard transactions such as invoices, purchase orders
+* Major industries have EDI standards
   * Define structure and information fields of electronic documents
-* More companies are moving toward web\-enabled private networks
-  * Allow them to link to a wider variety of firms thanE D Iallows
+* More companies are moving toward web-enabled private networks
+  * Allow them to link to a wider variety of firms than EDI allows
   * Enable sharing a wider range of information
 
 ---
 
-## Figure 10.6: Electronic Data Interchange (E D I)
+## Figure 10.6: Electronic Data Interchange (EDI)
 
 <img src="img/laudon_emis14_ppt_ch10_MS-ct6.jpg" width=500px />
 
@@ -371,12 +371,12 @@ Affiliate
 * Private industrial networks
   * Private exchanges
   * Large firm using a secure website to link to suppliers and partners
-* Net marketplaces \(e\-hubs\)
+* Net marketplaces (e-hubs)
   * Single digital marketplace for many buyers and sellers
   * May focus on direct or indirect goods
   * May be vertical or horizontal marketplaces
 * Exchanges
-  * Independently owned third\-party Net marketplaces for spot purchasing
+  * Independently owned third-party Net marketplaces for spot purchasing
 
 ---
 
@@ -394,13 +394,13 @@ Affiliate
 
 ## What Is the Role of M-commerce in Business, and What Are the Most Important M-commerce Applications?
 
-* M\-commerce in 2019 is 45 percent of all e\-commerce
-* Fastest growing form of e\-commerce
+* M-commerce in 2019 is 45 percent of all e-commerce
+* Fastest growing form of e-commerce
   * Growing at 30 percent or more per year
 * Main areas of growth
-  * Mass market retailing \(Amazon\, eBay\, etc\.\)
-  * Sales of digital content \(music\, T V\, etc\.\)
-  * In\-app sales to mobile devices
+  * Mass market retailing (Amazon, eBay, etc.)
+  * Sales of digital content (music, T V, etc.)
+  * In-app sales to mobile devices
 
 ---
 
@@ -426,11 +426,11 @@ Affiliate
 ## Other Mobile Commerce Services
 
 * Financial account management apps
-  * Banks\, credit card companies
+  * Banks, credit card companies
 * Mobile advertising market
   * Google and Facebook are largest markets
-  * Ads embedded in games\, videos\, and mobile apps
-* 65 percent of online retailers have m\-commerce websites
+  * Ads embedded in games, videos, and mobile apps
+* 65 percent of online retailers have m-commerce websites
 
 ---
 
@@ -439,8 +439,8 @@ Affiliate
 * Most important management challenges
   * Developing clear understanding of business objectives
   * Knowing how to choose the right technology to achieve those objectives
-* Develop an e\-commerce presence map
-  * Four areas: websites\, email\, social media\, offline media
+* Develop an e-commerce presence map
+  * Four areas: websites, email, social media, offline media
 * Develop a timeline: milestones
   * Breaking a project into discrete phases
 
@@ -456,7 +456,7 @@ Affiliate
 
 The Company:SportsFantasyEmpire
 
-Position Description: Junior e\-commerce data analyst
+Position Description: Junior e-commerce data analyst
 
 Job Requirements
 

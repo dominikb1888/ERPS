@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Mon May 31 2021 11:43:29 GMT+0200 (Central European Summer Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-31-4-2021-11-13-21.txt
+* Slack/.flaskenv
+* Slack/.ipynb_checkpoints/Slack-checkpoint.ipynb
+* Slack/Slack.ipynb
+* Slack/__pycache__/app.cpython-38.pyc
+* Slack/app.py
+
+
+Deleted files:
+* .flaskenv
+* Slack.ipynb
+* slack_example.py
+
+
+Renamed files:

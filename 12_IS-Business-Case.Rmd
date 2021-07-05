@@ -87,41 +87,21 @@ put_reading(this_session_no)
 ## Learning Objectives
 
 __12.1__ How should managers build a business case for the acquisition and development of a new information system?
+
 __12.2__ What are the core problem-solving steps for developing a new information system?
+
 __12.3__ What are the alternative methods for building information systems?
+
 __12.4__ How should information systems projects be managed?
+
 __12.5__ How will MIS help my career?
 
----
 
-## Video Cases
 
-Case 1: NASA Project Management Challenges
-Case 2: IBM: Business Process Management in a SaaS Environment
-Case 3: IBM Helps the City of Madrid with Real-Time BPM Software
-
-Instructional Videos:
-
-What is PaaS? What is Predix?
-
-BPM: Business Process Management Customer Story
 
 ---
 
-## Angostura Builds A Mobile Sales System
-
-* Problem
-  * Inefficient manual procedures
-  * High order entry error rates
-* Solutions
-  * SAP ERP
-  * SAP Netweaver
-  * Gateway software
-* Illustrates benefits of implementing a new system solution and automating manual processes
-
----
-
-## Key Business Case Considerations
+# Key Business Case Considerations
 
 + IT is an investment of corporate funds. Is it worth it?
 + What is the rationale for investment?
@@ -182,7 +162,7 @@ See Table 12.2 Example Scoring Model in text
 
 ---
 
-## Building a Business Case
+# Building a Business Case
 
 * New information systems are built as solutions to problems
 * Four steps to building an information system
@@ -238,7 +218,7 @@ See Table 12.2 Example Scoring Model in text
 
 ---
 
-## Implementing the Solution
+# Implementing the Solution
 
 * Systems design
 * Completing implementation
@@ -332,7 +312,6 @@ See Table 12.2 Example Scoring Model in text
 * Class discussion
   * What people, organization, and technology issues need to be addressed when building mobile applications?
   * How does user requirement definition for mobile applications differ from that in traditional systems analysis?
-  * Describe how Great-West’s invoice approval process changed after the mobile application was deployed.
 
 ---
 
@@ -359,7 +338,7 @@ See Table 12.2 Example Scoring Model in text
 
 ---
 
-## Project Management Objectives
+# Project Management Objectives
 
 * Project management
   * Application of knowledge, skills, tools, and techniques to achieve targets within specified budget and time constraints
@@ -385,26 +364,3 @@ See Table 12.2 Example Scoring Model in text
   * Ergonomics
   * Organizational impact analysis
 
----
-
-## Figure 12.10 A  PERT Chart
-
-<img src="img/laudon_emis14_ppt_ch12_MS-ct7.jpg" width=500px />
-
----
-
-## Interactive Session – Organizations: Arup Moves Project Management to the Cloud
-
-* Class discussion
-  * What is the relationship between information technology, project management, and Arup’s business model and business strategy?
-  * How does Microsoft Project Online support Arup’s business strategy? How did it change the way the company works?
-  * What people, organization, and technology issuesdid Arup have to address when selecting Project Online as its global project portfolio management tool?
-
----
-
-## How Will MIS Help My Career?
-
-+ The Business: XYZ Multimedia Entertainment
-+ Position Description
-+ Job Requirements
-+ Interview Questions

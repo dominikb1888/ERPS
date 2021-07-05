@@ -87,10 +87,9 @@ put_reading(this_session_no)
 ## Learning Objectives
 
 __11.1__ What are the different types of decisions, and how does the decision-making process work?
-__11.2__ How do business intelligence and business analytics support decision making?
+__11.2__ How do business intelligence and business analytics support decision-making?
 __11.3__ What is artificial intelligence (AI)? How does it differ from human intelligence?
 __11.4__ What are the major types of AI techniques and how do they benefit organizations?
-__11.5__ How willM I Shelp my career?
 
 
 ---
@@ -106,7 +105,7 @@ __11.5__ How willM I Shelp my career?
   * IBM Watson Explorer
   * Machine learning
   * Natural language processing
-* Illustrates how information systems improve decision making
+* Illustrates how information systems improve decision-making
 
 ---
 
@@ -273,16 +272,16 @@ Six elements in the BI environment:
 * Real-time monitoring
 * Schneider National truckload logistics services provider
   * Data developed from sensors in trucks, trains, industrial systems
-* The Internet of Things (I o T) providing huge streams of data from connected sensors and devices
+* The Internet of Things (IoT) providing huge streams of data from connected sensors and devices
 
 ---
 
-## Location Analytics and G I S
+## Location Analytics and GIS
 
 * Location analytics
   * Big data analytics that uses location data from mobile phones, sensors, and maps
   * E.g. Helping a utility company view customer costs as related to location
-* G I S– Geographic information systems
+* GIS– Geographic information systems
   * Help decision makers visualize problems with mapping
   * Tie location data about resources to map
 
@@ -291,16 +290,6 @@ Six elements in the BI environment:
 ## Figure 11.4 Business Intelligence Users
 
 <img src="img/laudon_emis14_ppt_ch11_MS-ct4.jpg" width=500px />
-
----
-
-## Interactive Session – Organizations: Predictive Maintenance in the Oil and Gas Industry
-
-* Class discussion
-  * Why is predictive maintenance so important in the oil and gas industry? What problems does it solve?
-  * What is the role of the Internet of Things (IoT) and Big Data analytics in predictive maintenance?
-  * How did BP and Royal Dutch Shell’s predictive maintenance applications change business operations and decision making?
-  * Give an example of how predictive maintenance systems could be used in another industry.
 
 ---
 
@@ -349,11 +338,11 @@ Six elements in the BI environment:
 
 ## Decision Support for Senior Management (2 of 2)
 
-* Business performance management (B P M)
+* Business performance management (BPM)
   * Management methodology based on firm’s strategies
   * Translates strategies into operational targets
-  * Uses set ofK P Is to measure progress toward targets
-* E S Scombine internal data with external
+  * Uses set of KPIs to measure progress toward targets
+* ESS combine internal data with external
   * Financial data, news, etc.
 * Drill-down capabilities
 
@@ -440,11 +429,8 @@ Six elements in the BI environment:
   * The agent uses a limited built-in or learned knowledge base
   * Accomplish tasks or make decisions on the user’s behalf, e.g. chatbots finding cheap fares, routing calls in a call center
 
----
+--- 
+## Bibliography
 
-## How Will M I S Help My Career?
+Marr, Bernard. Artificial Intelligence in Practice : How 50 Successful Companies Used AI and Machine Learning to Solve Problems, John Wiley & Sons, Incorporated, 2019. ProQuest Ebook Central, https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=5751846.
 
-+ The Business: RazzleDazzle Technology
-+ Position Description
-+ Job Requirements
-+ Interview Questions

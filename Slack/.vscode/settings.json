@@ -1,3 +1,9 @@
 {
-  "python.pythonPath": "/Users/dboehler/anaconda3/envs/erpsex/bin/python"
+  "python.pythonPath": "/Users/dboehler/anaconda3/envs/erpsex/bin/python",
+  "python.testing.pytestArgs": [
+    "."
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true
 }
